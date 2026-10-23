@@ -8,7 +8,8 @@ Itens marcados **[A CONFIRMAR]** não estavam nas fontes e precisam de resposta.
 
 **Regra de conteúdo:** sempre falar do **efeito** do que entregamos, não da
 ferramenta. A entrega mais importante de cada marca:
-- **FairData:** o plano de ação (o que fazer, por onde começar), não a pesquisa.
+- **FairData:** o plano de ação. A cadeia é pesquisa → relatório → plano de
+  ação; o efeito é a empresa saber o que fazer primeiro.
 - **FairHealth:** o cuidado com o colaborador.
 - **FairEdu:** lideranças mais capazes e efetivas.
 - **FairTrust:** reputação comprovada (prova auditada de que a empresa cuida
