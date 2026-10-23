@@ -6,8 +6,9 @@ Itens marcados **[A CONFIRMAR]** não estavam nas fontes e precisam de resposta.
 
 **Idioma de todo o conteúdo: português do Brasil.**
 
-**Regra de conteúdo:** sempre falar do **efeito** do que entregamos, não da
-ferramenta. A entrega mais importante de cada marca:
+**Regra de conteúdo:** sempre falar do **efeito** do que entregamos, e ao
+mesmo tempo mostrar com clareza **qual é o produto** (ex.: cursos, palestras
+e workshops; Escritório do Cuidado; auditoria e acreditação). A entrega mais importante de cada marca:
 - **FairData:** o plano de ação. A cadeia é pesquisa → relatório → plano de
   ação; o efeito é a empresa saber o que fazer primeiro.
 - **FairHealth:** o cuidado com o colaborador.
