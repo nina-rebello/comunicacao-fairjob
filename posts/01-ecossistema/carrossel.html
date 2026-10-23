@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>FairJob · Carrossel 01 · Ecossistema</title>
+<style>
+  :root {
+    --amarelo: #F7C948;
+    --amarelo-claro: #FDF1C7;
+    --preto: #1E1E1E;
+    --cinza: #5F5F5F;
+    --fundo: #FFFCF3;
+    --data: #B8901F;  --data-bg: #F6ECCF;
+    --health: #1BA595; --health-bg: #DDF3EF;
+    --edu: #6B3FA0;   --edu-bg: #ECE3F6;
+    --trust: #1F5A9E; --trust-bg: #E1EAF6;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Inter", sans-serif; background: #ccc; margin: 0; }
+  .slide {
+    width: 1080px; height: 1350px; position: relative; overflow: hidden;
+    background: var(--fundo); color: var(--preto);
+    padding: 120px; display: flex; flex-direction: column;
+    page-break-after: always; margin: 0 auto;
+  }
+  .slide.escuro { background: var(--preto); color: #fff; }
+  .slide.amarelo { background: var(--amarelo); }
+
+  /* rodapé: logo, handle e numeração em todo slide */
+  .rodape {
+    position: absolute; left: 120px; right: 120px; bottom: 64px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-size: 28px; color: var(--cinza);
+  }
+  .escuro .rodape { color: #A8A8A8; }
+  .amarelo .rodape { color: var(--preto); }
+  .marca { display: flex; align-items: center; gap: 16px; font-weight: 600; }
+  .selo {
+    width: 64px; height: 64px; border-radius: 50%; background: var(--amarelo);
+    color: var(--preto); display: grid; place-items: center; text-align: center;
+    font-size: 17px; font-weight: 700; line-height: 1.05;
+  }
+  .selo span { display: block; border-top: 2px solid var(--preto); }
+  .amarelo .selo { background: var(--preto); color: var(--amarelo); }
+  .amarelo .selo span { border-color: var(--amarelo); }
+
+  .rotulo {
+    font-size: 26px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--cinza); display: inline-block; padding-bottom: 14px;
+    border-bottom: 4px solid var(--amarelo); align-self: flex-start;
+  }
+  .escuro .rotulo { color: #CFCFCF; }
+  h1 { font-size: 96px; line-height: 1.02; font-weight: 800; letter-spacing: -.035em; }
+  h2 { font-size: 76px; line-height: 1.05; font-weight: 800; letter-spacing: -.03em; }
+  .destaque { color: var(--amarelo); }
+  .texto { font-size: 38px; line-height: 1.35; color: var(--cinza); }
+  .escuro .texto { color: #D6D6D6; }
+
+  /* 1 · capa */
+  .capa h1 { margin-top: 70px; }
+  .capa .verbos { display: grid; gap: 6px; }
+  .capa .verbos div:nth-child(1) { color: var(--data); }
+  .capa .verbos div:nth-child(2) { color: var(--health); }
+  .capa .verbos div:nth-child(3) { color: var(--edu); }
+  .capa .verbos div:nth-child(4) { color: var(--trust); }
+  .capa .promessa { margin-top: 64px; font-size: 44px; line-height: 1.3; font-weight: 500; max-width: 760px; }
+  .capa .formas { position: absolute; right: -60px; top: 120px; display: grid; gap: 28px; }
+  .forma { width: 150px; height: 150px; }
+
+  /* 3 · peças soltas */
+  .lista-solta { margin-top: 80px; display: grid; gap: 34px; }
+  .item-solto {
+    display: grid; grid-template-columns: 430px 60px 1fr; align-items: center;
+    background: #fff; border: 2px solid #EFE6CC; border-radius: 32px; padding: 34px 40px;
+    font-size: 34px; font-weight: 600;
+  }
+  .item-solto .seta { color: var(--amarelo); font-size: 44px; text-align: center; }
+  .item-solto .fim { color: var(--cinza); font-weight: 500; }
+
+  /* 4 · o ciclo (inspirado no "Business Model") */
+  .ciclo { margin-top: 90px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; align-items: start; }
+  .etapa { text-align: center; }
+  .etapa svg { width: 170px; height: 170px; display: block; margin: 0 auto 32px; }
+  .etapa .num { font-size: 26px; font-weight: 700; color: var(--cinza); }
+  .etapa .verbo { font-size: 32px; font-weight: 800; margin-top: 6px; letter-spacing: -.02em; }
+  .etapa .desc { font-size: 26px; line-height: 1.3; color: var(--cinza); margin-top: 12px; }
+  .linha-ciclo { margin-top: 70px; height: 6px; border-radius: 3px;
+    background: linear-gradient(90deg, var(--data), var(--health), var(--edu), var(--trust)); }
+  .rodape-ciclo { margin-top: 36px; font-size: 36px; font-weight: 600; line-height: 1.3; }
+
+  /* 5 · as 4 marcas (inspirado no grid 2x2) */
+  .grade { margin-top: 56px; display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+  .card { border-radius: 36px; padding: 36px 34px 38px; display: flex; flex-direction: column; }
+  .card .icone { width: 92px; height: 92px; border-radius: 50%; display: grid; place-items: center; }
+  .card .icone svg { width: 48px; height: 48px; }
+  .card .nome { margin-top: 28px; font-size: 46px; font-weight: 800; letter-spacing: -.02em; }
+  .card .nome b { font-weight: 800; }
+  .card .verbo { font-size: 24px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; margin-top: 4px; }
+  .card .desc { font-size: 28px; line-height: 1.32; color: #3C3C3C; margin-top: 18px; }
+  .c-data { background: var(--data-bg); }   .c-data .icone { background: var(--data); }   .c-data b, .c-data .verbo { color: var(--data); }
+  .c-health { background: var(--health-bg); } .c-health .icone { background: var(--health); } .c-health b, .c-health .verbo { color: var(--health); }
+  .c-edu { background: var(--edu-bg); }     .c-edu .icone { background: var(--edu); }     .c-edu b, .c-edu .verbo { color: var(--edu); }
+  .c-trust { background: var(--trust-bg); } .c-trust .icone { background: var(--trust); } .c-trust b, .c-trust .verbo { color: var(--trust); }
+
+  /* 6 · CTA */
+  .cta h2 { margin-top: 90px; font-size: 92px; }
+  .cta .proximo { margin-top: auto; margin-bottom: 120px; background: var(--preto); color: #fff;
+    border-radius: 36px; padding: 48px 52px; font-size: 38px; line-height: 1.35; }
+  .cta .proximo strong { color: var(--amarelo); }
+</style>
+</head>
+<body>
+
+<!-- 1 · CAPA -->
+<section class="slide capa">
+  <span class="rotulo">Governança social · NR-1</span>
+  <h1 class="verbos">
+    <div>Medir.</div><div>Cuidar.</div><div>Conscientizar.</div><div>Comprovar.</div>
+  </h1>
+  <p class="promessa">Um único ecossistema para o ciclo completo do bem-estar organizacional.</p>
+  <div class="formas" aria-hidden="true">
+    <svg class="forma" viewBox="0 0 100 100"><path d="M0 50 A50 50 0 0 1 100 50 Z" fill="#F6ECCF"/></svg>
+    <svg class="forma" viewBox="0 0 100 100"><rect width="100" height="100" rx="18" fill="#DDF3EF"/></svg>
+    <svg class="forma" viewBox="0 0 100 100"><path d="M50 4 L96 92 L4 92 Z" fill="#ECE3F6"/></svg>
+    <svg class="forma" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#E1EAF6"/></svg>
+  </div>
+  <div class="rodape"><div class="marca"><div class="selo">fair<span>job</span></div>@fairjob.br</div><div>1/6 →</div></div>
+</section>
+
+<!-- 2 · O RISCO -->
+<section class="slide escuro">
+  <span class="rotulo">O cenário</span>
+  <h2 style="margin-top:90px;font-size:68px">O risco psicossocial deixou de ser tema de RH.<br><span class="destaque">Virou risco de negócio.</span></h2>
+  <p class="texto" style="margin-top:70px">A NR-1 passou a exigir gestão estruturada dos riscos psicossociais. Burnout, afastamento e rotatividade já pesam em custo, produtividade e reputação.</p>
+  <div class="rodape"><div class="marca"><div class="selo">fair<span>job</span></div>@fairjob.br</div><div>2/6 →</div></div>
+</section>
+
+<!-- 3 · PEÇAS SOLTAS -->
+<section class="slide">
+  <span class="rotulo">O problema</span>
+  <h2 style="margin-top:90px">Peças soltas não fecham o ciclo.</h2>
+  <div class="lista-solta">
+    <div class="item-solto"><span>Pesquisa sem cuidado</span><span class="seta">→</span><span class="fim">vira relatório.</span></div>
+    <div class="item-solto"><span>Cuidado sem dado</span><span class="seta">→</span><span class="fim">vira aposta.</span></div>
+    <div class="item-solto"><span>Treinamento sem prova</span><span class="seta">→</span><span class="fim">vira discurso.</span></div>
+  </div>
+  <div class="rodape"><div class="marca"><div class="selo">fair<span>job</span></div>@fairjob.br</div><div>3/6 →</div></div>
+</section>
+
+<!-- 4 · O CICLO -->
+<section class="slide">
+  <span class="rotulo">O ecossistema</span>
+  <h2 style="margin-top:90px">Um ecossistema.<br>Quatro etapas.</h2>
+  <div class="ciclo">
+    <div class="etapa">
+      <svg viewBox="0 0 100 100"><path d="M0 75 A50 50 0 0 1 100 75 Z" fill="#B8901F"/></svg>
+      <div class="num">01</div><div class="verbo" style="color:var(--data)">Medir</div>
+      <div class="desc">a causa raiz do risco</div>
+    </div>
+    <div class="etapa">
+      <svg viewBox="0 0 100 100"><rect x="6" y="6" width="88" height="88" rx="16" fill="#1BA595"/></svg>
+      <div class="num">02</div><div class="verbo" style="color:var(--health)">Cuidar</div>
+      <div class="desc">antes do afastamento</div>
+    </div>
+    <div class="etapa">
+      <svg viewBox="0 0 100 100"><path d="M50 6 L96 94 L4 94 Z" fill="#6B3FA0"/></svg>
+      <div class="num">03</div><div class="verbo" style="color:var(--edu)">Conscientizar</div>
+      <div class="desc">as lideranças</div>
+    </div>
+    <div class="etapa">
+      <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="#1F5A9E"/></svg>
+      <div class="num">04</div><div class="verbo" style="color:var(--trust)">Comprovar</div>
+      <div class="desc">com evidência auditável</div>
+    </div>
+  </div>
+  <div class="linha-ciclo"></div>
+  <p class="rodape-ciclo">Sem medir, não há o que cuidar, conscientizar ou comprovar depois.</p>
+  <div class="rodape"><div class="marca"><div class="selo">fair<span>job</span></div>@fairjob.br</div><div>4/6 →</div></div>
+</section>
+
+<!-- 5 · AS 4 MARCAS -->
+<section class="slide">
+  <span class="rotulo">Quatro marcas, uma história</span>
+  <div class="grade">
+    <div class="card c-data">
+      <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+      <div class="nome">fair<b>data</b></div><div class="verbo">Medir</div>
+      <p class="desc">Rastreadores NR-1 e inteligência de dados que revelam a causa raiz.</p>
+    </div>
+    <div class="card c-health">
+      <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-8-5.2-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.8-8 11-8 11z"/></svg></div>
+      <div class="nome">fair<b>health</b></div><div class="verbo">Cuidar</div>
+      <p class="desc">Escritório do Cuidado dentro da empresa, antes que o risco vire afastamento.</p>
+    </div>
+    <div class="card c-edu">
+      <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5"/></svg></div>
+      <div class="nome">fair<b>edu</b></div><div class="verbo">Conscientizar</div>
+      <p class="desc">Formação de lideranças: do conhecimento ao comportamento.</p>
+    </div>
+    <div class="card c-trust">
+      <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></div>
+      <div class="nome">fair<b>trust</b></div><div class="verbo">Comprovar</div>
+      <p class="desc">Auditoria e acreditação que transformam prática em evidência.</p>
+    </div>
+  </div>
+  <div class="rodape"><div class="marca"><div class="selo">fair<span>job</span></div>@fairjob.br</div><div>5/6 →</div></div>
+</section>
+
+<!-- 6 · CTA -->
+<section class="slide amarelo cta">
+  <span class="rotulo" style="color:var(--preto);border-color:var(--preto)">FairJob</span>
+  <h2>Cuidado que vira gestão. Gestão que vira evidência.</h2>
+  <div class="proximo">Nos próximos posts: <strong>como cada marca nasceu dentro da FairJob.</strong><br>Siga @fairjob.br para acompanhar.</div>
+  <div class="rodape"><div class="marca"><div class="selo">fair<span>job</span></div>@fairjob.br</div><div>6/6</div></div>
+</section>
+
+</body>
+</html>
