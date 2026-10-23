@@ -13,8 +13,8 @@ e workshops; Escritório do Cuidado; auditoria e acreditação). A entrega mais 
   ação; o efeito é a empresa saber o que fazer primeiro.
 - **FairHealth:** o cuidado com o colaborador.
 - **FairEdu:** lideranças mais capazes e efetivas.
-- **FairTrust:** reputação comprovada (prova auditada de que a empresa cuida
-  das pessoas). [A CONFIRMAR]
+- **FairTrust:** a prova. Auditoria e acreditação viram evidência de que o
+  compromisso com as pessoas é real ("O que é feito vira prova.").
 
 **Regra de vocabulário:** chamar a FairJob de **ecossistema**. "Holding" fica
 na gaveta. Use só quando o assunto for estrutura societária, e mesmo assim
