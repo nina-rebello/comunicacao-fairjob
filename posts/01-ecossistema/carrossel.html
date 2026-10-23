@@ -13,6 +13,7 @@
     --health: #158F81; --health-bg: #E3F3EF;
     --edu: #6A3D9E;    --edu-bg: #EFE7F7;
     --trust: #1B5C9E;  --trust-bg: #E3ECF7;
+    --linha-ciclo: linear-gradient(90deg, var(--data), var(--health), var(--edu), var(--trust));
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: "Inter", sans-serif; background: #ccc; margin: 0; }
@@ -36,9 +37,11 @@
 
   .rotulo {
     font-size: 26px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
-    color: var(--cinza); display: inline-block; padding-bottom: 14px;
-    border-bottom: 4px solid var(--amarelo); align-self: flex-start;
+    color: var(--cinza); display: block; padding-bottom: 18px; align-self: stretch;
+    background: var(--linha-ciclo) left bottom / 100% 6px no-repeat;
   }
+  /* linha do ciclo: as 4 cores das marcas, na ordem Medir → Comprovar */
+  .linha-ciclo { height: 6px; border-radius: 3px; background: var(--linha-ciclo); }
   h2 { font-size: 80px; line-height: 1.04; font-weight: 800; letter-spacing: -.03em; }
 
   /* 1 · capa: cada verbo ao lado do logo da marca */
@@ -72,7 +75,8 @@
 
   /* 6 · CTA */
   .cta h2 { margin-top: 0; font-size: 100px; line-height: 1; letter-spacing: -.04em; color: #F2B526; }
-  .cta .ciclo { margin-top: auto; display: flex; gap: 28px; }
+  .cta .linha-ciclo { margin-top: auto; margin-bottom: 54px; }
+  .cta .ciclo { display: flex; gap: 28px; }
   .cta .ciclo img { width: 120px; height: 120px; }
   .cta .proximo { margin-top: 56px; margin-bottom: 150px; font-size: 38px; line-height: 1.35; }
   .cta .proximo strong { font-weight: 800; }
@@ -145,6 +149,7 @@
 <!-- 6 · CTA -->
 <section class="slide cta">
   <h2>Cuidado que vira gestão. Gestão que vira evidência.</h2>
+  <div class="linha-ciclo"></div>
   <div class="ciclo">
     <img src="../assets/logos/fairdata.png" alt="fairdata"><img src="../assets/logos/fairhealth.png" alt="fairhealth"><img src="../assets/logos/fairedu.png" alt="fairedu"><img src="../assets/logos/fairtrust.png" alt="fairtrust">
   </div>
