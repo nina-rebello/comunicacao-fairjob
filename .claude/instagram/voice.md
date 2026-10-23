@@ -6,6 +6,14 @@ Itens marcados **[A CONFIRMAR]** não estavam nas fontes e precisam de resposta.
 
 **Idioma de todo o conteúdo: português do Brasil.**
 
+**Regra de conteúdo:** sempre falar do **efeito** do que entregamos, não da
+ferramenta. A entrega mais importante de cada marca:
+- **FairData:** o plano de ação (o que fazer, por onde começar), não a pesquisa.
+- **FairHealth:** o cuidado com o colaborador.
+- **FairEdu:** lideranças mais capazes e efetivas.
+- **FairTrust:** reputação comprovada (prova auditada de que a empresa cuida
+  das pessoas). [A CONFIRMAR]
+
 **Regra de vocabulário:** chamar a FairJob de **ecossistema**. "Holding" fica
 na gaveta. Use só quando o assunto for estrutura societária, e mesmo assim
 raramente.
