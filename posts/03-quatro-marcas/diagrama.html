@@ -4,115 +4,55 @@
 <meta charset="utf-8">
 <title>FairJob · 4 marcas em 1 slide · diagrama</title>
 <!-- Círculo dividido nas 4 marcas, com a FairJob no centro. Renderizado com
-     fundo transparente e colado no Canva como imagem. Mesma linguagem do
-     diagrama do CTA do carrossel 01. -->
+     fundo transparente para ir ao Canva como imagem; o post.html mostra o
+     slide inteiro para revisão. -->
 <style>
   html, body { margin: 0; background: transparent; }
   svg { display: block; font-family: "Inter", sans-serif; }
-  .num   { font-size: 14px; font-weight: 700; letter-spacing: .14em; }
-  .verbo { font-size: 30px; font-weight: 800; letter-spacing: -.02em; fill: #1E1E1E; }
-  .desc  { font-size: 18px; font-weight: 500; fill: #4A4A4A; }
-  .orbita { font-size: 13px; font-weight: 600; fill: #9A968C; }
+  .verbo { font-size: 34px; font-weight: 800; letter-spacing: -.02em; }
+  .desc  { font-size: 19px; font-weight: 500; fill: #4A4A4A; }
 </style>
 </head>
 <body>
-<svg width="940" height="940" viewBox="0 0 940 940" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <radialGradient id="f-data"   gradientUnits="userSpaceOnUse" cx="470" cy="470" r="430"><stop offset=".25" stop-color="#E8B42F" stop-opacity=".06"/><stop offset="1" stop-color="#E8B42F" stop-opacity=".34"/></radialGradient>
-    <radialGradient id="f-health" gradientUnits="userSpaceOnUse" cx="470" cy="470" r="430"><stop offset=".25" stop-color="#158F81" stop-opacity=".05"/><stop offset="1" stop-color="#158F81" stop-opacity=".26"/></radialGradient>
-    <radialGradient id="f-edu"    gradientUnits="userSpaceOnUse" cx="470" cy="470" r="430"><stop offset=".25" stop-color="#6A3D9E" stop-opacity=".05"/><stop offset="1" stop-color="#6A3D9E" stop-opacity=".24"/></radialGradient>
-    <radialGradient id="f-trust"  gradientUnits="userSpaceOnUse" cx="470" cy="470" r="430"><stop offset=".25" stop-color="#1B5C9E" stop-opacity=".05"/><stop offset="1" stop-color="#1B5C9E" stop-opacity=".24"/></radialGradient>
-    <filter id="sombra" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1E1E1E" flood-opacity=".14"/></filter>
-    <path id="orbita" d="M362 470 A108 108 0 1 1 578 470 A108 108 0 1 1 362 470"/>
-  </defs>
+<svg width="900" height="900" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- quatro partes de um mesmo círculo -->
+  <path transform="translate(-6 -6)" d="M450 450 L10 450 A440 440 0 0 1 450 10 Z"  fill="#F4E7C0"/>
+  <path transform="translate(6 -6)"  d="M450 450 L450 10 A440 440 0 0 1 890 450 Z" fill="#D2ECE5"/>
+  <path transform="translate(6 6)"   d="M450 450 L890 450 A440 440 0 0 1 450 890 Z" fill="#E6DCF4"/>
+  <path transform="translate(-6 6)"  d="M450 450 L450 890 A440 440 0 0 1 10 450 Z"  fill="#D6E3F4"/>
 
-  <!-- 1. órbita externa: o ciclo gira no sentido horário -->
-  <circle cx="470" cy="470" r="452" fill="none" stroke="#1E1E1E" stroke-opacity=".12" stroke-dasharray="2 6" stroke-linecap="round"/>
+  <!-- a FairJob no centro -->
+  <circle cx="450" cy="450" r="112" fill="#FFFCF3"/>
+  <image href="../assets/logos/fairjob.png" x="378" y="378" width="144" height="144"/>
 
-  <!-- 2. as quatro partes do todo, com borda externa na cor da marca -->
-  <g transform="translate(-6 -6)">
-    <path d="M470 470 L40 470 A430 430 0 0 1 470 40 Z" fill="#FFFCF3"/>
-    <path d="M470 470 L40 470 A430 430 0 0 1 470 40 Z" fill="url(#f-data)" stroke="#B8901F" stroke-opacity=".35" stroke-width="1.2"/>
-    <path d="M40 470 A430 430 0 0 1 470 40" fill="none" stroke="#D9A521" stroke-width="6"/>
-  </g>
-  <g transform="translate(6 -6)">
-    <path d="M470 470 L470 40 A430 430 0 0 1 900 470 Z" fill="#FFFCF3"/>
-    <path d="M470 470 L470 40 A430 430 0 0 1 900 470 Z" fill="url(#f-health)" stroke="#158F81" stroke-opacity=".35" stroke-width="1.2"/>
-    <path d="M470 40 A430 430 0 0 1 900 470" fill="none" stroke="#158F81" stroke-width="6"/>
-  </g>
-  <g transform="translate(6 6)">
-    <path d="M470 470 L900 470 A430 430 0 0 1 470 900 Z" fill="#FFFCF3"/>
-    <path d="M470 470 L900 470 A430 430 0 0 1 470 900 Z" fill="url(#f-edu)" stroke="#6A3D9E" stroke-opacity=".35" stroke-width="1.2"/>
-    <path d="M900 470 A430 430 0 0 1 470 900" fill="none" stroke="#6A3D9E" stroke-width="6"/>
-  </g>
-  <g transform="translate(-6 6)">
-    <path d="M470 470 L470 900 A430 430 0 0 1 40 470 Z" fill="#FFFCF3"/>
-    <path d="M470 470 L470 900 A430 430 0 0 1 40 470 Z" fill="url(#f-trust)" stroke="#1B5C9E" stroke-opacity=".35" stroke-width="1.2"/>
-    <path d="M470 900 A430 430 0 0 1 40 470" fill="none" stroke="#1B5C9E" stroke-width="6"/>
-  </g>
-
-  <!-- 3. setas nas emendas: cada marca passa para a próxima -->
-  <g fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="470" cy="18" r="13" fill="#FFFCF3" stroke="none"/><path d="M466 12 L473 18 L466 24" stroke="#158F81"/>
-    <circle cx="922" cy="470" r="13" fill="#FFFCF3" stroke="none"/><path d="M916 466 L922 473 L928 466" stroke="#6A3D9E"/>
-    <circle cx="470" cy="922" r="13" fill="#FFFCF3" stroke="none"/><path d="M474 916 L467 922 L474 928" stroke="#1B5C9E"/>
-    <circle cx="18" cy="470" r="13" fill="#FFFCF3" stroke="none"/><path d="M12 474 L18 467 L24 474" stroke="#D9A521"/>
-  </g>
-
-  <!-- 4. a FairJob no centro, com os quatro verbos em órbita -->
-  <circle cx="470" cy="470" r="126" fill="#FFFCF3"/>
-  <circle cx="470" cy="470" r="126" fill="none" stroke="#1E1E1E" stroke-opacity=".10"/>
-  <circle cx="470" cy="470" r="96" fill="none" stroke="#1E1E1E" stroke-opacity=".10"/>
-  <!-- cada verbo fica ao lado da sua marca -->
-  <text class="orbita" text-anchor="middle" letter-spacing="4">
-    <textPath href="#orbita" startOffset="12.5%">MEDIR</textPath>
-    <textPath href="#orbita" startOffset="37.5%">CUIDAR</textPath>
-    <textPath href="#orbita" startOffset="62.5%">CONSCIENTIZAR</textPath>
-    <textPath href="#orbita" startOffset="87.5%">COMPROVAR</textPath>
-  </text>
-  <image href="../assets/logos/fairjob.png" x="400" y="400" width="140" height="140" filter="url(#sombra)"/>
-
-  <!-- 5. conteúdo de cada marca: logo, número, verbo e o que entrega -->
   <g text-anchor="middle">
-    <!-- fairdata -->
-    <circle cx="265" cy="185" r="44" fill="#FFFCF3"/>
-    <image href="../assets/logos/fairdata.png" x="227" y="147" width="76" height="76" filter="url(#sombra)"/>
-    <text class="num" x="265" y="251" fill="#9A7612">01 · FAIRDATA</text>
-    <text class="verbo" x="265" y="285">Medir</text>
-    <text class="desc" x="265" y="313">Revela a causa-raiz</text>
-    <text class="desc" x="265" y="335">dos indicadores de</text>
-    <text class="desc" x="265" y="357">gente, com impacto</text>
-    <text class="desc" x="265" y="379">financeiro</text>
+    <image href="../assets/logos/fairdata.png" x="203" y="112" width="84" height="84"/>
+    <text class="verbo" x="245" y="246" fill="#8A6A12">Medir</text>
+    <text class="desc" x="245" y="280">Revela a causa-raiz</text>
+    <text class="desc" x="245" y="304">dos indicadores de</text>
+    <text class="desc" x="245" y="328">gente, com impacto</text>
+    <text class="desc" x="245" y="352">financeiro</text>
 
-    <!-- fairhealth -->
-    <circle cx="675" cy="185" r="44" fill="#FFFCF3"/>
-    <image href="../assets/logos/fairhealth.png" x="637" y="147" width="76" height="76" filter="url(#sombra)"/>
-    <text class="num" x="675" y="251" fill="#0F7366">02 · FAIRHEALTH</text>
-    <text class="verbo" x="675" y="285">Cuidar</text>
-    <text class="desc" x="675" y="313">Medicina preventiva</text>
-    <text class="desc" x="675" y="335">na empresa: reduz</text>
-    <text class="desc" x="675" y="357">sinistralidade antes</text>
-    <text class="desc" x="675" y="379">da doença</text>
+    <image href="../assets/logos/fairhealth.png" x="613" y="112" width="84" height="84"/>
+    <text class="verbo" x="655" y="246" fill="#0F7366">Cuidar</text>
+    <text class="desc" x="655" y="280">Medicina preventiva</text>
+    <text class="desc" x="655" y="304">na empresa: reduz</text>
+    <text class="desc" x="655" y="328">sinistralidade antes</text>
+    <text class="desc" x="655" y="352">da doença</text>
 
-    <!-- fairedu -->
-    <circle cx="655" cy="575" r="44" fill="#FFFCF3"/>
-    <image href="../assets/logos/fairedu.png" x="617" y="537" width="76" height="76" filter="url(#sombra)"/>
-    <text class="num" x="655" y="641" fill="#5A3189">03 · FAIREDU</text>
-    <text class="verbo" x="655" y="675">Conscientizar</text>
-    <text class="desc" x="655" y="703">Formação de líderes</text>
-    <text class="desc" x="655" y="725">que levam bem-estar</text>
-    <text class="desc" x="655" y="747">e resultado ao</text>
-    <text class="desc" x="655" y="769">dia a dia</text>
+    <image href="../assets/logos/fairedu.png" x="588" y="512" width="84" height="84"/>
+    <text class="verbo" x="630" y="646" fill="#5A3189">Conscientizar</text>
+    <text class="desc" x="630" y="680">Formação de líderes</text>
+    <text class="desc" x="630" y="704">que levam bem-estar</text>
+    <text class="desc" x="630" y="728">e resultado ao</text>
+    <text class="desc" x="630" y="752">dia a dia</text>
 
-    <!-- fairtrust -->
-    <circle cx="285" cy="575" r="44" fill="#FFFCF3"/>
-    <image href="../assets/logos/fairtrust.png" x="247" y="537" width="76" height="76" filter="url(#sombra)"/>
-    <text class="num" x="285" y="641" fill="#1B5C9E">04 · FAIRTRUST</text>
-    <text class="verbo" x="285" y="675">Comprovar</text>
-    <text class="desc" x="285" y="703">Certifica o que a</text>
-    <text class="desc" x="285" y="725">empresa faz pelo</text>
-    <text class="desc" x="285" y="747">bem-estar, não o</text>
-    <text class="desc" x="285" y="769">que declara</text>
+    <image href="../assets/logos/fairtrust.png" x="228" y="512" width="84" height="84"/>
+    <text class="verbo" x="270" y="646" fill="#1B5C9E">Comprovar</text>
+    <text class="desc" x="270" y="680">Certifica o que a</text>
+    <text class="desc" x="270" y="704">empresa faz pelo</text>
+    <text class="desc" x="270" y="728">bem-estar, não o</text>
+    <text class="desc" x="270" y="752">que declara</text>
   </g>
 </svg>
 </body>
