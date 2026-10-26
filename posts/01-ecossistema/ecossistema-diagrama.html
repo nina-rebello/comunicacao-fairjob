@@ -3,116 +3,129 @@
 <head>
 <meta charset="utf-8">
 <title>FairJob · Diagrama do ecossistema</title>
-<!-- Ilustração do CTA do carrossel 01: a FairJob no centro, as 4 marcas em ciclo ao redor.
-     Renderizada com fundo transparente e colada no Canva como imagem. -->
+<!-- Ilustração do CTA do carrossel 01 (slide 6/6), versão simplificada: selos sem halo,
+     anel fino neutro com setas no sentido do ciclo, sem texto em órbita.
+     Moldura no Canva: 860 x 410 px. Renderizar com render-diagrama.js (2x -> 1720 x 820).
+     Anel nas cores das marcas: ecossistema-diagrama.html?anel=cor -->
 <style>
-  @font-face { font-family: "Instrument Serif"; font-style: italic; src: url(../assets/fonts/InstrumentSerif-Italic.ttf); }
-  html, body { margin: 0; background: transparent; }
-  svg { display: block; font-family: "Inter", sans-serif; }
-  .num   { font-size: 14px; font-weight: 700; letter-spacing: .14em; }
-  .verbo { font-size: 30px; font-weight: 800; letter-spacing: -.02em; fill: #1E1E1E; }
-  .desc  { font-size: 18px; font-weight: 500; fill: #5F5F5F; }
-  .nota  { font-family: "Instrument Serif", serif; font-style: italic; font-size: 22px; fill: #8A8A8A; }
-  .orbita { font-size: 13px; font-weight: 600; fill: #9A968C; }
+  :root {
+    --fundo: #fffcf3;
+    --texto: #1e1e1e;
+    --texto-2: #5f5f5f;
+    --anel-neutro: #c6b994;
+    --data: #b8901f;
+    --health: #158f81;
+    --edu: #6a3d9e;
+    --trust: #1b5c9e;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 860px; height: 410px; background: var(--fundo); overflow: hidden; }
+  body { position: relative; font-family: "Liberation Sans", Arimo, Arial, Helvetica, sans-serif; color: var(--texto); }
+
+  svg { position: absolute; inset: 0; }
+
+  .selo { position: absolute; }
+  .selo img { position: absolute; display: block; }
+
+  .rotulo { position: absolute; width: 216px; transform: translateY(-50%); }
+  .rotulo.esq { text-align: right; }
+  .rotulo.dir { text-align: left; }
+  .rotulo .etapa { font-size: 14px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.2; }
+  .rotulo .verbo { font-size: 30px; font-weight: 700; line-height: 1.1; margin-top: 4px; letter-spacing: -0.01em; }
+  .rotulo .desc { font-size: 17px; line-height: 1.3; color: var(--texto-2); margin-top: 6px; }
 </style>
 </head>
 <body>
-<svg width="860" height="410" viewBox="0 56 860 410" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <!-- arcos do ciclo: cada um vai da cor de uma marca para a da próxima -->
-    <linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="359.7" y1="0" x2="500.3" y2="0"><stop offset="0" stop-color="#D9A521"/><stop offset="1" stop-color="#158F81"/></linearGradient>
-    <linearGradient id="g2" gradientUnits="userSpaceOnUse" x1="0" y1="189.7" x2="0" y2="330.3"><stop offset="0" stop-color="#158F81"/><stop offset="1" stop-color="#6A3D9E"/></linearGradient>
-    <linearGradient id="g3" gradientUnits="userSpaceOnUse" x1="500.3" y1="0" x2="359.7" y2="0"><stop offset="0" stop-color="#6A3D9E"/><stop offset="1" stop-color="#1B5C9E"/></linearGradient>
-    <linearGradient id="g4" gradientUnits="userSpaceOnUse" x1="0" y1="330.3" x2="0" y2="189.7"><stop offset="0" stop-color="#1B5C9E"/><stop offset="1" stop-color="#D9A521"/></linearGradient>
-    <marker id="m1" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 L7 5 L1 9" fill="none" stroke="#158F81" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
-    <marker id="m2" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 L7 5 L1 9" fill="none" stroke="#6A3D9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
-    <marker id="m3" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 L7 5 L1 9" fill="none" stroke="#1B5C9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
-    <marker id="m4" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 L7 5 L1 9" fill="none" stroke="#D9A521" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
-    <!-- esferas de fundo: brilho no centro, somem na borda -->
-    <radialGradient id="r-data"><stop offset="0" stop-color="#E8B42F" stop-opacity=".30"/><stop offset="1" stop-color="#E8B42F" stop-opacity=".06"/></radialGradient>
-    <radialGradient id="r-health"><stop offset="0" stop-color="#158F81" stop-opacity=".26"/><stop offset="1" stop-color="#158F81" stop-opacity=".05"/></radialGradient>
-    <radialGradient id="r-edu"><stop offset="0" stop-color="#6A3D9E" stop-opacity=".24"/><stop offset="1" stop-color="#6A3D9E" stop-opacity=".05"/></radialGradient>
-    <radialGradient id="r-trust"><stop offset="0" stop-color="#1B5C9E" stop-opacity=".24"/><stop offset="1" stop-color="#1B5C9E" stop-opacity=".05"/></radialGradient>
-    <radialGradient id="r-hub"><stop offset=".55" stop-color="#F7C948" stop-opacity=".45"/><stop offset="1" stop-color="#F7C948" stop-opacity="0"/></radialGradient>
-    <filter id="sombra" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1E1E1E" flood-opacity=".14"/></filter>
-    <path id="orbita" d="M430 159 A101 101 0 1 1 429.99 159"/>
-  </defs>
+<svg id="anel" width="860" height="410" viewBox="0 0 860 410"></svg>
+<div id="pecas"></div>
 
-  <!-- 1. as quatro esferas se sobrepõem no centro: é ali que fica a FairJob -->
-  <g>
-    <circle cx="380.5" cy="210.5" r="135" fill="url(#r-data)"/>
-    <circle cx="479.5" cy="210.5" r="135" fill="url(#r-health)"/>
-    <circle cx="479.5" cy="309.5" r="135" fill="url(#r-edu)"/>
-    <circle cx="380.5" cy="309.5" r="135" fill="url(#r-trust)"/>
-  </g>
-  <g fill="none" stroke-width="1.2" stroke-dasharray="2 6" stroke-linecap="round" opacity=".38">
-    <circle cx="380.5" cy="210.5" r="135" stroke="#B8901F"/>
-    <circle cx="479.5" cy="210.5" r="135" stroke="#158F81"/>
-    <circle cx="479.5" cy="309.5" r="135" stroke="#6A3D9E"/>
-    <circle cx="380.5" cy="309.5" r="135" stroke="#1B5C9E"/>
-  </g>
+<script>
+  const C = { x: 430, y: 205 };       // centro do ciclo
+  const DX = 140, DY = 118;           // deslocamento dos selos em relação ao centro
+  const R = Math.hypot(DX, DY);       // raio do anel (passa pelo centro de cada selo)
+  const SELO = 92;                    // diâmetro dos selos das frentes
+  const SELO_CENTRO = 116;            // diâmetro do selo FairJob
+  const FOLGA = 12;                   // espaço entre o anel e a borda do selo
+  const anelCor = new URLSearchParams(location.search).get('anel') === 'cor';
 
-  <!-- 2. o ciclo: Medir → Cuidar → Conscientizar → Comprovar → Medir -->
-  <circle cx="430" cy="260" r="180" fill="none" stroke="#1E1E1E" stroke-opacity=".07" stroke-width="1"/>
-  <g fill="none" stroke-width="5" stroke-linecap="round">
-    <path d="M359.7 94.3 A180 180 0 0 1 500.3 94.3" stroke="url(#g1)" marker-end="url(#m1)"/>
-    <path d="M595.7 189.7 A180 180 0 0 1 595.7 330.3" stroke="url(#g2)" marker-end="url(#m2)"/>
-    <path d="M500.3 425.7 A180 180 0 0 1 359.7 425.7" stroke="url(#g3)" marker-end="url(#m3)"/>
-    <path d="M264.3 330.3 A180 180 0 0 1 264.3 189.7" stroke="url(#g4)" marker-end="url(#m4)"/>
-  </g>
+  // Sentido horário: Medir -> Cuidar -> Conscientizar -> Comprovar -> Medir
+  const etapas = [
+    { selo: 'fairdata',   n: '01', verbo: 'Medir',         desc: 'Pesquisa, dados<br>e plano de ação',           cor: 'var(--data)',   x: C.x - DX, y: C.y - DY, lado: 'esq' },
+    { selo: 'fairhealth', n: '02', verbo: 'Cuidar',        desc: 'Médicos e psicólogos<br>dentro da empresa',    cor: 'var(--health)', x: C.x + DX, y: C.y - DY, lado: 'dir' },
+    { selo: 'fairedu',    n: '03', verbo: 'Conscientizar', desc: 'Cursos, palestras<br>e workshops',             cor: 'var(--edu)',    x: C.x + DX, y: C.y + DY, lado: 'dir' },
+    { selo: 'fairtrust',  n: '04', verbo: 'Comprovar',     desc: 'Auditoria e<br>certificação',                   cor: 'var(--trust)',  x: C.x - DX, y: C.y + DY, lado: 'esq' },
+  ];
 
-  <!-- 3. a FairJob no centro, com a órbita escrita -->
-  <circle cx="430" cy="260" r="118" fill="#FFFCF3" fill-opacity=".55"/>
-  <circle cx="430" cy="260" r="118" fill="none" stroke="#1E1E1E" stroke-opacity=".08"/>
-  <circle cx="430" cy="260" r="86" fill="#FFFCF3" stroke="#1E1E1E" stroke-opacity=".12"/>
-  <text class="orbita"><textPath href="#orbita" textLength="628" lengthAdjust="spacing">GOVERNANÇA SOCIAL · UM ÚNICO ECOSSISTEMA ·</textPath></text>
-  <image href="../assets/logos/fairjob.png" x="372" y="202" width="116" height="116" filter="url(#sombra)"/>
+  // caixa do círculo dentro de cada PNG (px), para os selos saírem do mesmo tamanho
+  const LOGOS = {
+    fairdata:   { w: 193, h: 189, x0: 3,  y0: 3, x1: 189, y1: 188 },
+    fairhealth: { w: 196, h: 193, x0: 11, y0: 8, x1: 189, y1: 186 },
+    fairedu:    { w: 200, h: 200, x0: 1,  y0: 1, x1: 199, y1: 199 },
+    fairtrust:  { w: 182, h: 181, x0: 1,  y0: 1, x1: 180, y1: 180 },
+    fairjob:    { w: 996, h: 996, x0: 0,  y0: 0, x1: 996, y1: 996 },
+  };
+  function selo(nome, cx, cy, d) {
+    const L = LOGOS[nome], k = d / Math.max(L.x1 - L.x0, L.y1 - L.y0);
+    const box = document.createElement('div');
+    box.className = 'selo';
+    Object.assign(box.style, { width: d + 'px', height: d + 'px', left: (cx - d / 2) + 'px', top: (cy - d / 2) + 'px' });
+    const img = document.createElement('img');
+    img.src = `../assets/logos/${nome}.png`;
+    img.alt = nome === 'fairjob' ? 'FairJob' : nome;
+    Object.assign(img.style, { width: L.w * k + 'px', height: L.h * k + 'px', left: -L.x0 * k + 'px', top: -L.y0 * k + 'px' });
+    box.appendChild(img);
+    return box;
+  }
 
-  <!-- 4. as marcas, nos quatro pontos do ciclo -->
-  <g>
-    <circle cx="302.7" cy="132.7" r="66" fill="#FFFCF3"/>
-    <circle cx="302.7" cy="132.7" r="66" fill="#E8B42F" fill-opacity=".14" stroke="#B8901F" stroke-opacity=".5" stroke-width="1.4"/>
-    <image href="../assets/logos/fairdata.png" x="254.7" y="84.7" width="96" height="96" filter="url(#sombra)"/>
+  const svg = document.getElementById('anel');
+  const pecas = document.getElementById('pecas');
+  const NS = 'http://www.w3.org/2000/svg';
+  const ponto = (a) => ({ x: C.x + R * Math.cos(a), y: C.y + R * Math.sin(a) });
+  const meiaFolga = 2 * Math.asin((SELO / 2 + FOLGA) / (2 * R));
 
-    <circle cx="557.3" cy="132.7" r="66" fill="#FFFCF3"/>
-    <circle cx="557.3" cy="132.7" r="66" fill="#158F81" fill-opacity=".12" stroke="#158F81" stroke-opacity=".5" stroke-width="1.4"/>
-    <image href="../assets/logos/fairhealth.png" x="509.3" y="84.7" width="96" height="96" filter="url(#sombra)"/>
+  etapas.forEach((e, i) => {
+    const prox = etapas[(i + 1) % etapas.length];
+    let a0 = Math.atan2(e.y - C.y, e.x - C.x) + meiaFolga;
+    let a1 = Math.atan2(prox.y - C.y, prox.x - C.x) - meiaFolga;
+    if (a1 < a0) a1 += 2 * Math.PI;
+    const p0 = ponto(a0), p1 = ponto(a1);
+    const cor = anelCor ? e.cor : 'var(--anel-neutro)';
 
-    <circle cx="557.3" cy="387.3" r="66" fill="#FFFCF3"/>
-    <circle cx="557.3" cy="387.3" r="66" fill="#6A3D9E" fill-opacity=".12" stroke="#6A3D9E" stroke-opacity=".5" stroke-width="1.4"/>
-    <image href="../assets/logos/fairedu.png" x="509.3" y="339.3" width="96" height="96" filter="url(#sombra)"/>
+    const arco = document.createElementNS(NS, 'path');
+    arco.setAttribute('d', `M ${p0.x} ${p0.y} A ${R} ${R} 0 0 1 ${p1.x} ${p1.y}`);
+    arco.setAttribute('fill', 'none');
+    arco.setAttribute('stroke', cor);
+    arco.setAttribute('stroke-width', '3');
+    arco.setAttribute('stroke-linecap', 'round');
+    svg.appendChild(arco);
 
-    <circle cx="302.7" cy="387.3" r="66" fill="#FFFCF3"/>
-    <circle cx="302.7" cy="387.3" r="66" fill="#1B5C9E" fill-opacity=".12" stroke="#1B5C9E" stroke-opacity=".5" stroke-width="1.4"/>
-    <image href="../assets/logos/fairtrust.png" x="254.7" y="339.3" width="96" height="96" filter="url(#sombra)"/>
-  </g>
+    // ponta de seta (chevron) no fim do arco, tangente ao anel
+    const t = { x: -Math.sin(a1), y: Math.cos(a1) };   // direção horária
+    const nrm = { x: Math.cos(a1), y: Math.sin(a1) };
+    const L = 9, W = 7;
+    const seta = document.createElementNS(NS, 'path');
+    seta.setAttribute('d',
+      `M ${p1.x - t.x * L + nrm.x * W} ${p1.y - t.y * L + nrm.y * W} L ${p1.x} ${p1.y} L ${p1.x - t.x * L - nrm.x * W} ${p1.y - t.y * L - nrm.y * W}`);
+    seta.setAttribute('fill', 'none');
+    seta.setAttribute('stroke', cor);
+    seta.setAttribute('stroke-width', '3');
+    seta.setAttribute('stroke-linecap', 'round');
+    seta.setAttribute('stroke-linejoin', 'round');
+    svg.appendChild(seta);
 
-  <!-- 5. legendas: número, marca, verbo e o que ela entrega -->
-  <g text-anchor="end">
-    <text class="num" x="216" y="102" fill="#9A7612">01 · FAIRDATA</text>
-    <text class="verbo" x="216" y="138">Medir</text>
-    <text class="desc" x="216" y="166">Pesquisa, dados</text>
-    <text class="desc" x="216" y="189">e plano de ação</text>
+    pecas.appendChild(selo(e.selo, e.x, e.y, SELO));
 
-    <text class="num" x="216" y="357" fill="#1B5C9E">04 · FAIRTRUST</text>
-    <text class="verbo" x="216" y="393">Comprovar</text>
-    <text class="desc" x="216" y="421">Auditoria e</text>
-    <text class="desc" x="216" y="444">certificação</text>
+    const r = document.createElement('div');
+    r.className = `rotulo ${e.lado}`;
+    r.style.top = e.y + 'px';
+    r.style.left = e.lado === 'esq' ? (e.x - SELO / 2 - 22 - 216) + 'px' : (e.x + SELO / 2 + 22) + 'px';
+    r.innerHTML = `<div class="etapa" style="color:${e.cor}">${e.n} · ${e.selo}</div>
+                   <div class="verbo">${e.verbo}</div>
+                   <div class="desc">${e.desc}</div>`;
+    pecas.appendChild(r);
+  });
 
-    <text class="nota" x="216" y="256">a prova gera novos dados</text>
-    <text class="nota" x="216" y="282">e o ciclo recomeça</text>
-  </g>
-  <g text-anchor="start">
-    <text class="num" x="644" y="102" fill="#0F7366">02 · FAIRHEALTH</text>
-    <text class="verbo" x="644" y="138">Cuidar</text>
-    <text class="desc" x="644" y="166">Médicos e psicólogos</text>
-    <text class="desc" x="644" y="189">dentro da empresa</text>
-
-    <text class="num" x="644" y="357" fill="#5A3189">03 · FAIREDU</text>
-    <text class="verbo" x="644" y="393">Conscientizar</text>
-    <text class="desc" x="644" y="421">Cursos, palestras</text>
-    <text class="desc" x="644" y="444">e workshops</text>
-  </g>
-</svg>
+  pecas.appendChild(selo('fairjob', C.x, C.y, SELO_CENTRO));
+</script>
 </body>
 </html>
