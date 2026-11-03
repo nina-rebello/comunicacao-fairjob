@@ -170,3 +170,7 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 .curto .comparar .nos { font-size: 34px; }
 .curto .cta { font-size: 34px; margin-top: 44px; }
 .curto .botao { margin-top: 64px; font-size: 40px; }
+
+/* botão do convite, versão mais leve */
+.botao2 { display: inline-flex; align-items: center; gap: 22px; margin-top: 60px; padding: 18px 18px 18px 40px; border-radius: 999px; background: var(--dourado); color: #FFFFFF; font-size: 32px; font-weight: 600; letter-spacing: -.005em; box-shadow: 0 10px 24px rgba(184, 144, 31, .28); }
+.botao2 i { font-style: normal; display: inline-flex; align-items: center; justify-content: center; width: 58px; height: 58px; border-radius: 50%; background: #FFFFFF; color: var(--dourado); font-size: 30px; font-weight: 700; }
