@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Post 04 · fairdata · 6 slides</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<!-- 1 · Capa: a promessa (número na capa, miolo rotulado de 01 a 04) -->
+<section class="slide creme capa">
+  <div class="impresso" style="width: 800px; margin: 10px 0 0 30px;"><img src="img/painel-topo.png" alt=""></div>
+  <div style="margin-top: auto;">
+    <p class="rotulo"><img src="../assets/logos/fairdata.png" alt="">fairdata · Medir</p>
+    <h1 class="titulo"><em>4 respostas</em> da fairdata que a pesquisa de clima não dá</h1>
+  </div>
+</section>
+
+<!-- 2 · Primeiro argumento: já responde a capa e se sustenta sozinho -->
+<section class="slide tinta">
+  <p class="rotulo">01 · Por quê</p>
+  <h2 class="titulo">O indicador caiu. A fairdata mostra <em>por quê</em>.</h2>
+  <p class="texto">Clima e eNPS medem percepção: dizem que o engajamento caiu. A análise de causa-raiz da fairdata aponta quais dimensões mais pesam no resultado, como liderança, demanda, relacionamentos ou propósito.</p>
+  <p class="texto">Os dados vêm de <b>4 rastreadores</b>: bem-estar organizacional, saúde mental, segurança psicológica e diversidade e inclusão.</p>
+  <p class="fecho">Sem causa-raiz, o plano de ação é um chute.</p>
+</section>
+
+<!-- 3 · Segundo argumento + primeira prova + CTA durante a leitura -->
+<section class="slide creme">
+  <p class="rotulo">02 · Onde</p>
+  <h2 class="titulo">Por área, por liderança e por <em>perfil</em>.</h2>
+  <div class="impresso" style="width: 540px; margin: 46px 0 0 130px; transform: rotate(-1.5deg);"><img src="img/painel-completo.png" alt=""></div>
+  <p class="cta" style="margin-top: 44px;">Vai levar isso ao financeiro? <span>Salve este post:</span> o método está todo aqui.</p>
+  <p class="fonte">Tela da plataforma fairdata (app.fairdata.com.br): risco psicossocial em 7 dimensões e 35 perguntas, com o nível de risco de cada uma.</p>
+</section>
+
+<!-- 4 · Virada -->
+<section class="slide cinza">
+  <p class="rotulo">03 · Quanto custa</p>
+  <h2 class="titulo">O risco sai do relatório de RH e entra na <em>linguagem do CFO</em>.</h2>
+  <p class="texto">Os dados de gente são cruzados com os indicadores que já estão na conta da empresa:</p>
+  <ul class="setas">
+    <li>Turnover</li>
+    <li>Absenteísmo</li>
+    <li>Sinistralidade do plano de saúde</li>
+  </ul>
+  <p class="texto">O painel organiza indicadores e metas de bem-estar pelo impacto no negócio.</p>
+  <p class="fecho">Investimento em gente passa a ter argumento financeiro.</p>
+</section>
+
+<!-- 5 · Quarto argumento: fecha o raciocínio -->
+<section class="slide tinta">
+  <p class="rotulo">04 · O que fazer primeiro</p>
+  <h2 class="titulo">Um plano de ação <em>priorizado</em>, pronto para o PGR.</h2>
+  <p class="texto">As ações saem ordenadas por impacto, por área e por liderança. O mapeamento dos riscos psicossociais vira o plano documentado que a NR-1 exige desde <b>26 de maio de 2026</b>.</p>
+  <p class="texto">As multas estão suspensas pelo STF enquanto os critérios de fiscalização são discutidos. A obrigação continua valendo.</p>
+  <p class="fecho">A empresa sabe o que fazer primeiro.</p>
+  <p class="fonte">Fontes: Portaria MTE 1.419/2024; Portaria MTE 765/2025 (adiamento); STF, ADPF 1316 (decisões de 25/06/2026 e 24/09/2026).</p>
+</section>
+
+<!-- 6 · Convite -->
+<section class="slide creme">
+  <p class="rotulo">Próximo passo</p>
+  <h2 class="titulo">Mostre onde estão seus desafios. A gente mostra <em>de onde vêm.</em></h2>
+  <p class="texto">Comente a palavra abaixo e receba na DM o convite para um diagnóstico gratuito de 30 minutos com o time da fairdata.</p>
+  <div><span class="palavra">DADOS</span></div>
+  <div class="assinatura"><img src="../assets/logos/fairdata.png" alt="">fairjob.com.br/fairdata</div>
+</section>
+
+<script>
+  // barra fixa: @fairjob.br e o número do slide
+  const slides = document.querySelectorAll('.slide');
+  const dois = (n) => String(n).padStart(2, '0');
+  slides.forEach((s, i) => s.insertAdjacentHTML('afterbegin',
+    `<div class="topo"><span>@fairjob.br</span><span>${dois(i + 1)}/${dois(slides.length)}</span></div>`));
+</script>
+</body>
+</html>
