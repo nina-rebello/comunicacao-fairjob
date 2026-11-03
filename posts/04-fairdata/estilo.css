@@ -135,3 +135,16 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 .contato li { display: grid; grid-template-columns: 150px 1fr; padding: 18px 0; border-top: 1.5px solid var(--linha); font-size: 32px; font-weight: 600; }
 .contato li:last-child { border-bottom: 1.5px solid var(--linha); }
 .contato small { font-size: 22px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--dest); align-self: center; }
+
+/* versão de 6 slides: caixas e lista mais compactas para caber o texto do site */
+.pilares { margin-top: 36px; gap: 18px; }
+.pilares .caixa { padding: 24px 24px 26px; }
+.pilares .caixa .n { font-size: 44px; }
+.pilares .caixa h3 { margin-top: 12px; font-size: 20px; }
+.pilares .caixa p { font-size: 23px; line-height: 1.36; }
+.metodo { margin-top: 34px; }
+.metodo li { padding: 20px 0; }
+.metodo h3 { font-size: 30px; }
+.metodo p { font-size: 25px; }
+.cinza .comparar .cab { font-size: 18px; }
+.nb { white-space: nowrap; }
