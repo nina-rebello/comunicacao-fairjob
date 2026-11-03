@@ -36,7 +36,7 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 .rotulo img { width: 64px; height: 64px; }
 .titulo { font-weight: 800; font-size: 74px; line-height: 1.02; letter-spacing: -.03em; margin: 0; }
 .titulo em { font-style: normal; color: var(--dest); }
-.capa .titulo { font-size: 90px; line-height: .98; }
+.capa .titulo { font-size: 86px; line-height: .98; }
 .texto { font-size: 33px; line-height: 1.4; color: var(--texto2); margin: 34px 0 0; }
 .texto b { color: inherit; font-weight: 700; }
 .creme .texto b { color: var(--tinta); }
@@ -123,3 +123,15 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 
 /* slide com fonte no pé: reserva espaço para a fonte não encostar no fecho */
 .slide:has(.fonte) { padding-bottom: 156px; }
+
+/* capa: telas da plataforma em cascata, uma na frente da outra */
+.cascata { position: relative; height: 660px; margin: 0 0 0 -8px; }
+.cascata img { position: absolute; width: 780px; border: 10px solid #FFFFFF; box-shadow: 0 18px 40px rgba(0, 0, 0, .26); }
+
+/* convite tradicional */
+.botao { display: inline-block; margin: 46px 0 0; padding: 26px 46px 28px; border-radius: 999px; background: var(--tinta); color: #FBF7EC; font-size: 36px; font-weight: 700; letter-spacing: -.01em; }
+.botao span { color: var(--amarelo); }
+.contato { margin: 40px 0 0; padding: 0; list-style: none; }
+.contato li { display: grid; grid-template-columns: 150px 1fr; padding: 18px 0; border-top: 1.5px solid var(--linha); font-size: 32px; font-weight: 600; }
+.contato li:last-child { border-bottom: 1.5px solid var(--linha); }
+.contato small { font-size: 22px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--dest); align-self: center; }

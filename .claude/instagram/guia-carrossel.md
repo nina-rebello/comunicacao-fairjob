@@ -104,6 +104,11 @@ trouxe a pessoa até ali.
 - **Convite no final:** uma palavra para comentar e receber o diagnóstico
   gratuito na DM, como no carrossel dos wearables ("Comente CUIDADO").
 
+**Posts de marca (decisão de 03/11):** nos posts que apresentam uma marca
+(fairdata, fairhealth, fairedu, fairtrust), o convite final é tradicional:
+falar com um especialista, com o site e o e-mail no slide. Não pedir para
+comentar uma palavra. O pedido para salvar durante a leitura continua valendo.
+
 ## O visual
 
 A ideia é manter as cores e as fontes da marca e mudar a forma. O
@@ -167,7 +172,8 @@ precisa ser traduzida para uma marca de cuidado, não copiada.
 - [ ] O slide 2 se sustenta sozinho.
 - [ ] Há um CTA durante a leitura, coerente com o assunto, depois de o
       carrossel entregar alguma coisa.
-- [ ] Há um só convite no final.
+- [ ] Há um só convite no final (em post de marca, convite tradicional, sem
+      pedir comentário).
 - [ ] O miolo cumpre o que a capa prometeu.
 - [ ] Todo número tem fonte no slide.
 - [ ] O Dr. Ronald aprovou a menção médica (CFM).
