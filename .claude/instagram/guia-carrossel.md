@@ -104,6 +104,14 @@ trouxe a pessoa até ali.
 - **Convite no final:** uma palavra para comentar e receber o diagnóstico
   gratuito na DM, como no carrossel dos wearables ("Comente CUIDADO").
 
+**Pouco texto (decisão de 03/11):** cada slide carrega uma ideia: um título
+forte, no máximo uma linha de apoio e, se precisar, uma lista curta (nome e
+até 8 palavras por item). Letra grande. O texto completo vai na legenda.
+
+**Posts de marca (decisão de 03/11):** o conteúdo vem da página da marca no
+site, na ordem das seções e com as frases do site, encurtadas. Nada de
+reinventar a mensagem.
+
 **Posts de marca (decisão de 03/11):** nos posts que apresentam uma marca
 (fairdata, fairhealth, fairedu, fairtrust), o convite final é tradicional:
 falar com um especialista, com o site e o e-mail no slide. Não pedir para

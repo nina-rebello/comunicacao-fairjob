@@ -148,3 +148,25 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 .metodo p { font-size: 25px; }
 .cinza .comparar .cab { font-size: 18px; }
 .nb { white-space: nowrap; }
+
+/* slides curtos: pouco texto, letra grande */
+.curto .titulo { font-size: 84px; line-height: 1.0; }
+.curto .texto { font-size: 38px; line-height: 1.38; margin-top: 44px; }
+.curto .fecho { font-size: 56px; }
+.curto .grade { margin-top: 56px; gap: 24px; }
+.curto .caixa { padding: 34px 32px 36px; }
+.curto .caixa .n { font-size: 60px; }
+.curto .caixa h3 { font-size: 22px; margin-top: 18px; }
+.curto .caixa p { font-size: 32px; line-height: 1.3; margin-top: 14px; color: inherit; font-weight: 600; }
+.curto .lista { margin-top: 56px; }
+.curto .lista li { padding: 30px 0; grid-template-columns: 100px 1fr; }
+.curto .lista .n { font-size: 44px; }
+.curto .lista h3 { font-size: 44px; }
+.curto .lista p { font-size: 32px; margin-top: 8px; }
+.curto .comparar { margin-top: 56px; }
+.curto .comparar .cab { font-size: 22px; }
+.curto .comparar .linha { padding: 30px 0; }
+.curto .comparar .mercado { font-size: 32px; }
+.curto .comparar .nos { font-size: 34px; }
+.curto .cta { font-size: 34px; margin-top: 44px; }
+.curto .botao { margin-top: 64px; font-size: 40px; }
