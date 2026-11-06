@@ -4,7 +4,9 @@
 const path = require('path');
 const { chromium } = require('playwright');
 
-const LARGURA_TEXTO = { 't-mapa': 288, 't-seg': 407, 't-copsoq': 219 };
+// Textos atuais no Canva: "Mapa de calor", "Segurança psicológica", "COPSOQ" (medidos a 22 px sem escala, com folga).
+// Para outro texto, troque a largura aqui ou passe JSON: node render-tags-fundo.js '{"t-mapa":200}'
+const LARGURA_TEXTO = Object.assign({ 't-mapa': 151, 't-seg': 240, 't-copsoq': 106 }, JSON.parse(process.argv[2] || '{}'));
 
 (async () => {
   const browser = await chromium.launch();
