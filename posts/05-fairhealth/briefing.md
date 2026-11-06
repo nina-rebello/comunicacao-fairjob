@@ -1,8 +1,20 @@
 # Post 05 · fairhealth (apresentação profunda da marca)
 
-Mesma forma do post 04 (fairdata): 5 slides, LinkedIn em PDF, convite
+Mesma sequência do post 04 (fairdata): 5 slides, LinkedIn em PDF, convite
 tradicional (sem pedir comentário), pouco texto, uma ideia por slide.
-Cor de destaque: verde da fairhealth (`#2F6B64` no creme, `#96C3BA` na tinta).
+
+## Identidade visual (tirada do site, 06/11/2026)
+
+A página da fairhealth define a marca com variáveis próprias (`--health-*`):
+- verde-água `#00A895` (primária), fundo `#F6FDFB`, menta `#E9F6F4`,
+  borda `#BCE1DC`, títulos `#0E2521`, texto corrido `#527A74`;
+- Nunito 800 nos títulos, com o destaque em itálico verde-água ("não cuidar");
+  DM Sans no texto (fontes em `posts/assets/fonts`, licença OFL);
+- rótulo de seção com linha curta e caixa alta espaçada em verde;
+- cards brancos com borda menta e ícone em quadrado menta; pílulas menta;
+  linha do tempo com ponto verde; botão verde; grade fina no fundo do topo;
+- imagem do topo da página (`img/hero-fairhealth.jpg`, de
+  fairjob.com.br/brands/hero-fairhealth-bg.jpg) na capa.
 
 Fonte única do texto: fairhealth.com.br (redireciona para
 fairjob.com.br/fairhealth), lida em 06/11/2026.
