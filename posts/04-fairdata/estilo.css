@@ -182,3 +182,13 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 .destaque .forte em { font-style: normal; color: var(--dest); }
 .creme .destaque .forte { color: var(--tinta); }
 .lista h3 em { font-style: normal; color: var(--dest); }
+
+/* capa: imagem única da cascata com tags por tela */
+.cascata3 { position: relative; margin: 60px 0 0 -44px; width: 1000px; }
+.cascata3 img { display: block; width: 1000px; }
+.tag { position: absolute; padding: 10px 22px 11px; border-radius: 999px; background: var(--tinta); color: var(--amarelo); font-size: 22px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; box-shadow: 0 6px 16px rgba(0, 0, 0, .22); }
+
+/* fechamento elegante: pergunta em serif itálico, resposta logo abaixo */
+.conclusao { margin-top: 52px; padding-top: 30px; border-top: 1.5px solid var(--linha); }
+.conclusao p { margin: 0; font-size: 34px; line-height: 1.38; font-weight: 600; color: var(--tinta); }
+.conclusao .pergunta { font-family: "Instrument Serif", serif; font-style: italic; font-weight: 400; font-size: 52px; line-height: 1.1; color: var(--dest); margin-bottom: 12px; }
