@@ -63,3 +63,14 @@ de vidro na capa. Muda só a identidade, tirada do site (variáveis
 - [ ] Conferir a fonte do 70% (Revista de Saúde Pública da USP: artigo e
       ano). Se não achar, trocar o slide 2 por texto sem número.
 - [ ] Confirmar se "felicitologista" pode aparecer como função na capa.
+
+## Versão editável para o Canva
+
+`carrossel-5-canva.pptx`: cada parágrafo é uma caixa de texto (com as cores,
+pesos e itálicos de cada trecho) e cada caixa, linha, botão e tag é uma forma
+nativa. As tags de vidro viram pílulas lisas, porque desfoque e sombra não
+viram forma editável. Para importar, arraste o arquivo na página inicial do
+Canva. Para regerar depois de mudar o `carrossel-5.html`:
+
+    node posts/05-fairhealth/canva/extrair.js
+    python3 posts/05-fairhealth/canva/montar-pptx.py

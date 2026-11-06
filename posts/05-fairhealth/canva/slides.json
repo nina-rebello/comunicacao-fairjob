@@ -1,0 +1,1643 @@
+[
+ {
+  "fundo": "rgb(230, 244, 241)",
+  "formas": [
+   {
+    "x": 96,
+    "y": 230,
+    "w": 244.0625,
+    "h": 84,
+    "raio": 42,
+    "fundo": "rgb(241, 250, 248)",
+    "borda": {
+     "w": 2,
+     "c": "rgb(158, 217, 207)"
+    }
+   },
+   {
+    "x": 246,
+    "y": 380,
+    "w": 282.53125,
+    "h": 84,
+    "raio": 42,
+    "fundo": "rgb(241, 250, 248)",
+    "borda": {
+     "w": 2,
+     "c": "rgb(158, 217, 207)"
+    }
+   },
+   {
+    "x": 396,
+    "y": 530,
+    "w": 397.0625,
+    "h": 84,
+    "raio": 42,
+    "fundo": "rgb(241, 250, 248)",
+    "borda": {
+     "w": 2,
+     "c": "rgb(158, 217, 207)"
+    }
+   },
+   {
+    "x": 546,
+    "y": 680,
+    "w": 346.90625,
+    "h": 84,
+    "raio": 42,
+    "fundo": "rgb(241, 250, 248)",
+    "borda": {
+     "w": 2,
+     "c": "rgb(158, 217, 207)"
+    }
+   }
+  ],
+  "imagens": [
+   {
+    "x": 130,
+    "y": 257,
+    "w": 30,
+    "h": 30,
+    "icone": "0"
+   },
+   {
+    "x": 280,
+    "y": 407,
+    "w": 30,
+    "h": 30,
+    "icone": "1"
+   },
+   {
+    "x": 430,
+    "y": 557,
+    "w": 30,
+    "h": 30,
+    "icone": "2"
+   },
+   {
+    "x": 580,
+    "y": 707,
+    "w": 30,
+    "h": 30,
+    "icone": "3"
+   },
+   {
+    "x": 96,
+    "y": 810.9375,
+    "w": 64,
+    "h": 64,
+    "src": "../assets/logos/fairhealth.png"
+   }
+  ],
+  "textos": [
+   {
+    "x": 96,
+    "y": 52,
+    "w": 124.796875,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 124.796875,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 26.4,
+    "runs": [
+     {
+      "txt": "@fairjob.br",
+      "cor": "rgb(82, 122, 116)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 0.44
+     }
+    ]
+   },
+   {
+    "x": 178,
+    "y": 251.5,
+    "w": 120.0625,
+    "h": 41,
+    "linhas": 1,
+    "larguraBloco": 120.0625,
+    "esquerdaBloco": 178,
+    "alinhamento": "start",
+    "entrelinha": 40.8,
+    "runs": [
+     {
+      "txt": "Médico",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 34,
+      "esp": -0.34
+     }
+    ]
+   },
+   {
+    "x": 328,
+    "y": 401.5,
+    "w": 158.53125,
+    "h": 41,
+    "linhas": 1,
+    "larguraBloco": 158.53125,
+    "esquerdaBloco": 328,
+    "alinhamento": "start",
+    "entrelinha": 40.8,
+    "runs": [
+     {
+      "txt": "Psicólogo",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 34,
+      "esp": -0.34
+     }
+    ]
+   },
+   {
+    "x": 478,
+    "y": 551.5,
+    "w": 273.0625,
+    "h": 41,
+    "linhas": 1,
+    "larguraBloco": 273.0625,
+    "esquerdaBloco": 478,
+    "alinhamento": "start",
+    "entrelinha": 40.8,
+    "runs": [
+     {
+      "txt": "Assistente social",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 34,
+      "esp": -0.34
+     }
+    ]
+   },
+   {
+    "x": 628,
+    "y": 701.5,
+    "w": 222.90625,
+    "h": 41,
+    "linhas": 1,
+    "larguraBloco": 222.90625,
+    "esquerdaBloco": 628,
+    "alinhamento": "start",
+    "entrelinha": 40.8,
+    "runs": [
+     {
+      "txt": "Felicitologista",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 34,
+      "esp": -0.34
+     }
+    ]
+   },
+   {
+    "x": 178,
+    "y": 828.4375,
+    "w": 515.09375,
+    "h": 29,
+    "linhas": 1,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 28.799999999999997,
+    "runs": [
+     {
+      "txt": "MEDICINA PREVENTIVA IN COMPANY",
+      "cor": "rgb(0, 168, 149)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 24,
+      "esp": 2.4
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 890.9375,
+    "w": 777.0625,
+    "h": 356.796875,
+    "linhas": 4,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 84.28,
+    "runs": [
+     {
+      "txt": "Plano de saúde fica mais caro. Colaboradores ausentes. ",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 86,
+      "esp": -2.58
+     },
+     {
+      "txt": "De novo.",
+      "cor": "rgb(0, 168, 149)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 86,
+      "esp": -2.58
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "fundo": "rgb(14, 37, 33)",
+  "formas": [
+   {
+    "x": 96,
+    "y": 577.875,
+    "w": 6,
+    "h": 332.71875,
+    "raio": 0,
+    "fundo": "rgb(44, 199, 178)",
+    "borda": null
+   }
+  ],
+  "imagens": [],
+  "textos": [
+   {
+    "x": 96,
+    "y": 52,
+    "w": 124.796875,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 124.796875,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 26.4,
+    "runs": [
+     {
+      "txt": "@fairjob.br",
+      "cor": "rgb(168, 199, 193)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 0.44
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 150,
+    "w": 182.296875,
+    "h": 29,
+    "linhas": 1,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 28.799999999999997,
+    "runs": [
+     {
+      "txt": "O PROBLEMA",
+      "cor": "rgb(44, 199, 178)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 24,
+      "esp": 2.4
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 196,
+    "w": 743.96875,
+    "h": 185,
+    "linhas": 2,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 84,
+    "runs": [
+     {
+      "txt": "O problema ",
+      "cor": "rgb(242, 251, 249)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 84,
+      "esp": -2.52
+     },
+     {
+      "txt": "não é o plano.",
+      "cor": "rgb(44, 199, 178)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 84,
+      "esp": -2.52
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 420,
+    "w": 828.0625,
+    "h": 98.4375,
+    "linhas": 2,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 52.44,
+    "runs": [
+     {
+      "txt": "É como a empresa recebe o colaborador e, na sequência, como lida com o diagnóstico.",
+      "cor": "rgb(168, 199, 193)",
+      "peso": "400",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 38,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 134,
+    "y": 580.875,
+    "w": 822.921875,
+    "h": 168,
+    "linhas": 3,
+    "larguraBloco": 850,
+    "esquerdaBloco": 134,
+    "alinhamento": "start",
+    "entrelinha": 54,
+    "runs": [
+     {
+      "txt": "70%",
+      "cor": "rgb(44, 199, 178)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 50,
+      "esp": -1
+     },
+     {
+      "txt": " dos custos do plano de saúde corporativo vêm de doenças crônicas evitáveis.",
+      "cor": "rgb(242, 251, 249)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 50,
+      "esp": -1
+     }
+    ]
+   },
+   {
+    "x": 134,
+    "y": 765.875,
+    "w": 794.953125,
+    "h": 134.8125,
+    "linhas": 3,
+    "larguraBloco": 850,
+    "esquerdaBloco": 134,
+    "alinhamento": "start",
+    "entrelinha": 46.92,
+    "runs": [
+     {
+      "txt": "Hipertensão, diabetes tipo 2, obesidade, burnout. Aparecem primeiro na sinistralidade, antes de aparecerem no afastamento.",
+      "cor": "rgb(168, 199, 193)",
+      "peso": "400",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 34,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 1269.0625,
+    "w": 612.375,
+    "h": 20,
+    "linhas": 1,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 22.95,
+    "runs": [
+     {
+      "txt": "Fonte: Revista de Saúde Pública da USP, citada em fairjob.com.br/fairhealth.",
+      "cor": "rgb(168, 199, 193)",
+      "peso": "400",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 17,
+      "esp": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "fundo": "rgb(230, 244, 241)",
+  "formas": [
+   {
+    "x": 96,
+    "y": 429,
+    "w": 432,
+    "h": 316.28125,
+    "raio": 6,
+    "fundo": null,
+    "borda": {
+     "w": 1,
+     "c": "rgba(14, 37, 33, 0.14)"
+    }
+   },
+   {
+    "x": 552,
+    "y": 429,
+    "w": 432,
+    "h": 316.28125,
+    "raio": 6,
+    "fundo": null,
+    "borda": {
+     "w": 1,
+     "c": "rgba(14, 37, 33, 0.14)"
+    }
+   },
+   {
+    "x": 96,
+    "y": 769.28125,
+    "w": 432,
+    "h": 274.6875,
+    "raio": 6,
+    "fundo": null,
+    "borda": {
+     "w": 1,
+     "c": "rgba(14, 37, 33, 0.14)"
+    }
+   },
+   {
+    "x": 552,
+    "y": 769.28125,
+    "w": 432,
+    "h": 274.6875,
+    "raio": 6,
+    "fundo": null,
+    "borda": {
+     "w": 1,
+     "c": "rgba(14, 37, 33, 0.14)"
+    }
+   },
+   {
+    "x": 96,
+    "y": 1095.96875,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(14, 37, 33, 0.14)",
+    "borda": null
+   }
+  ],
+  "imagens": [],
+  "textos": [
+   {
+    "x": 96,
+    "y": 52,
+    "w": 124.796875,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 124.796875,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 26.4,
+    "runs": [
+     {
+      "txt": "@fairjob.br",
+      "cor": "rgb(82, 122, 116)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 0.44
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 150,
+    "w": 545.828125,
+    "h": 29,
+    "linhas": 1,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 28.799999999999997,
+    "runs": [
+     {
+      "txt": "O PRODUTO · ESCRITÓRIO DO CUIDADO",
+      "cor": "rgb(0, 168, 149)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 24,
+      "esp": 2.4
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 196,
+    "w": 719.5,
+    "h": 185,
+    "linhas": 2,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 84,
+    "runs": [
+     {
+      "txt": "Cuidado ",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 84,
+      "esp": -2.52
+     },
+     {
+      "txt": "dentro",
+      "cor": "rgb(0, 168, 149)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 84,
+      "esp": -2.52
+     },
+     {
+      "txt": " da empresa.",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 84,
+      "esp": -2.52
+     }
+    ]
+   },
+   {
+    "x": 129,
+    "y": 458,
+    "w": 64.40625,
+    "h": 72,
+    "linhas": 1,
+    "larguraBloco": 366,
+    "esquerdaBloco": 129,
+    "alinhamento": "start",
+    "entrelinha": 60,
+    "runs": [
+     {
+      "txt": "01",
+      "cor": "rgb(0, 168, 149)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 60,
+      "esp": -1.8
+     }
+    ]
+   },
+   {
+    "x": 129,
+    "y": 542,
+    "w": 351.6875,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 366,
+    "esquerdaBloco": 129,
+    "alinhamento": "start",
+    "entrelinha": 27.5,
+    "runs": [
+     {
+      "txt": "ATENDIMENTO PREVENTIVO",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 1.76
+     }
+    ]
+   },
+   {
+    "x": 129,
+    "y": 584.5,
+    "w": 337.921875,
+    "h": 80.59375,
+    "linhas": 2,
+    "larguraBloco": 366,
+    "esquerdaBloco": 129,
+    "alinhamento": "start",
+    "entrelinha": 41.6,
+    "runs": [
+     {
+      "txt": "Médico e psicológico, in company.",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 585,
+    "y": 458,
+    "w": 76.1875,
+    "h": 72,
+    "linhas": 1,
+    "larguraBloco": 366,
+    "esquerdaBloco": 585,
+    "alinhamento": "start",
+    "entrelinha": 60,
+    "runs": [
+     {
+      "txt": "02",
+      "cor": "rgb(0, 168, 149)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 60,
+      "esp": -1.8
+     }
+    ]
+   },
+   {
+    "x": 585,
+    "y": 542,
+    "w": 275.796875,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 366,
+    "esquerdaBloco": 585,
+    "alinhamento": "start",
+    "entrelinha": 27.5,
+    "runs": [
+     {
+      "txt": "EQUIPE EM PLANTÕES",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 1.76
+     }
+    ]
+   },
+   {
+    "x": 585,
+    "y": 584.5,
+    "w": 328.625,
+    "h": 122.1875,
+    "linhas": 3,
+    "larguraBloco": 366,
+    "esquerdaBloco": 585,
+    "alinhamento": "start",
+    "entrelinha": 41.6,
+    "runs": [
+     {
+      "txt": "Médicos, psicólogos, assistentes sociais e felicitologistas.",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 129,
+    "y": 798.28125,
+    "w": 77.328125,
+    "h": 72,
+    "linhas": 1,
+    "larguraBloco": 366,
+    "esquerdaBloco": 129,
+    "alinhamento": "start",
+    "entrelinha": 60,
+    "runs": [
+     {
+      "txt": "03",
+      "cor": "rgb(0, 168, 149)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 60,
+      "esp": -1.8
+     }
+    ]
+   },
+   {
+    "x": 129,
+    "y": 882.28125,
+    "w": 280.421875,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 366,
+    "esquerdaBloco": 129,
+    "alinhamento": "start",
+    "entrelinha": 27.5,
+    "runs": [
+     {
+      "txt": "ESTILO DE VIDA (MEV)",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 1.76
+     }
+    ]
+   },
+   {
+    "x": 129,
+    "y": 924.78125,
+    "w": 307.390625,
+    "h": 80.59375,
+    "linhas": 2,
+    "larguraBloco": 366,
+    "esquerdaBloco": 129,
+    "alinhamento": "start",
+    "entrelinha": 41.6,
+    "runs": [
+     {
+      "txt": "7 pilares e um plano individual.",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 585,
+    "y": 798.28125,
+    "w": 79.234375,
+    "h": 72,
+    "linhas": 1,
+    "larguraBloco": 366,
+    "esquerdaBloco": 585,
+    "alinhamento": "start",
+    "entrelinha": 60,
+    "runs": [
+     {
+      "txt": "04",
+      "cor": "rgb(0, 168, 149)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 60,
+      "esp": -1.8
+     }
+    ]
+   },
+   {
+    "x": 585,
+    "y": 882.28125,
+    "w": 229,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 366,
+    "esquerdaBloco": 585,
+    "alinhamento": "start",
+    "entrelinha": 27.5,
+    "runs": [
+     {
+      "txt": "DADOS PARA O RH",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 1.76
+     }
+    ]
+   },
+   {
+    "x": 585,
+    "y": 924.78125,
+    "w": 277.671875,
+    "h": 80.59375,
+    "linhas": 2,
+    "larguraBloco": 366,
+    "esquerdaBloco": 585,
+    "alinhamento": "start",
+    "entrelinha": 41.6,
+    "runs": [
+     {
+      "txt": "Anonimizados, no painel fairdata.",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 1121.96875,
+    "w": 514.28125,
+    "h": 67,
+    "linhas": 1,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 57.2,
+    "runs": [
+     {
+      "txt": "Por que dentro da empresa?",
+      "cor": "rgb(0, 168, 149)",
+      "peso": "400",
+      "italico": true,
+      "fonte": "\"Instrument Serif\", serif",
+      "tam": 52,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 1198.15625,
+    "w": 872.265625,
+    "h": 87.90625,
+    "linhas": 2,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 46.92,
+    "runs": [
+     {
+      "txt": "A proximidade aumenta a adesão. A adesão gera resultado, com registro e rastreabilidade para a ",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 34,
+      "esp": 0
+     },
+     {
+      "txt": "NR-1",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 34,
+      "esp": 0
+     },
+     {
+      "txt": ".",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 34,
+      "esp": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "fundo": "rgb(14, 37, 33)",
+  "formas": [
+   {
+    "x": 96,
+    "y": 429,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(233, 246, 244, 0.16)",
+    "borda": null
+   },
+   {
+    "x": 96,
+    "y": 639.109375,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(233, 246, 244, 0.16)",
+    "borda": null
+   },
+   {
+    "x": 96,
+    "y": 849.21875,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(233, 246, 244, 0.16)",
+    "borda": null
+   },
+   {
+    "x": 96,
+    "y": 1015.171875,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(233, 246, 244, 0.16)",
+    "borda": null
+   },
+   {
+    "x": 96,
+    "y": 1225.28125,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(233, 246, 244, 0.16)",
+    "borda": null
+   }
+  ],
+  "imagens": [],
+  "textos": [
+   {
+    "x": 96,
+    "y": 52,
+    "w": 124.796875,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 124.796875,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 26.4,
+    "runs": [
+     {
+      "txt": "@fairjob.br",
+      "cor": "rgb(168, 199, 193)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 0.44
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 150,
+    "w": 206.96875,
+    "h": 29,
+    "linhas": 1,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 28.799999999999997,
+    "runs": [
+     {
+      "txt": "METODOLOGIA",
+      "cor": "rgb(44, 199, 178)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 24,
+      "esp": 2.4
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 196,
+    "w": 618.140625,
+    "h": 185,
+    "linhas": 2,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 84,
+    "runs": [
+     {
+      "txt": "A jornada em ",
+      "cor": "rgb(242, 251, 249)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 84,
+      "esp": -2.52
+     },
+     {
+      "txt": "12 meses",
+      "cor": "rgb(44, 199, 178)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 84,
+      "esp": -2.52
+     },
+     {
+      "txt": ".",
+      "cor": "rgb(242, 251, 249)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 84,
+      "esp": -2.52
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 459,
+    "w": 49.875,
+    "h": 54,
+    "linhas": 1,
+    "larguraBloco": 100,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 52.8,
+    "runs": [
+     {
+      "txt": "01",
+      "cor": "rgb(44, 199, 178)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 44,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 196,
+    "y": 459,
+    "w": 464.75,
+    "h": 54,
+    "linhas": 1,
+    "larguraBloco": 788,
+    "esquerdaBloco": 196,
+    "alinhamento": "start",
+    "entrelinha": 52.8,
+    "runs": [
+     {
+      "txt": "Diagnóstico integrado",
+      "cor": "rgb(242, 251, 249)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 44,
+      "esp": -0.44
+     }
+    ]
+   },
+   {
+    "x": 196,
+    "y": 522.796875,
+    "w": 776.78125,
+    "h": 83.15625,
+    "linhas": 2,
+    "larguraBloco": 788,
+    "esquerdaBloco": 196,
+    "alinhamento": "start",
+    "entrelinha": 44.16,
+    "runs": [
+     {
+      "txt": "Mês 1. Perfil de saúde via fairdata e prioridades por evidência.",
+      "cor": "rgb(168, 199, 193)",
+      "peso": "400",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 669.109375,
+    "w": 58.515625,
+    "h": 54,
+    "linhas": 1,
+    "larguraBloco": 100,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 52.8,
+    "runs": [
+     {
+      "txt": "02",
+      "cor": "rgb(44, 199, 178)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 44,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 196,
+    "y": 669.109375,
+    "w": 453.4375,
+    "h": 54,
+    "linhas": 1,
+    "larguraBloco": 788,
+    "esquerdaBloco": 196,
+    "alinhamento": "start",
+    "entrelinha": 52.8,
+    "runs": [
+     {
+      "txt": "Escritório do Cuidado",
+      "cor": "rgb(242, 251, 249)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 44,
+      "esp": -0.44
+     }
+    ]
+   },
+   {
+    "x": 196,
+    "y": 732.90625,
+    "w": 638.515625,
+    "h": 83.15625,
+    "linhas": 2,
+    "larguraBloco": 788,
+    "esquerdaBloco": 196,
+    "alinhamento": "start",
+    "entrelinha": 44.16,
+    "runs": [
+     {
+      "txt": "Mês 1 a 12. Atendimento individual e Plano Individual do Cuidado.",
+      "cor": "rgb(168, 199, 193)",
+      "peso": "400",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 879.21875,
+    "w": 59.34375,
+    "h": 54,
+    "linhas": 1,
+    "larguraBloco": 100,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 52.8,
+    "runs": [
+     {
+      "txt": "03",
+      "cor": "rgb(44, 199, 178)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 44,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 196,
+    "y": 879.21875,
+    "w": 314.421875,
+    "h": 54,
+    "linhas": 1,
+    "larguraBloco": 788,
+    "esquerdaBloco": 196,
+    "alinhamento": "start",
+    "entrelinha": 52.8,
+    "runs": [
+     {
+      "txt": "Programa MEV",
+      "cor": "rgb(242, 251, 249)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 44,
+      "esp": -0.44
+     }
+    ]
+   },
+   {
+    "x": 196,
+    "y": 943.015625,
+    "w": 757.84375,
+    "h": 39,
+    "linhas": 1,
+    "larguraBloco": 788,
+    "esquerdaBloco": 196,
+    "alinhamento": "start",
+    "entrelinha": 44.16,
+    "runs": [
+     {
+      "txt": "Mês 1 a 12. Letramento e workshops nos 7 pilares.",
+      "cor": "rgb(168, 199, 193)",
+      "peso": "400",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 1045.171875,
+    "w": 60.75,
+    "h": 54,
+    "linhas": 1,
+    "larguraBloco": 100,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 52.8,
+    "runs": [
+     {
+      "txt": "04",
+      "cor": "rgb(44, 199, 178)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 44,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 196,
+    "y": 1045.171875,
+    "w": 263.953125,
+    "h": 54,
+    "linhas": 1,
+    "larguraBloco": 788,
+    "esquerdaBloco": 196,
+    "alinhamento": "start",
+    "entrelinha": 52.8,
+    "runs": [
+     {
+      "txt": "Mensuração",
+      "cor": "rgb(242, 251, 249)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 44,
+      "esp": -0.44
+     }
+    ]
+   },
+   {
+    "x": 196,
+    "y": 1108.96875,
+    "w": 776.625,
+    "h": 83.15625,
+    "linhas": 2,
+    "larguraBloco": 788,
+    "esquerdaBloco": 196,
+    "alinhamento": "start",
+    "entrelinha": 44.16,
+    "runs": [
+     {
+      "txt": "Mês 12. Relatório de impacto em sinistralidade para o CFO.",
+      "cor": "rgb(168, 199, 193)",
+      "peso": "400",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "fundo": "rgb(230, 244, 241)",
+  "formas": [
+   {
+    "x": 96,
+    "y": 718.3125,
+    "w": 456.5625,
+    "h": 94,
+    "raio": 47,
+    "fundo": "rgb(0, 168, 149)",
+    "borda": null
+   },
+   {
+    "x": 476.5625,
+    "y": 736.3125,
+    "w": 58,
+    "h": 58,
+    "raio": 29,
+    "fundo": "rgb(255, 255, 255)",
+    "borda": null
+   },
+   {
+    "x": 96,
+    "y": 852.3125,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(14, 37, 33, 0.14)",
+    "borda": null
+   },
+   {
+    "x": 96,
+    "y": 928.3125,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(14, 37, 33, 0.14)",
+    "borda": null
+   },
+   {
+    "x": 96,
+    "y": 1004.3125,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(14, 37, 33, 0.14)",
+    "borda": null
+   }
+  ],
+  "imagens": [
+   {
+    "x": 96,
+    "y": 1150,
+    "w": 88,
+    "h": 88,
+    "src": "../assets/logos/fairhealth.png"
+   }
+  ],
+  "textos": [
+   {
+    "x": 96,
+    "y": 52,
+    "w": 124.796875,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 124.796875,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 26.4,
+    "runs": [
+     {
+      "txt": "@fairjob.br",
+      "cor": "rgb(82, 122, 116)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 0.44
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 150,
+    "w": 350.046875,
+    "h": 29,
+    "linhas": 1,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 28.799999999999997,
+    "runs": [
+     {
+      "txt": "FALE COM A FAIRHEALTH",
+      "cor": "rgb(0, 168, 149)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 24,
+      "esp": 2.4
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 196,
+    "w": 820.21875,
+    "h": 269,
+    "linhas": 3,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 84,
+    "runs": [
+     {
+      "txt": "Quanto custa ",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 84,
+      "esp": -2.52
+     },
+     {
+      "txt": "não cuidar",
+      "cor": "rgb(0, 168, 149)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 84,
+      "esp": -2.52
+     },
+     {
+      "txt": " da saúde dos seus colaboradores?",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 84,
+      "esp": -2.52
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 504,
+    "w": 821.1875,
+    "h": 150.875,
+    "linhas": 3,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 52.44,
+    "runs": [
+     {
+      "txt": "Diagnóstico gratuito em 60 minutos: seus principais ofensores e a operação de cuidado que a sua empresa precisa.",
+      "cor": "rgb(82, 122, 116)",
+      "peso": "400",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 38,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 136,
+    "y": 745.8125,
+    "w": 318.5625,
+    "h": 39,
+    "linhas": 1,
+    "larguraBloco": 398.5625,
+    "esquerdaBloco": 136,
+    "alinhamento": "start",
+    "entrelinha": 38.4,
+    "runs": [
+     {
+      "txt": "Agendar diagnóstico",
+      "cor": "rgb(255, 255, 255)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": -0.16
+     }
+    ]
+   },
+   {
+    "x": 491.328125,
+    "y": 747.3125,
+    "w": 28.46875,
+    "h": 36,
+    "linhas": 1,
+    "larguraBloco": 58,
+    "esquerdaBloco": 476.5625,
+    "alinhamento": "start",
+    "entrelinha": 36,
+    "runs": [
+     {
+      "txt": "→",
+      "cor": "rgb(0, 168, 149)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 30,
+      "esp": -0.16
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 877.8125,
+    "w": 55.671875,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 150,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 26.4,
+    "runs": [
+     {
+      "txt": "SITE",
+      "cor": "rgb(0, 168, 149)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 1.76
+     }
+    ]
+   },
+   {
+    "x": 246,
+    "y": 871.3125,
+    "w": 268.828125,
+    "h": 39,
+    "linhas": 1,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 38.4,
+    "runs": [
+     {
+      "txt": "fairhealth.com.br",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 953.8125,
+    "w": 89.765625,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 150,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 26.4,
+    "runs": [
+     {
+      "txt": "E-MAIL",
+      "cor": "rgb(0, 168, 149)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 1.76
+     }
+    ]
+   },
+   {
+    "x": 246,
+    "y": 947.3125,
+    "w": 297.84375,
+    "h": 39,
+    "linhas": 1,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 38.4,
+    "runs": [
+     {
+      "txt": "ola@fairjob.com.br",
+      "cor": "rgb(14, 37, 33)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 206,
+    "y": 1178.5,
+    "w": 548.71875,
+    "h": 31,
+    "linhas": 1,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 31.2,
+    "runs": [
+     {
+      "txt": "fairhealth · medicina preventiva in company",
+      "cor": "rgb(82, 122, 116)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 26,
+      "esp": 0
+     }
+    ]
+   }
+  ]
+ }
+]
