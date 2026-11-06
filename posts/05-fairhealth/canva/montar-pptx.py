@@ -4,11 +4,12 @@ Lê canva/slides.json (gerado por extrair.js a partir do carrossel-5.html) e rec
 com elementos nativos: fundo, formas (caixas, linhas, botão, pílulas), imagens (logo e ícones)
 e um bloco de texto por parágrafo, com as cores, pesos e itálicos de cada trecho.
 
-Uso: python3 posts/05-fairhealth/canva/montar-pptx.py
+Uso: python3 posts/05-fairhealth/canva/montar-pptx.py [carrossel-6-canva.pptx]
 """
 import json
 import os
 import re
+import sys
 
 from lxml import etree
 from pptx import Presentation
@@ -121,7 +122,7 @@ def main():
                 if r["esp"]:
                     run.font._rPr.set("spc", str(int(round(r["esp"] * 0.75 * 100))))
 
-    destino = os.path.join(POST, "carrossel-5-canva.pptx")
+    destino = os.path.join(POST, sys.argv[1] if len(sys.argv) > 1 else "carrossel-6-canva.pptx")
     prs.save(destino)
     print("salvo:", destino)
 

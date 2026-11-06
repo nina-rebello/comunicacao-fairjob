@@ -1,19 +1,19 @@
 // Lê o carrossel renderizado e descreve cada slide em JSON (fundo, formas, imagens e blocos de texto),
 // para o montar-pptx.py recriar tudo como elementos editáveis no Canva.
-// Uso: node posts/05-fairhealth/canva/extrair.js
+// Uso: node posts/05-fairhealth/canva/extrair.js [carrossel-6.html]
 const fs = require('fs');
 const path = require('path');
 const { chromium } = require('playwright');
 
 (async () => {
   const pasta = __dirname;
-  const html = path.resolve(pasta, '..', 'carrossel-5.html');
+  const html = path.resolve(pasta, '..', process.argv[2] || 'carrossel-6.html');
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 3 });
   await page.goto('file://' + html);
-  // versão para o Canva: as tags de vidro viram pílulas lisas (desfoque e sombra não viram forma editável)
+  // versão para o Canva: sem desfoque e sem sombra (não viram forma editável)
   await page.addStyleTag({ content: `
-    .vidro { box-shadow: none !important; background: #F1FAF8 !important; border: 2px solid #9ED9CF !important; }
+    .vidro { box-shadow: none !important; }
     .vidro::before, .vidro::after, .vidro i { display: none !important; }
     .botao2 { box-shadow: none !important; }` });
   await page.evaluate(() => document.fonts.ready);

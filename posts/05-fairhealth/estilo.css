@@ -1,15 +1,17 @@
 /* Carrossel da fairhealth (post 05): o mesmo template e a mesma tipografia do post 04
-   (fairdata), com a identidade da fairhealth tirada do site (fairjob.com.br/fairhealth):
-   verde-água #00A895, fundo menta e o verde quase preto dos títulos do site. */
+   (fairdata), com a identidade da fairhealth do site e da apresentação comercial
+   (fairhealth ppt planetree): fundo menta quase branco, verde quase preto no slide escuro,
+   verde-água nos destaques, faixa curva e pílulas menta da apresentação. */
 @font-face { font-family: "Instrument Serif"; font-style: italic; src: url(../assets/fonts/InstrumentSerif-Italic.ttf); }
 @page { size: 1080px 1350px; margin: 0; }
 
 :root {
-  --creme: #E6F4F1;    /* menta do site (no lugar do creme da FairJob) */
-  --tinta: #0E2521;    /* verde quase preto dos títulos do site */
+  --creme: #F3FAF8;    /* fundo claro da apresentação (no lugar do creme da FairJob) */
+  --tinta: #0F2A27;    /* verde quase preto do slide "O desafio" da apresentação */
   --cinza: #00A895;    /* verde-água: fundo do slide de virada */
   --dourado: #00A895;  /* destaque no fundo claro: verde-água da fairhealth */
   --amarelo: #2CC7B2;  /* destaque no fundo escuro: verde-água mais claro, para contraste */
+  --selo: #94C6BD;     /* verde do selo fairhealth e da faixa curva da capa */
 }
 
 * { box-sizing: border-box; }
@@ -198,18 +200,20 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 .tag { background: #FFFFFF; color: var(--tinta); border: 1.5px solid #E3D9BF; font-size: 21px; font-weight: 500; letter-spacing: 0; text-transform: none; padding: 12px 22px 12px 40px; box-shadow: 0 8px 20px rgba(0, 0, 0, .12); }
 .tag::before { content: ""; position: absolute; left: 20px; top: 50%; width: 10px; height: 10px; margin-top: -5px; border-radius: 50%; background: var(--dourado); }
 
-/* capa: sem imagem; as tags de quem atende descem em diagonal, como a cascata da fairdata */
+/* capa: faixa curva do selo (como na capa da apresentação) e as funções do Escritório do
+   Cuidado em pílulas menta, descendo em diagonal como a cascata da fairdata */
 .heroi { position: relative; margin: 40px 0 0; height: 640px; }
+.curva { position: absolute; top: 0; right: 0; width: 170px; height: 1350px; }
 .vidro {
   position: absolute; z-index: 2; display: inline-flex; align-items: center; gap: 18px;
-  height: 84px; padding: 0 40px 0 32px; border-radius: 999px; overflow: hidden;
-  font-size: 34px; font-weight: 600; letter-spacing: -.01em; color: #0E2521; white-space: nowrap;
-  background: #F1FAF8; border: 1.5px solid rgba(255, 255, 255, .95);
-  box-shadow: 0 12px 28px rgba(0, 120, 106, .26), 0 2px 6px rgba(0, 0, 0, .10), inset 0 1px 0 rgba(255, 255, 255, .9);
+  height: 84px; padding: 0 40px 0 32px; border-radius: 999px;
+  font-size: 34px; font-weight: 700; letter-spacing: -.01em; color: #0F7F70; white-space: nowrap;
+  background: #DDF2EE; border: 2px solid #A9DCD3;
 }
-.vidro::before, .vidro::after { content: ""; position: absolute; border-radius: 50%; filter: blur(16px); z-index: 0; }
-.vidro::before { width: 46%; height: 160%; left: -8%; top: -30%; background: #7FD8CB; opacity: .85; }
-.vidro::after { width: 40%; height: 120%; right: -6%; bottom: -55%; background: #FFFFFF; opacity: .95; }
-.vidro i { position: absolute; z-index: 0; width: 34%; height: 140%; right: 4%; top: -40%; border-radius: 50%; filter: blur(18px); background: #BCE1DC; opacity: .9; }
-.vidro span, .vidro svg { position: relative; z-index: 1; }
 .vidro svg { width: 30px; height: 30px; flex: none; fill: #00A895; }
+
+/* cartões brancos com borda menta no fundo claro, como os da apresentação */
+.creme .caixa { background: #FFFFFF; border-color: #BFE3DC; border-radius: 14px; }
+.curto .caixa .n.menor { font-size: 56px; }
+.assinatura .cuidar { color: var(--dest); font-weight: 800; }
+.tinta .contato li { border-color: var(--linha); }

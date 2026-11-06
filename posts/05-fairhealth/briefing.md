@@ -77,3 +77,26 @@ receberam negrito pelo Canva e as caixas do slide 3 ganharam fundo
 
     node posts/05-fairhealth/canva/extrair.js
     python3 posts/05-fairhealth/canva/montar-pptx.py
+
+## Versão de 6 slides (carrossel-6.html), com a apresentação comercial
+
+Fonte nova: "fairhealth ppt planetree" (apresentação comercial, enviada em
+06/11). O que entrou:
+- **Prova (slide 5):** case Chemitec Agro-Veterinária, 01/01 a 07/07/2026:
+  48 colaboradores atendidos (98% de adesão), 161 atendimentos, 81,3% de
+  retorno para 2 ou mais atendimentos, 46 smartbands. Fonte: Relatório
+  Escritório do Cuidado, Fairhealth × Chemitec.
+- **Fechamento (slide 6):** "Cuidado é a nova inteligência organizacional."
+  e "Medir · Cuidar · Conscientizar · Comprovar", com Cuidar em destaque.
+- **Slide 3:** "Menos barreira. Mais adesão. Mais resultado." e "foco na
+  causa raiz, não no sintoma".
+- **Visual:** fundo claro `#F3FAF8` e escuro `#0F2A27` da apresentação,
+  faixa curva do selo (`#94C6BD`) na capa, pílulas menta com texto verde,
+  cards brancos com borda menta.
+
+Fora de propósito: o case do Hospital Dia Santo Amaro (é do Escritório do
+Paciente, não do Escritório do Cuidado em empresa) e os números de estudos
+(−27% absenteísmo, R$2,7 por R$1 etc.), pela regra de promessa clínica.
+
+- [ ] **Confirmar com a Chemitec** se o nome e os números podem sair em post
+      público (a apresentação foi para um parceiro, não para o feed).
