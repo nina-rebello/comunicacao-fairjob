@@ -3,21 +3,20 @@
 Mesma sequência do post 04 (fairdata): 5 slides, LinkedIn em PDF, convite
 tradicional (sem pedir comentário), pouco texto, uma ideia por slide.
 
-## Identidade visual (tirada do site, 06/11/2026)
+## Identidade visual
 
-A página da fairhealth define a marca com variáveis próprias (`--health-*`):
-- verde-água `#00A895` (primária), fundo `#F6FDFB`, menta `#E9F6F4`,
-  borda `#BCE1DC`, títulos `#0E2521`, texto corrido `#527A74`;
-- Nunito 800 nos títulos, com o destaque em itálico verde-água ("não cuidar");
-  DM Sans no texto (fontes em `posts/assets/fonts`, licença OFL);
-- rótulo de seção com linha curta e caixa alta espaçada em verde;
-- cards brancos com borda menta e ícone em quadrado menta; pílulas menta;
-  linha do tempo com ponto verde; botão verde; grade fina no fundo do topo;
-- imagem do topo da página (`img/hero-fairhealth.jpg`, de
-  fairjob.com.br/brands/hero-fairhealth-bg.jpg) na capa.
-
-Fonte única do texto: fairhealth.com.br (redireciona para
-fairjob.com.br/fairhealth), lida em 06/11/2026.
+O template e a tipografia são os do post 04 (fairdata): Inter 800 nos títulos,
+rótulo em caixa alta, slides claros e escuros alternados, grade de caixas,
+lista numerada, conclusão em Instrument Serif itálico, botão em pílula e tags
+de vidro na capa. Muda só a identidade, tirada do site (variáveis
+`--health-*` da página da fairhealth, 06/11/2026):
+- claro: menta `#E6F4F1` (no lugar do creme da FairJob);
+- escuro: `#0E2521`, o verde quase preto dos títulos do site;
+- destaque: verde-água `#00A895` (no escuro, `#2CC7B2` para contraste);
+  texto secundário `#527A74`, como no site;
+- capa: a imagem do topo da página (`img/hero-fairhealth.jpg`, de
+  fairjob.com.br/brands/hero-fairhealth-bg.jpg) no lugar dos prints, com
+  as tags de quem atende no Escritório do Cuidado.
 
 ## O que o site diz (e o que entrou no carrossel)
 
