@@ -217,3 +217,9 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 .curto .caixa .n.menor { font-size: 56px; }
 .assinatura .cuidar { color: var(--dest); font-weight: 800; }
 .tinta .contato li { border-color: var(--linha); }
+/* lista com textos mais longos (slide 4 do post 05) */
+.curto .lista.apertada { margin-top: 44px; }
+.curto .lista.apertada li { padding: 27px 0; }
+.curto .lista.apertada .n { font-size: 42px; }
+.curto .lista.apertada h3 { font-size: 42px; }
+.curto .lista.apertada p { font-size: 30px; margin-top: 6px; }
