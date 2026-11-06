@@ -174,3 +174,11 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 /* botão do convite, versão mais leve */
 .botao2 { display: inline-flex; align-items: center; gap: 22px; margin-top: 60px; padding: 18px 18px 18px 40px; border-radius: 999px; background: var(--dourado); color: #FFFFFF; font-size: 32px; font-weight: 600; letter-spacing: -.005em; box-shadow: 0 10px 24px rgba(184, 144, 31, .28); }
 .botao2 i { font-style: normal; display: inline-flex; align-items: center; justify-content: center; width: 58px; height: 58px; border-radius: 50%; background: #FFFFFF; color: var(--dourado); font-size: 30px; font-weight: 700; }
+
+/* frase de conclusão em destaque, logo abaixo do conteúdo (não no pé) */
+.destaque { margin-top: 56px; padding: 6px 0 6px 32px; border-left: 6px solid var(--dest); }
+.destaque p { margin: 0; font-size: 34px; line-height: 1.38; color: var(--texto2); }
+.destaque .forte { font-size: 50px; font-weight: 800; line-height: 1.08; letter-spacing: -.02em; color: inherit; margin-bottom: 18px; }
+.destaque .forte em { font-style: normal; color: var(--dest); }
+.creme .destaque .forte { color: var(--tinta); }
+.lista h3 em { font-style: normal; color: var(--dest); }
