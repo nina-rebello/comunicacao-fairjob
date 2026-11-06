@@ -69,8 +69,11 @@ de vidro na capa. Muda só a identidade, tirada do site (variáveis
 `carrossel-5-canva.pptx`: cada parágrafo é uma caixa de texto (com as cores,
 pesos e itálicos de cada trecho) e cada caixa, linha, botão e tag é uma forma
 nativa. As tags de vidro viram pílulas lisas, porque desfoque e sombra não
-viram forma editável. Para importar, arraste o arquivo na página inicial do
-Canva. Para regerar depois de mudar o `carrossel-5.html`:
+viram forma editável. Já importado no Canva (06/11): design DAHaKP9DUhI,
+https://www.canva.com/d/C82HscEjr7uvne8. Depois da importação, os textos
+receberam negrito pelo Canva e as caixas do slide 3 ganharam fundo
+`#F2FAF8` e borda `#B3CCC7` para aparecer. Para regerar depois de mudar o
+`carrossel-5.html`:
 
     node posts/05-fairhealth/canva/extrair.js
     python3 posts/05-fairhealth/canva/montar-pptx.py

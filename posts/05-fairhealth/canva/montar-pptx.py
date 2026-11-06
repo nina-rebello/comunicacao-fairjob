@@ -41,20 +41,15 @@ def cor(css, fundo=None):
 
 
 def fonte(run):
-    """Nome da fonte e negrito, pelo peso do CSS (o Canva lê o nome da família com o peso)."""
+    """Nome da fonte e negrito, pelo peso do CSS.
+
+    O Canva não reconhece nomes como "Inter ExtraBold" ou "Inter SemiBold" e importa como Inter
+    normal; por isso pesos de 600 para cima viram Inter com negrito (o Canva usa o Bold, 700).
+    """
     familia = run["fonte"]
     if "Instrument Serif" in familia:
         return "Instrument Serif", False
-    peso = int(run["peso"])
-    if peso >= 800:
-        return "Inter ExtraBold", False
-    if peso >= 700:
-        return "Inter", True
-    if peso >= 600:
-        return "Inter SemiBold", False
-    if peso >= 500:
-        return "Inter Medium", False
-    return "Inter", False
+    return "Inter", int(run["peso"]) >= 600
 
 
 def sem_sombra(shape):
