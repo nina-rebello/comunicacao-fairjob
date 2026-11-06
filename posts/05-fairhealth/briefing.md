@@ -94,6 +94,9 @@ Fonte nova: "fairhealth ppt planetree" (apresentação comercial, enviada em
   faixa curva do selo (`#94C6BD`) na capa, pílulas menta com texto verde,
   cards brancos com borda menta.
 
+No Canva (06/11): design DAHaKP-yygY, https://www.canva.com/d/m5luPmjHqHO0EzS
+(substitui o de 5 slides, DAHaKP9DUhI).
+
 Fora de propósito: o case do Hospital Dia Santo Amaro (é do Escritório do
 Paciente, não do Escritório do Cuidado em empresa) e os números de estudos
 (−27% absenteísmo, R$2,7 por R$1 etc.), pela regra de promessa clínica.
