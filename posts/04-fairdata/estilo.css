@@ -192,3 +192,7 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 .conclusao { margin-top: 52px; padding-top: 30px; border-top: 1.5px solid var(--linha); }
 .conclusao p { margin: 0; font-size: 34px; line-height: 1.38; font-weight: 600; color: var(--tinta); }
 .conclusao .pergunta { font-family: "Instrument Serif", serif; font-style: italic; font-weight: 400; font-size: 52px; line-height: 1.1; color: var(--dest); margin-bottom: 12px; }
+
+/* tags da capa: pílula clara, ponto dourado, texto normal */
+.tag { background: #FFFFFF; color: var(--tinta); border: 1.5px solid #E3D9BF; font-size: 21px; font-weight: 500; letter-spacing: 0; text-transform: none; padding: 12px 22px 12px 40px; box-shadow: 0 8px 20px rgba(0, 0, 0, .12); }
+.tag::before { content: ""; position: absolute; left: 20px; top: 50%; width: 10px; height: 10px; margin-top: -5px; border-radius: 50%; background: var(--dourado); }
