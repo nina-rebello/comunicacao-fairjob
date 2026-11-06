@@ -75,11 +75,9 @@
 </section>
 
 <script>
-  // barra fixa: @fairjob.br e o número do slide
-  const slides = document.querySelectorAll('.slide');
-  const dois = (n) => String(n).padStart(2, '0');
-  slides.forEach((s, i) => s.insertAdjacentHTML('afterbegin',
-    `<div class="topo"><span>@fairjob.br</span><span>${dois(i + 1)}/${dois(slides.length)}</span></div>`));
+  // barra fixa: só @fairjob.br (sem numeração de página)
+  document.querySelectorAll('.slide').forEach((s) => s.insertAdjacentHTML('afterbegin',
+    `<div class="topo"><span>@fairjob.br</span></div>`));
 </script>
 </body>
 </html>
