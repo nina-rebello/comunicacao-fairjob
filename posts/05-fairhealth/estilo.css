@@ -198,15 +198,12 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 .tag { background: #FFFFFF; color: var(--tinta); border: 1.5px solid #E3D9BF; font-size: 21px; font-weight: 500; letter-spacing: 0; text-transform: none; padding: 12px 22px 12px 40px; box-shadow: 0 8px 20px rgba(0, 0, 0, .12); }
 .tag::before { content: ""; position: absolute; left: 20px; top: 50%; width: 10px; height: 10px; margin-top: -5px; border-radius: 50%; background: var(--dourado); }
 
-/* capa: a imagem do topo da página da fairhealth no lugar dos prints da fairdata,
-   com tags de vidro de quem atende no Escritório do Cuidado */
-.heroi { position: relative; margin: 34px -96px 0 -96px; height: 690px; }
-.heroi::before { content: ""; position: absolute; inset: 0; background: url(img/hero-fairhealth.jpg) right top / auto 690px no-repeat; mix-blend-mode: multiply; }  /* o branco da imagem vira o menta do slide */
-.heroi::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, var(--creme) 0%, rgba(230, 244, 241, 0) 14%, rgba(230, 244, 241, 0) 62%, var(--creme) 100%), linear-gradient(90deg, var(--creme) 0%, var(--creme) 8%, rgba(230, 244, 241, 0) 40%); }
+/* capa: sem imagem; as tags de quem atende descem em diagonal, como a cascata da fairdata */
+.heroi { position: relative; margin: 40px 0 0; height: 640px; }
 .vidro {
-  position: absolute; z-index: 2; display: inline-flex; align-items: center; gap: 14px;
-  height: 62px; padding: 0 30px 0 24px; border-radius: 999px; overflow: hidden;
-  font-size: 25px; font-weight: 600; letter-spacing: -.01em; color: #0E2521; white-space: nowrap;
+  position: absolute; z-index: 2; display: inline-flex; align-items: center; gap: 18px;
+  height: 84px; padding: 0 40px 0 32px; border-radius: 999px; overflow: hidden;
+  font-size: 34px; font-weight: 600; letter-spacing: -.01em; color: #0E2521; white-space: nowrap;
   background: #F1FAF8; border: 1.5px solid rgba(255, 255, 255, .95);
   box-shadow: 0 12px 28px rgba(0, 120, 106, .26), 0 2px 6px rgba(0, 0, 0, .10), inset 0 1px 0 rgba(255, 255, 255, .9);
 }
@@ -215,4 +212,4 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 .vidro::after { width: 40%; height: 120%; right: -6%; bottom: -55%; background: #FFFFFF; opacity: .95; }
 .vidro i { position: absolute; z-index: 0; width: 34%; height: 140%; right: 4%; top: -40%; border-radius: 50%; filter: blur(18px); background: #BCE1DC; opacity: .9; }
 .vidro span, .vidro svg { position: relative; z-index: 1; }
-.vidro svg { width: 22px; height: 22px; flex: none; fill: #00A895; }
+.vidro svg { width: 30px; height: 30px; flex: none; fill: #00A895; }

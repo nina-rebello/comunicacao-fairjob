@@ -14,9 +14,8 @@ de vidro na capa. Muda só a identidade, tirada do site (variáveis
 - escuro: `#0E2521`, o verde quase preto dos títulos do site;
 - destaque: verde-água `#00A895` (no escuro, `#2CC7B2` para contraste);
   texto secundário `#527A74`, como no site;
-- capa: a imagem do topo da página (`img/hero-fairhealth.jpg`, de
-  fairjob.com.br/brands/hero-fairhealth-bg.jpg) no lugar dos prints, com
-  as tags de quem atende no Escritório do Cuidado.
+- capa: sem imagem (decisão de 06/11). As tags de vidro de quem atende no
+  Escritório do Cuidado descem em diagonal, como a cascata da fairdata.
 
 ## O que o site diz (e o que entrou no carrossel)
 
