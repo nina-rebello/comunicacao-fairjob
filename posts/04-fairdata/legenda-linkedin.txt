@@ -1,8 +1,8 @@
 Seu eNPS caiu. Seu turnover subiu. Você sabe por quê?
 
-Na maioria das empresas, a resposta para no "o quê". eNPS e clima medem percepção, mas não dizem em qual área o problema está, com qual liderança, nem quanto ele custa. Sem análise de causa-raiz, o plano de ação fica vulnerável: o investimento vai para o lugar errado e o indicador não se mexe.
+Um indicador sozinho não diz em qual área o problema está, com qual liderança, nem quanto ele custa. Sem análise de causa-raiz, o plano de ação fica vulnerável: o investimento vai para o lugar errado e o indicador não se mexe.
 
-A fairdata é a plataforma de inteligência de dados de pessoas da FairJob. Ela existe para responder o "por quê".
+A fairdata é a plataforma de inteligência de dados de pessoas da FairJob. Ela aplica a pesquisa e vai até o "por quê".
 
 Quatro pilares numa plataforma só:
 1. Bem-estar organizacional: onde o ambiente gera desgaste.
