@@ -103,3 +103,17 @@ Paciente, não do Escritório do Cuidado em empresa) e os números de estudos
 
 - [ ] **Confirmar com a Chemitec** se o nome e os números podem sair em post
       público (a apresentação foi para um parceiro, não para o feed).
+
+## Cores Tiffany (09/11)
+
+Pedido: começar no Tiffany do slide 2 (a cor principal da marca) e intercalar
+com o tom claro, sem mudar o conteúdo. Feito a partir do design editado pela
+Nina (DAHaKP9DUhI), exportado do Canva (`canva/canva-exportado-0911.pptx`) e
+recolorido por `canva/recolorir.py`:
+- slides 1, 3 e 5 em Tiffany `#95C6BD`: título em `#F2FBF9`, destaque e
+  rótulo em `#0F2A27`, botão em `#0F2A27`;
+- slides 2 e 4 em menta `#E6F4F1`: título `#0E2521`, destaque `#00A895`.
+
+Design novo no Canva: DAHabf-Y8GQ, https://www.canva.com/d/Ku7ChNWo-Jt03Az
+(o DAHaKP9DUhI ficou como estava). Cards, pílulas e botão foram recriados
+como formas nativas depois da importação, que os tinha trazido como imagem.
