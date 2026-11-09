@@ -46,6 +46,8 @@ de vidro na capa. Muda só a identidade, tirada do site (variáveis
 - **Convite do site:** "Quanto custa não cuidar da saúde dos seus
   colaboradores?" Diagnóstico gratuito de 60 minutos para identificar os
   principais ofensores e dimensionar a operação de cuidado. → slide 5.
+  **Atualização 09/11:** o diagnóstico gratuito não existe mais; o texto foi
+  removido do slide 5 (Instagram e LinkedIn) e das legendas.
 
 ## Fora do carrossel de propósito
 
