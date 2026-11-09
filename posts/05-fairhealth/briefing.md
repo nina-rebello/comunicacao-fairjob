@@ -117,3 +117,21 @@ recolorido por `canva/recolorir.py`:
 Design novo no Canva: DAHabf-Y8GQ, https://www.canva.com/d/Ku7ChNWo-Jt03Az
 (o DAHaKP9DUhI ficou como estava). Cards, pílulas e botão foram recriados
 como formas nativas depois da importação, que os tinha trazido como imagem.
+
+Versão final (09/11): o DAHabf-Y8GQ fica como está, com os ajustes da Nina
+(texto escuro em `#23463F`, descrições do slide 4 com 71% de opacidade) e o
+efeito de vidro nos cards do slide 3 e nas pílulas do slide 1.
+
+## Versão LinkedIn quadrada 1080x1080 (09/11)
+
+O redimensionamento automático do Canva estava sem cota, então a versão
+quadrada foi montada a partir do export do DAHabf-Y8GQ
+(`canva/canva-tiffany-0911.pptx`) por `canva/quadrado.py`: cada slide é reduzido
+a 80% (1350 × 0,8 = 1080) e centralizado, com 108 px de fundo de cada lado.
+Arquivo importado: `carrossel-5-linkedin-1080.pptx`.
+
+Design no Canva: DAHabS3JyCs, https://www.canva.com/d/yHQT_JggkrV7BXW
+(5 páginas de 1080x1080). Depois da importação, os textos foram reposicionados
+nas posições do original × 0,8 (o export desloca o topo das caixas de texto), e
+as pílulas e o halo do logo (slide 1), os cards de vidro (slide 3) e o botão
+(slide 5) foram recriados como formas nativas, porque tinham vindo como imagem.
