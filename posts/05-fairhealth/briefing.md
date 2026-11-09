@@ -137,3 +137,8 @@ Design no Canva: DAHabS3JyCs, https://www.canva.com/d/yHQT_JggkrV7BXW
 nas posições do original × 0,8 (o export desloca o topo das caixas de texto), e
 as pílulas e o halo do logo (slide 1), os cards de vidro (slide 3) e o botão
 (slide 5) foram recriados como formas nativas, porque tinham vindo como imagem.
+
+Atualização 09/11: a pedido da Nina, o efeito de vidro saiu dos dois designs
+(Instagram e LinkedIn). Pílulas do slide 1 voltaram a menta `#F1FAF8` com borda
+`#9ED9CF`, sem o halo atrás do logo; cards do slide 3 voltaram a brancos com
+borda `#BFE3DC`, números e rótulos em `#00A895`.
