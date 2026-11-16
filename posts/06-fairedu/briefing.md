@@ -68,3 +68,11 @@ variáveis `--edu-*` da página da fairedu:
   (1080x1080), gerados por `canva/extrair.js`, `canva/montar-pptx.py` e
   `canva/quadrado.py`.
 
+## No Canva (16/11)
+
+Versão que vale (roxo do logo `#62389C` e capa nova):
+- Instagram 1080x1350: DAHbFMWkOF8, https://www.canva.com/d/czTkcyoRspjC0G-
+- LinkedIn 1080x1080: DAHbFLI9zSY, https://www.canva.com/d/Ilc7-lgdB7WpWPn
+
+Versões anteriores, que podem ser apagadas: DAHbFHTrpzI, DAHbFLWkck8,
+DAHbFFRyaVM e DAHbFM6X3Qo.
