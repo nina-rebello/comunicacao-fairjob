@@ -16,18 +16,21 @@ Template e tipografia dos posts 04 e 05. Muda só a identidade, tirada das
 variáveis `--edu-*` da página da fairedu:
 - claro: lilás quase branco `#FAF8FC`; superfícies `#F2EDF7`, bordas `#D5CAE2`;
 - escuro: `#190E25`, o roxo quase preto dos títulos do site;
-- destaque: roxo `#7439C6` (no escuro, lilás `#B693F2` para contraste);
+- destaque: roxo do logo `#62389C` (era o `#7439C6` do site) (no escuro, lilás `#B693F2` para contraste);
   texto secundário `#65527A`.
 - **Versão de 16/11 (pedido da Nina):** a cor principal como fundo, como no
-  post 05 final. Capa, slide 3 e convite em roxo `#7439C6`, com título branco,
+  post 05 final. Capa, slide 3 e convite em roxo do logo `#62389C`, com título branco,
   destaque lilás `#D9C8FA` e cartões/pílulas claros; slides 2 e 4 em lilás
   claro `#F2EDF7`. Capa sem imagem, com os quatro temas da formação em pílulas
   em linha abaixo do texto. Sem efeito de vidro.
 
 ## O que entrou em cada slide
 
-1. **Capa:** "Resultado doa a quem doer?" e "Formação para sua liderança em
-   neurociência, gestão humanizada, bem-estar e saúde mental" (topo do site).
+1. **Capa (versão de 16/11, pedido da Nina: dizer no primeiro segundo do que
+   se trata):** "Formação de líderes em saúde mental e bem-estar." Apoio:
+   "Cursos, workshops NR-1 e programas in company, com base em neurociência."
+   Tags com os públicos do site: RH e T&D, Líderes e gestores, Médicos e
+   SESMT. A frase do site "Resultado doa a quem doer?" saiu da capa.
 2. **O problema:** "A lacuna não está na intenção da empresa. Está na formação
    do gestor." A NR-1 exige capacitação em riscos psicossociais.
 3. **Programas:** os quatro formatos (cursos e palestras, workshops NR-1,
@@ -56,7 +59,6 @@ variáveis `--edu-*` da página da fairedu:
       Contrato de Trabalho". Usei o do site.
 - [ ] Confirmar a norma: o site cita ISO 45001 e NP 4590:2023; a apresentação
       cita ISO 45003. Nenhuma entrou no post.
-- [ ] Confirmar a frase da capa "Resultado doa a quem doer?" (é a do site).
 
 ## Arquivos
 
@@ -66,10 +68,3 @@ variáveis `--edu-*` da página da fairedu:
   (1080x1080), gerados por `canva/extrair.js`, `canva/montar-pptx.py` e
   `canva/quadrado.py`.
 
-## No Canva (16/11)
-
-Versão com a cor principal como fundo (a que vale):
-- Instagram 1080x1350: DAHbFFRyaVM, https://www.canva.com/d/dqUUvf6erwAKFUL
-- LinkedIn 1080x1080: DAHbFM6X3Qo, https://www.canva.com/d/SQMc8Zzg5hwkGW1
-
-Primeira versão (fundo claro e escuro, pode apagar): DAHbFHTrpzI e DAHbFLWkck8.

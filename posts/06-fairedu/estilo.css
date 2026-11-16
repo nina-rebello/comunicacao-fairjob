@@ -1,15 +1,15 @@
 /* Carrossel da fairedu (post 06): o mesmo template e a mesma tipografia dos posts 04
    (fairdata) e 05 (fairhealth), com a identidade da página da fairedu no site
    (variáveis --edu-*): fundo lilás quase branco, roxo quase preto no slide escuro,
-   roxo #7439C6 nos destaques e pílulas lilás. */
+   roxo #62389C nos destaques e pílulas lilás. */
 @font-face { font-family: "Instrument Serif"; font-style: italic; src: url(../assets/fonts/InstrumentSerif-Italic.ttf); }
 @page { size: 1080px 1350px; margin: 0; }
 
 :root {
   --creme: #FAF8FC;    /* fundo claro da página da fairedu (--edu-bg) */
   --tinta: #190E25;    /* roxo quase preto dos títulos do site */
-  --cinza: #7439C6;    /* roxo da fairedu: fundo do slide de virada */
-  --dourado: #7439C6;  /* destaque no fundo claro: roxo da fairedu (--edu-primary) */
+  --cinza: #62389C;    /* roxo da fairedu: fundo do slide de virada */
+  --dourado: #62389C;  /* destaque no fundo claro: roxo do logo da fairedu */
   --amarelo: #B693F2;  /* destaque no fundo escuro: lilás, para contraste */
   --selo: #F2EDF7;     /* lilás claro das superfícies do site (--edu-surface) */
 }
@@ -175,7 +175,7 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 .curto .botao { margin-top: 64px; font-size: 40px; }
 
 /* botão do convite, versão mais leve */
-.botao2 { display: inline-flex; align-items: center; gap: 22px; margin-top: 60px; padding: 18px 18px 18px 40px; border-radius: 999px; background: var(--dourado); color: #FFFFFF; font-size: 32px; font-weight: 600; letter-spacing: -.005em; box-shadow: 0 10px 24px rgba(116, 57, 198, .28); }
+.botao2 { display: inline-flex; align-items: center; gap: 22px; margin-top: 60px; padding: 18px 18px 18px 40px; border-radius: 999px; background: var(--dourado); color: #FFFFFF; font-size: 32px; font-weight: 600; letter-spacing: -.005em; box-shadow: 0 10px 24px rgba(98, 56, 156, .28); }
 .botao2 i { font-style: normal; display: inline-flex; align-items: center; justify-content: center; width: 58px; height: 58px; border-radius: 50%; background: #FFFFFF; color: var(--dourado); font-size: 30px; font-weight: 700; }
 
 /* frase de conclusão em destaque, logo abaixo do conteúdo (não no pé) */
@@ -210,7 +210,7 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
   font-size: 34px; font-weight: 700; letter-spacing: -.01em; color: #5A2BA0; white-space: nowrap;
   background: #F2EDF7; border: 2px solid #D5CAE2;
 }
-.vidro svg { width: 30px; height: 30px; flex: none; fill: #7439C6; }
+.vidro svg { width: 30px; height: 30px; flex: none; fill: #62389C; }
 
 /* cartões brancos com borda menta no fundo claro, como os da apresentação */
 .creme .caixa { background: #FFFFFF; border-color: #D5CAE2; border-radius: 14px; }

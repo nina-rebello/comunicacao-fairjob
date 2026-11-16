@@ -1,20 +1,20 @@
 [
  {
-  "fundo": "rgb(116, 57, 198)",
+  "fundo": "rgb(98, 56, 156)",
   "formas": [
    {
     "x": 96,
-    "y": 836.453125,
-    "w": 251.359375,
+    "y": 878.59375,
+    "w": 202.53125,
     "h": 64,
     "raio": 32,
     "fundo": "rgb(247, 243, 252)",
     "borda": null
    },
    {
-    "x": 365.359375,
-    "y": 836.453125,
-    "w": 330.359375,
+    "x": 316.53125,
+    "y": 878.59375,
+    "w": 311.671875,
     "h": 64,
     "raio": 32,
     "fundo": "rgb(247, 243, 252)",
@@ -22,17 +22,8 @@
    },
    {
     "x": 96,
-    "y": 918.453125,
-    "w": 218.5625,
-    "h": 64,
-    "raio": 32,
-    "fundo": "rgb(247, 243, 252)",
-    "borda": null
-   },
-   {
-    "x": 332.5625,
-    "y": 918.453125,
-    "w": 255.859375,
+    "y": 960.59375,
+    "w": 307.65625,
     "h": 64,
     "raio": 32,
     "fundo": "rgb(247, 243, 252)",
@@ -42,38 +33,31 @@
   "imagens": [
    {
     "x": 96,
-    "y": 405.546875,
+    "y": 363.421875,
     "w": 64,
     "h": 64,
     "src": "../assets/logos/fairedu.png"
    },
    {
     "x": 120,
-    "y": 856.453125,
+    "y": 898.59375,
     "w": 24,
     "h": 24,
     "icone": "0"
    },
    {
-    "x": 389.359375,
-    "y": 856.453125,
+    "x": 340.53125,
+    "y": 898.59375,
     "w": 24,
     "h": 24,
     "icone": "1"
    },
    {
     "x": 120,
-    "y": 938.453125,
+    "y": 980.59375,
     "w": 24,
     "h": 24,
     "icone": "2"
-   },
-   {
-    "x": 356.5625,
-    "y": 938.453125,
-    "w": 24,
-    "h": 24,
-    "icone": "3"
    }
   ],
   "textos": [
@@ -101,7 +85,7 @@
    },
    {
     "x": 178,
-    "y": 423.046875,
+    "y": 380.921875,
     "w": 323.765625,
     "h": 29,
     "linhas": 1,
@@ -123,17 +107,26 @@
    },
    {
     "x": 96,
-    "y": 485.546875,
-    "w": 711.8125,
-    "h": 188.265625,
-    "linhas": 2,
+    "y": 443.421875,
+    "w": 809.140625,
+    "h": 272.53125,
+    "linhas": 3,
     "larguraBloco": 888,
     "esquerdaBloco": 96,
     "alinhamento": "start",
     "entrelinha": 84.28,
     "runs": [
      {
-      "txt": "Resultado ",
+      "txt": "Formação de líderes",
+      "cor": "rgb(217, 200, 250)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 86,
+      "esp": -2.58
+     },
+     {
+      "txt": " em saúde mental ",
       "cor": "rgb(255, 255, 255)",
       "peso": "800",
       "italico": false,
@@ -142,8 +135,8 @@
       "esp": -2.58
      },
      {
-      "txt": "doa a quem doer?",
-      "cor": "rgb(217, 200, 250)",
+      "txt": "e bem-estar.",
+      "cor": "rgb(255, 255, 255)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -154,8 +147,8 @@
    },
    {
     "x": 96,
-    "y": 701.078125,
-    "w": 873.09375,
+    "y": 743.21875,
+    "w": 865.859375,
     "h": 86.1875,
     "linhas": 2,
     "larguraBloco": 888,
@@ -164,7 +157,7 @@
     "entrelinha": 46.2,
     "runs": [
      {
-      "txt": "Formação para a sua liderança em neurociência, gestão humanizada, bem-estar e saúde mental.",
+      "txt": "Cursos, workshops NR-1 e programas in company, com base em neurociência.",
       "cor": "rgb(238, 231, 251)",
       "peso": "400",
       "italico": false,
@@ -176,17 +169,17 @@
    },
    {
     "x": 158,
-    "y": 853.453125,
-    "w": 159.359375,
+    "y": 895.59375,
+    "w": 110.53125,
     "h": 30,
     "linhas": 1,
-    "larguraBloco": 159.359375,
+    "larguraBloco": 110.53125,
     "esquerdaBloco": 158,
     "alinhamento": "start",
     "entrelinha": 30,
     "runs": [
      {
-      "txt": "Neurociência",
+      "txt": "RH e T&D",
       "cor": "rgb(74, 34, 145)",
       "peso": "700",
       "italico": false,
@@ -197,18 +190,18 @@
     ]
    },
    {
-    "x": 427.359375,
-    "y": 853.453125,
-    "w": 238.359375,
+    "x": 378.53125,
+    "y": 895.59375,
+    "w": 219.671875,
     "h": 30,
     "linhas": 1,
-    "larguraBloco": 238.359375,
-    "esquerdaBloco": 427.359375,
+    "larguraBloco": 219.671875,
+    "esquerdaBloco": 378.53125,
     "alinhamento": "start",
     "entrelinha": 30,
     "runs": [
      {
-      "txt": "Gestão humanizada",
+      "txt": "Líderes e gestores",
       "cor": "rgb(74, 34, 145)",
       "peso": "700",
       "italico": false,
@@ -220,39 +213,17 @@
    },
    {
     "x": 158,
-    "y": 935.453125,
-    "w": 126.5625,
+    "y": 977.59375,
+    "w": 215.65625,
     "h": 30,
     "linhas": 1,
-    "larguraBloco": 126.5625,
+    "larguraBloco": 215.65625,
     "esquerdaBloco": 158,
     "alinhamento": "start",
     "entrelinha": 30,
     "runs": [
      {
-      "txt": "Bem-estar",
-      "cor": "rgb(74, 34, 145)",
-      "peso": "700",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 25,
-      "esp": -0.25
-     }
-    ]
-   },
-   {
-    "x": 394.5625,
-    "y": 935.453125,
-    "w": 163.859375,
-    "h": 30,
-    "linhas": 1,
-    "larguraBloco": 163.859375,
-    "esquerdaBloco": 394.5625,
-    "alinhamento": "start",
-    "entrelinha": 30,
-    "runs": [
-     {
-      "txt": "Saúde mental",
+      "txt": "Médicos e SESMT",
       "cor": "rgb(74, 34, 145)",
       "peso": "700",
       "italico": false,
@@ -273,7 +244,7 @@
     "w": 6,
     "h": 278.71875,
     "raio": 0,
-    "fundo": "rgb(116, 57, 198)",
+    "fundo": "rgb(98, 56, 156)",
     "borda": null
    }
   ],
@@ -314,7 +285,7 @@
     "runs": [
      {
       "txt": "O PROBLEMA",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -345,7 +316,7 @@
      },
      {
       "txt": "formação do gestor.",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -398,7 +369,7 @@
      },
      {
       "txt": "NR-1",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -441,7 +412,7 @@
   ]
  },
  {
-  "fundo": "rgb(116, 57, 198)",
+  "fundo": "rgb(98, 56, 156)",
   "formas": [
    {
     "x": 96,
@@ -579,7 +550,7 @@
     "runs": [
      {
       "txt": "01",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -601,7 +572,7 @@
     "runs": [
      {
       "txt": "CURSOS E PALESTRAS",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -645,7 +616,7 @@
     "runs": [
      {
       "txt": "02",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -667,7 +638,7 @@
     "runs": [
      {
       "txt": "WORKSHOPS NR-1",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -711,7 +682,7 @@
     "runs": [
      {
       "txt": "03",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -733,7 +704,7 @@
     "runs": [
      {
       "txt": "PROGRAMAS INTEGRADOS",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -777,7 +748,7 @@
     "runs": [
      {
       "txt": "04",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -799,7 +770,7 @@
     "runs": [
      {
       "txt": "EXPERIÊNCIAS",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -980,7 +951,7 @@
     "runs": [
      {
       "txt": "CURSOS IN COMPANY",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1011,7 +982,7 @@
      },
      {
       "txt": "40 horas",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1064,7 +1035,7 @@
     "runs": [
      {
       "txt": "01",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1130,7 +1101,7 @@
     "runs": [
      {
       "txt": "02",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1196,7 +1167,7 @@
     "runs": [
      {
       "txt": "03",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1262,7 +1233,7 @@
     "runs": [
      {
       "txt": "04",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1328,7 +1299,7 @@
     "runs": [
      {
       "txt": "05",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1394,7 +1365,7 @@
     "runs": [
      {
       "txt": "06",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(98, 56, 156)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1450,7 +1421,7 @@
   ]
  },
  {
-  "fundo": "rgb(116, 57, 198)",
+  "fundo": "rgb(98, 56, 156)",
   "formas": [
    {
     "x": 96,
