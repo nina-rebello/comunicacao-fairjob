@@ -28,14 +28,16 @@ variáveis `--edu-*` da página da fairedu:
 
 ## O que entrou em cada slide
 
-1. **Capa (isca, 16/11, pedido da Nina):** "Liderança que não entende saúde
-   mental não gere bem-estar. Gera risco." É a frase da fairedu da voice.md
-   (posição 8): a pessoa que lidera se reconhece no primeiro segundo. A marca
-   vem no rótulo ("Fairedu · Educação executiva") e o ciclo da FairJob (Medir,
-   Cuidar, Conscientizar, Comprovar) fica em pílulas, com "Conscientizar" em
-   destaque. A definição do site ("Formação para sua liderança em
-   neurociência, gestão humanizada, bem-estar e saúde mental") saiu da capa e
-   está na legenda e no slide 3.
+1. **Capa (16/11, textos da Nina):**
+   - título: "Formação para sua liderança em neurociência, gestão humanizada,
+     bem-estar e saúde mental." (definição da apresentação comercial);
+   - subtítulo: "Seus gestores querem cuidar do time. Ninguém ensinou como.";
+   - chamada: "A lacuna não está na intenção da empresa. Está na formação do
+     gestor." (frase do site);
+   - ciclo "Medir. Cuidar. Conscientizar. Comprovar." numa pílula clara.
+   No Canva, o ciclo ficou numa pílula só (sem "Conscientizar" em destaque):
+   o Canva não deixa adicionar texto na fonte do design, então os textos novos
+   reaproveitam as caixas das pílulas antigas.
 2. **O problema:** "A lacuna não está na intenção da empresa. Está na formação
    do gestor." A NR-1 exige capacitação em riscos psicossociais.
 3. **Programas:** os quatro formatos (cursos e palestras, workshops NR-1,
@@ -75,7 +77,7 @@ variáveis `--edu-*` da página da fairedu:
 
 ## No Canva (16/11)
 
-Versão que vale (capa com a definição e o ciclo, um roxo só):
+Versão que vale (mesmos links, capa editada no próprio design):
 - Instagram 1080x1350: DAHbFAH8s-o, https://www.canva.com/d/n-7dxMa_aucF_YO
 - LinkedIn 1080x1080: DAHbFCUGTTM, https://www.canva.com/d/FeRYBShoOUAnxd3
 

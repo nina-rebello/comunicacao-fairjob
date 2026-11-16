@@ -4,45 +4,27 @@
   "formas": [
    {
     "x": 96,
-    "y": 889.03125,
-    "w": 126.90625,
-    "h": 62,
-    "raio": 31,
-    "fundo": "rgba(255, 255, 255, 0.16)",
+    "y": 853.09375,
+    "w": 5,
+    "h": 78,
+    "raio": 0,
+    "fundo": "rgb(208, 195, 225)",
     "borda": null
    },
    {
-    "x": 236.90625,
-    "y": 889.03125,
-    "w": 137.296875,
-    "h": 62,
-    "raio": 31,
-    "fundo": "rgba(255, 255, 255, 0.16)",
-    "borda": null
-   },
-   {
-    "x": 388.203125,
-    "y": 889.03125,
-    "w": 226.28125,
+    "x": 96,
+    "y": 987.09375,
+    "w": 601.421875,
     "h": 62,
     "raio": 31,
     "fundo": "rgb(250, 249, 252)",
-    "borda": null
-   },
-   {
-    "x": 628.484375,
-    "y": 889.03125,
-    "w": 192.296875,
-    "h": 62,
-    "raio": 31,
-    "fundo": "rgba(255, 255, 255, 0.16)",
     "borda": null
    }
   ],
   "imagens": [
    {
     "x": 96,
-    "y": 436.96875,
+    "y": 338.90625,
     "w": 64,
     "h": 64,
     "src": "../assets/logos/fairedu.png"
@@ -73,7 +55,7 @@
    },
    {
     "x": 178,
-    "y": 454.46875,
+    "y": 356.40625,
     "w": 468.953125,
     "h": 29,
     "linhas": 1,
@@ -95,128 +77,124 @@
    },
    {
     "x": 96,
-    "y": 518.96875,
-    "w": 788.59375,
-    "h": 324.546875,
+    "y": 422.90625,
+    "w": 859.015625,
+    "h": 276.640625,
     "linhas": 4,
     "larguraBloco": 888,
     "esquerdaBloco": 96,
     "alinhamento": "start",
-    "entrelinha": 77.52,
+    "entrelinha": 66.56,
     "runs": [
      {
-      "txt": "Liderança que não entende saúde mental",
+      "txt": "Formação para sua liderança",
       "cor": "rgb(208, 195, 225)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
-      "tam": 76,
-      "esp": -2.28
+      "tam": 64,
+      "esp": -1.92
      },
      {
-      "txt": " não gere bem-estar.",
+      "txt": " em neurociência, gestão humanizada, ",
       "cor": "rgb(255, 255, 255)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
-      "tam": 76,
-      "esp": -2.28
+      "tam": 64,
+      "esp": -1.92
      },
      {
-      "txt": "Gera risco.",
+      "txt": "bem-estar",
       "cor": "rgb(255, 255, 255)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
-      "tam": 76,
-      "esp": -2.28
+      "tam": 64,
+      "esp": -1.92
+     },
+     {
+      "txt": " e saúde mental.",
+      "cor": "rgb(255, 255, 255)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 64,
+      "esp": -1.92
      }
     ]
    },
    {
-    "x": 124,
-    "y": 905.03125,
-    "w": 70.90625,
-    "h": 30,
-    "linhas": 1,
-    "larguraBloco": 70.90625,
+    "x": 96,
+    "y": 727.09375,
+    "w": 723.421875,
+    "h": 95,
+    "linhas": 2,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 46,
+    "runs": [
+     {
+      "txt": "Seus gestores querem cuidar do time. Ninguém ensinou como.",
+      "cor": "rgb(255, 255, 255)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 40,
+      "esp": -0.4
+     }
+    ]
+   },
+   {
+    "x": 129,
+    "y": 854.09375,
+    "w": 609.546875,
+    "h": 75,
+    "linhas": 2,
+    "larguraBloco": 860,
     "esquerdaBloco": 124,
     "alinhamento": "start",
-    "entrelinha": 30,
+    "entrelinha": 39,
     "runs": [
      {
-      "txt": "Medir",
-      "cor": "rgb(227, 219, 237)",
-      "peso": "700",
+      "txt": "A lacuna não está na intenção da empresa.",
+      "cor": "rgb(208, 195, 225)",
+      "peso": "400",
       "italico": false,
       "fonte": "Inter, sans-serif",
-      "tam": 25,
+      "tam": 30,
+      "esp": 0
+     },
+     {
+      "txt": "Está na formação do gestor.",
+      "cor": "rgb(208, 195, 225)",
+      "peso": "400",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 30,
       "esp": 0
      }
     ]
    },
    {
-    "x": 264.90625,
-    "y": 905.03125,
-    "w": 81.296875,
-    "h": 30,
+    "x": 136,
+    "y": 1002.59375,
+    "w": 521.421875,
+    "h": 31,
     "linhas": 1,
-    "larguraBloco": 81.296875,
-    "esquerdaBloco": 264.90625,
+    "larguraBloco": 521.421875,
+    "esquerdaBloco": 136,
     "alinhamento": "start",
-    "entrelinha": 30,
+    "entrelinha": 31.2,
     "runs": [
      {
-      "txt": "Cuidar",
-      "cor": "rgb(227, 219, 237)",
-      "peso": "700",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 25,
-      "esp": 0
-     }
-    ]
-   },
-   {
-    "x": 416.203125,
-    "y": 905.03125,
-    "w": 170.28125,
-    "h": 30,
-    "linhas": 1,
-    "larguraBloco": 170.28125,
-    "esquerdaBloco": 416.203125,
-    "alinhamento": "start",
-    "entrelinha": 30,
-    "runs": [
-     {
-      "txt": "Conscientizar",
+      "txt": "Medir. Cuidar. Conscientizar. Comprovar.",
       "cor": "rgb(98, 56, 156)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
-      "tam": 25,
-      "esp": 0
-     }
-    ]
-   },
-   {
-    "x": 656.484375,
-    "y": 905.03125,
-    "w": 136.296875,
-    "h": 30,
-    "linhas": 1,
-    "larguraBloco": 136.296875,
-    "esquerdaBloco": 656.484375,
-    "alinhamento": "start",
-    "entrelinha": 30,
-    "runs": [
-     {
-      "txt": "Comprovar",
-      "cor": "rgb(227, 219, 237)",
-      "peso": "700",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 25,
+      "tam": 26,
       "esp": 0
      }
     ]
