@@ -62,3 +62,8 @@ variáveis `--edu-*` da página da fairedu:
 - `carrossel-5-canva.pptx` (1080x1350) e `carrossel-5-linkedin-1080.pptx`
   (1080x1080), gerados por `canva/extrair.js`, `canva/montar-pptx.py` e
   `canva/quadrado.py`.
+
+## No Canva (16/11)
+
+- Instagram 1080x1350: DAHbFHTrpzI, https://www.canva.com/d/CXe5d00VFMgKDNA
+- LinkedIn 1080x1080: DAHbFLWkck8, https://www.canva.com/d/kj-UbdQ5Z_RvafN
