@@ -231,3 +231,27 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 .curto .lista.seis h3 { font-size: 35px; }
 .curto .lista.seis p { font-size: 26px; margin-top: 4px; }
 .curto .texto.menor { font-size: 32px; margin-top: 30px; }
+
+/* versão 16/11: a cor principal como fundo (capa, slide 3 e convite), como no post 05 final */
+.cor { background: var(--dourado); color: #FFFFFF; --dest: #D9C8FA; --texto2: #EEE7FB; --linha: rgba(255, 255, 255, .3); }
+.cor .rotulo, .cor .topo { color: #E9DFFC; }
+.claro { background: var(--selo); color: var(--tinta); --dest: var(--dourado); --texto2: #65527A; --linha: rgba(25, 14, 37, .14); }
+.claro .destaque .forte { color: var(--tinta); }
+
+/* capa: bloco no meio do slide, com as pílulas em linha abaixo do texto */
+.capa .meio { margin: auto 0; }
+.pilulas { display: flex; flex-wrap: wrap; gap: 18px 18px; margin-top: 46px; max-width: 800px; }
+.pilulas .vidro { position: static; height: 64px; padding: 0 30px 0 24px; gap: 14px; font-size: 25px; font-weight: 700; background: #F7F3FC; border: 0; color: #4A2291; }
+.pilulas .vidro svg { width: 24px; height: 24px; fill: var(--dourado); }
+
+/* cartões brancos sobre a cor */
+.cor .caixa { background: #FBF9FE; border: 0; border-radius: 16px; color: var(--tinta); }
+.cor .caixa .n, .cor .caixa h3 { color: var(--dourado); }
+.cor .conclusao p { color: var(--texto2); }
+.cor .conclusao .pergunta { font-family: "Inter", sans-serif; font-style: normal; font-weight: 700; font-size: 38px; color: #FFFFFF; margin-bottom: 10px; }
+
+/* convite sobre a cor: botão escuro */
+.cor .botao2 { background: var(--tinta); box-shadow: none; }
+.cor .botao2 i { color: var(--tinta); }
+.cor .contato small { color: #E9DFFC; }
+.cor .assinatura { color: #FFFFFF; }

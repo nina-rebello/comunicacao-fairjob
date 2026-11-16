@@ -1,91 +1,79 @@
 [
  {
-  "fundo": "rgb(250, 248, 252)",
+  "fundo": "rgb(116, 57, 198)",
   "formas": [
    {
     "x": 96,
-    "y": 230,
-    "w": 340.734375,
-    "h": 84,
-    "raio": 42,
-    "fundo": "rgb(242, 237, 247)",
-    "borda": {
-     "w": 2,
-     "c": "rgb(213, 202, 226)"
-    }
+    "y": 836.453125,
+    "w": 251.359375,
+    "h": 64,
+    "raio": 32,
+    "fundo": "rgb(247, 243, 252)",
+    "borda": null
    },
    {
-    "x": 246,
-    "y": 380,
-    "w": 448.171875,
-    "h": 84,
-    "raio": 42,
-    "fundo": "rgb(242, 237, 247)",
-    "borda": {
-     "w": 2,
-     "c": "rgb(213, 202, 226)"
-    }
+    "x": 365.359375,
+    "y": 836.453125,
+    "w": 330.359375,
+    "h": 64,
+    "raio": 32,
+    "fundo": "rgb(247, 243, 252)",
+    "borda": null
    },
    {
-    "x": 396,
-    "y": 530,
-    "w": 296.125,
-    "h": 84,
-    "raio": 42,
-    "fundo": "rgb(242, 237, 247)",
-    "borda": {
-     "w": 2,
-     "c": "rgb(213, 202, 226)"
-    }
+    "x": 96,
+    "y": 918.453125,
+    "w": 218.5625,
+    "h": 64,
+    "raio": 32,
+    "fundo": "rgb(247, 243, 252)",
+    "borda": null
    },
    {
-    "x": 546,
-    "y": 680,
-    "w": 346.859375,
-    "h": 84,
-    "raio": 42,
-    "fundo": "rgb(242, 237, 247)",
-    "borda": {
-     "w": 2,
-     "c": "rgb(213, 202, 226)"
-    }
+    "x": 332.5625,
+    "y": 918.453125,
+    "w": 255.859375,
+    "h": 64,
+    "raio": 32,
+    "fundo": "rgb(247, 243, 252)",
+    "borda": null
    }
   ],
   "imagens": [
    {
-    "x": 130,
-    "y": 257,
-    "w": 30,
-    "h": 30,
-    "icone": "0"
-   },
-   {
-    "x": 280,
-    "y": 407,
-    "w": 30,
-    "h": 30,
-    "icone": "1"
-   },
-   {
-    "x": 430,
-    "y": 557,
-    "w": 30,
-    "h": 30,
-    "icone": "2"
-   },
-   {
-    "x": 580,
-    "y": 707,
-    "w": 30,
-    "h": 30,
-    "icone": "3"
-   },
-   {
     "x": 96,
-    "y": 853.09375,
+    "y": 405.546875,
     "w": 64,
     "h": 64,
     "src": "../assets/logos/fairedu.png"
+   },
+   {
+    "x": 120,
+    "y": 856.453125,
+    "w": 24,
+    "h": 24,
+    "icone": "0"
+   },
+   {
+    "x": 389.359375,
+    "y": 856.453125,
+    "w": 24,
+    "h": 24,
+    "icone": "1"
+   },
+   {
+    "x": 120,
+    "y": 938.453125,
+    "w": 24,
+    "h": 24,
+    "icone": "2"
+   },
+   {
+    "x": 356.5625,
+    "y": 938.453125,
+    "w": 24,
+    "h": 24,
+    "icone": "3"
    }
   ],
   "textos": [
@@ -102,7 +90,7 @@
     "runs": [
      {
       "txt": "@fairjob.br",
-      "cor": "rgb(101, 82, 122)",
+      "cor": "rgb(233, 223, 252)",
       "peso": "600",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -113,95 +101,7 @@
    },
    {
     "x": 178,
-    "y": 251.5,
-    "w": 216.734375,
-    "h": 41,
-    "linhas": 1,
-    "larguraBloco": 216.734375,
-    "esquerdaBloco": 178,
-    "alinhamento": "start",
-    "entrelinha": 40.8,
-    "runs": [
-     {
-      "txt": "Neurociência",
-      "cor": "rgb(90, 43, 160)",
-      "peso": "700",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 34,
-      "esp": -0.34
-     }
-    ]
-   },
-   {
-    "x": 328,
-    "y": 401.5,
-    "w": 324.171875,
-    "h": 41,
-    "linhas": 1,
-    "larguraBloco": 324.171875,
-    "esquerdaBloco": 328,
-    "alinhamento": "start",
-    "entrelinha": 40.8,
-    "runs": [
-     {
-      "txt": "Gestão humanizada",
-      "cor": "rgb(90, 43, 160)",
-      "peso": "700",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 34,
-      "esp": -0.34
-     }
-    ]
-   },
-   {
-    "x": 478,
-    "y": 551.5,
-    "w": 172.125,
-    "h": 41,
-    "linhas": 1,
-    "larguraBloco": 172.125,
-    "esquerdaBloco": 478,
-    "alinhamento": "start",
-    "entrelinha": 40.8,
-    "runs": [
-     {
-      "txt": "Bem-estar",
-      "cor": "rgb(90, 43, 160)",
-      "peso": "700",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 34,
-      "esp": -0.34
-     }
-    ]
-   },
-   {
-    "x": 628,
-    "y": 701.5,
-    "w": 222.859375,
-    "h": 41,
-    "linhas": 1,
-    "larguraBloco": 222.859375,
-    "esquerdaBloco": 628,
-    "alinhamento": "start",
-    "entrelinha": 40.8,
-    "runs": [
-     {
-      "txt": "Saúde mental",
-      "cor": "rgb(90, 43, 160)",
-      "peso": "700",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 34,
-      "esp": -0.34
-     }
-    ]
-   },
-   {
-    "x": 178,
-    "y": 870.59375,
+    "y": 423.046875,
     "w": 323.765625,
     "h": 29,
     "linhas": 1,
@@ -212,7 +112,7 @@
     "runs": [
      {
       "txt": "EDUCAÇÃO EXECUTIVA",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(233, 223, 252)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -223,7 +123,7 @@
    },
    {
     "x": 96,
-    "y": 933.09375,
+    "y": 485.546875,
     "w": 711.8125,
     "h": 188.265625,
     "linhas": 2,
@@ -234,7 +134,7 @@
     "runs": [
      {
       "txt": "Resultado ",
-      "cor": "rgb(25, 14, 37)",
+      "cor": "rgb(255, 255, 255)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -242,8 +142,8 @@
       "esp": -2.58
      },
      {
-      "txt": "doa a quem doer?",
-      "cor": "rgb(116, 57, 198)",
+      "txt": "doa a quem doer?",
+      "cor": "rgb(217, 200, 250)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -254,7 +154,7 @@
    },
    {
     "x": 96,
-    "y": 1148.625,
+    "y": 701.078125,
     "w": 873.09375,
     "h": 86.1875,
     "linhas": 2,
@@ -265,7 +165,7 @@
     "runs": [
      {
       "txt": "Formação para a sua liderança em neurociência, gestão humanizada, bem-estar e saúde mental.",
-      "cor": "rgb(101, 82, 122)",
+      "cor": "rgb(238, 231, 251)",
       "peso": "400",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -273,11 +173,99 @@
       "esp": 0
      }
     ]
+   },
+   {
+    "x": 158,
+    "y": 853.453125,
+    "w": 159.359375,
+    "h": 30,
+    "linhas": 1,
+    "larguraBloco": 159.359375,
+    "esquerdaBloco": 158,
+    "alinhamento": "start",
+    "entrelinha": 30,
+    "runs": [
+     {
+      "txt": "Neurociência",
+      "cor": "rgb(74, 34, 145)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 25,
+      "esp": -0.25
+     }
+    ]
+   },
+   {
+    "x": 427.359375,
+    "y": 853.453125,
+    "w": 238.359375,
+    "h": 30,
+    "linhas": 1,
+    "larguraBloco": 238.359375,
+    "esquerdaBloco": 427.359375,
+    "alinhamento": "start",
+    "entrelinha": 30,
+    "runs": [
+     {
+      "txt": "Gestão humanizada",
+      "cor": "rgb(74, 34, 145)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 25,
+      "esp": -0.25
+     }
+    ]
+   },
+   {
+    "x": 158,
+    "y": 935.453125,
+    "w": 126.5625,
+    "h": 30,
+    "linhas": 1,
+    "larguraBloco": 126.5625,
+    "esquerdaBloco": 158,
+    "alinhamento": "start",
+    "entrelinha": 30,
+    "runs": [
+     {
+      "txt": "Bem-estar",
+      "cor": "rgb(74, 34, 145)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 25,
+      "esp": -0.25
+     }
+    ]
+   },
+   {
+    "x": 394.5625,
+    "y": 935.453125,
+    "w": 163.859375,
+    "h": 30,
+    "linhas": 1,
+    "larguraBloco": 163.859375,
+    "esquerdaBloco": 394.5625,
+    "alinhamento": "start",
+    "entrelinha": 30,
+    "runs": [
+     {
+      "txt": "Saúde mental",
+      "cor": "rgb(74, 34, 145)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 25,
+      "esp": -0.25
+     }
+    ]
    }
   ]
  },
  {
-  "fundo": "rgb(25, 14, 37)",
+  "fundo": "rgb(242, 237, 247)",
   "formas": [
    {
     "x": 96,
@@ -285,7 +273,7 @@
     "w": 6,
     "h": 278.71875,
     "raio": 0,
-    "fundo": "rgb(182, 147, 242)",
+    "fundo": "rgb(116, 57, 198)",
     "borda": null
    }
   ],
@@ -304,7 +292,7 @@
     "runs": [
      {
       "txt": "@fairjob.br",
-      "cor": "rgb(195, 181, 214)",
+      "cor": "rgb(101, 82, 122)",
       "peso": "600",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -326,7 +314,7 @@
     "runs": [
      {
       "txt": "O PROBLEMA",
-      "cor": "rgb(182, 147, 242)",
+      "cor": "rgb(116, 57, 198)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -348,7 +336,7 @@
     "runs": [
      {
       "txt": "A lacuna está na ",
-      "cor": "rgb(247, 243, 252)",
+      "cor": "rgb(25, 14, 37)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -357,7 +345,7 @@
      },
      {
       "txt": "formação do gestor.",
-      "cor": "rgb(182, 147, 242)",
+      "cor": "rgb(116, 57, 198)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -379,7 +367,7 @@
     "runs": [
      {
       "txt": "Engajamento que não se sustenta. Talentos que saem sem explicação clara. Riscos psicossociais invisíveis, até virar afastamento.",
-      "cor": "rgb(195, 181, 214)",
+      "cor": "rgb(101, 82, 122)",
       "peso": "400",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -401,7 +389,7 @@
     "runs": [
      {
       "txt": "A ",
-      "cor": "rgb(247, 243, 252)",
+      "cor": "rgb(25, 14, 37)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -410,7 +398,7 @@
      },
      {
       "txt": "NR-1",
-      "cor": "rgb(182, 147, 242)",
+      "cor": "rgb(116, 57, 198)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -419,7 +407,7 @@
      },
      {
       "txt": " agora exige capacitação em riscos psicossociais.",
-      "cor": "rgb(247, 243, 252)",
+      "cor": "rgb(25, 14, 37)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -441,7 +429,7 @@
     "runs": [
      {
       "txt": "A maioria dos gestores não tem essa formação. E a maioria dos treinamentos é genérica, sem base científica.",
-      "cor": "rgb(195, 181, 214)",
+      "cor": "rgb(101, 82, 122)",
       "peso": "400",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -453,59 +441,501 @@
   ]
  },
  {
-  "fundo": "rgb(250, 248, 252)",
+  "fundo": "rgb(116, 57, 198)",
   "formas": [
    {
     "x": 96,
     "y": 429,
     "w": 432,
-    "h": 357.875,
-    "raio": 14,
-    "fundo": "rgb(255, 255, 255)",
-    "borda": {
-     "w": 1,
-     "c": "rgb(213, 202, 226)"
-    }
+    "h": 314.28125,
+    "raio": 16,
+    "fundo": "rgb(251, 249, 254)",
+    "borda": null
    },
    {
     "x": 552,
     "y": 429,
     "w": 432,
-    "h": 357.875,
-    "raio": 14,
-    "fundo": "rgb(255, 255, 255)",
-    "borda": {
-     "w": 1,
-     "c": "rgb(213, 202, 226)"
-    }
+    "h": 314.28125,
+    "raio": 16,
+    "fundo": "rgb(251, 249, 254)",
+    "borda": null
    },
    {
     "x": 96,
-    "y": 810.875,
+    "y": 767.28125,
     "w": 432,
-    "h": 316.28125,
-    "raio": 14,
-    "fundo": "rgb(255, 255, 255)",
-    "borda": {
-     "w": 1,
-     "c": "rgb(213, 202, 226)"
-    }
+    "h": 314.28125,
+    "raio": 16,
+    "fundo": "rgb(251, 249, 254)",
+    "borda": null
    },
    {
     "x": 552,
-    "y": 810.875,
+    "y": 767.28125,
     "w": 432,
-    "h": 316.28125,
-    "raio": 14,
-    "fundo": "rgb(255, 255, 255)",
-    "borda": {
-     "w": 1,
-     "c": "rgb(213, 202, 226)"
-    }
+    "h": 314.28125,
+    "raio": 16,
+    "fundo": "rgb(251, 249, 254)",
+    "borda": null
    },
    {
     "x": 96,
-    "y": 1179.15625,
+    "y": 1133.5625,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(255, 255, 255, 0.3)",
+    "borda": null
+   }
+  ],
+  "imagens": [],
+  "textos": [
+   {
+    "x": 96,
+    "y": 52,
+    "w": 124.796875,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 124.796875,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 26.4,
+    "runs": [
+     {
+      "txt": "@fairjob.br",
+      "cor": "rgb(233, 223, 252)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 0.44
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 150,
+    "w": 178.734375,
+    "h": 29,
+    "linhas": 1,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 28.799999999999997,
+    "runs": [
+     {
+      "txt": "PROGRAMAS",
+      "cor": "rgb(233, 223, 252)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 24,
+      "esp": 2.4
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 196,
+    "w": 668.765625,
+    "h": 185,
+    "linhas": 2,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 84,
+    "runs": [
+     {
+      "txt": "Quatro formatos. ",
+      "cor": "rgb(255, 255, 255)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 84,
+      "esp": -2.52
+     },
+     {
+      "txt": "Um objetivo.",
+      "cor": "rgb(217, 200, 250)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 84,
+      "esp": -2.52
+     }
+    ]
+   },
+   {
+    "x": 128,
+    "y": 457,
+    "w": 64.40625,
+    "h": 72,
+    "linhas": 1,
+    "larguraBloco": 368,
+    "esquerdaBloco": 128,
+    "alinhamento": "start",
+    "entrelinha": 60,
+    "runs": [
+     {
+      "txt": "01",
+      "cor": "rgb(116, 57, 198)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 60,
+      "esp": -1.8
+     }
+    ]
+   },
+   {
+    "x": 128,
+    "y": 541,
+    "w": 277.875,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 368,
+    "esquerdaBloco": 128,
+    "alinhamento": "start",
+    "entrelinha": 27.5,
+    "runs": [
+     {
+      "txt": "CURSOS E PALESTRAS",
+      "cor": "rgb(116, 57, 198)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 1.76
+     }
+    ]
+   },
+   {
+    "x": 128,
+    "y": 583.5,
+    "w": 334.6875,
+    "h": 122.1875,
+    "linhas": 3,
+    "larguraBloco": 368,
+    "esquerdaBloco": 128,
+    "alinhamento": "start",
+    "entrelinha": 41.6,
+    "runs": [
+     {
+      "txt": "Neurociência e saúde mental, com base científica.",
+      "cor": "rgb(25, 14, 37)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 584,
+    "y": 457,
+    "w": 76.1875,
+    "h": 72,
+    "linhas": 1,
+    "larguraBloco": 368,
+    "esquerdaBloco": 584,
+    "alinhamento": "start",
+    "entrelinha": 60,
+    "runs": [
+     {
+      "txt": "02",
+      "cor": "rgb(116, 57, 198)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 60,
+      "esp": -1.8
+     }
+    ]
+   },
+   {
+    "x": 584,
+    "y": 541,
+    "w": 227.9375,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 368,
+    "esquerdaBloco": 584,
+    "alinhamento": "start",
+    "entrelinha": 27.5,
+    "runs": [
+     {
+      "txt": "WORKSHOPS NR-1",
+      "cor": "rgb(116, 57, 198)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 1.76
+     }
+    ]
+   },
+   {
+    "x": 584,
+    "y": 583.5,
+    "w": 330.171875,
+    "h": 122.1875,
+    "linhas": 3,
+    "larguraBloco": 368,
+    "esquerdaBloco": 584,
+    "alinhamento": "start",
+    "entrelinha": 41.6,
+    "runs": [
+     {
+      "txt": "Riscos psicossociais, com documentação para o PGR.",
+      "cor": "rgb(25, 14, 37)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 128,
+    "y": 795.28125,
+    "w": 77.328125,
+    "h": 72,
+    "linhas": 1,
+    "larguraBloco": 368,
+    "esquerdaBloco": 128,
+    "alinhamento": "start",
+    "entrelinha": 60,
+    "runs": [
+     {
+      "txt": "03",
+      "cor": "rgb(116, 57, 198)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 60,
+      "esp": -1.8
+     }
+    ]
+   },
+   {
+    "x": 128,
+    "y": 879.28125,
+    "w": 332.625,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 368,
+    "esquerdaBloco": 128,
+    "alinhamento": "start",
+    "entrelinha": 27.5,
+    "runs": [
+     {
+      "txt": "PROGRAMAS INTEGRADOS",
+      "cor": "rgb(116, 57, 198)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 1.76
+     }
+    ]
+   },
+   {
+    "x": 128,
+    "y": 921.78125,
+    "w": 338.421875,
+    "h": 80.59375,
+    "linhas": 2,
+    "larguraBloco": 368,
+    "esquerdaBloco": 128,
+    "alinhamento": "start",
+    "entrelinha": 41.6,
+    "runs": [
+     {
+      "txt": "Trilhas com os dados reais da sua empresa.",
+      "cor": "rgb(25, 14, 37)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 584,
+    "y": 795.28125,
+    "w": 79.234375,
+    "h": 72,
+    "linhas": 1,
+    "larguraBloco": 368,
+    "esquerdaBloco": 584,
+    "alinhamento": "start",
+    "entrelinha": 60,
+    "runs": [
+     {
+      "txt": "04",
+      "cor": "rgb(116, 57, 198)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 60,
+      "esp": -1.8
+     }
+    ]
+   },
+   {
+    "x": 584,
+    "y": 879.28125,
+    "w": 183.78125,
+    "h": 26,
+    "linhas": 1,
+    "larguraBloco": 368,
+    "esquerdaBloco": 584,
+    "alinhamento": "start",
+    "entrelinha": 27.5,
+    "runs": [
+     {
+      "txt": "EXPERIÊNCIAS",
+      "cor": "rgb(116, 57, 198)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 22,
+      "esp": 1.76
+     }
+    ]
+   },
+   {
+    "x": 584,
+    "y": 921.78125,
+    "w": 302,
+    "h": 122.1875,
+    "linhas": 3,
+    "larguraBloco": 368,
+    "esquerdaBloco": 584,
+    "alinhamento": "start",
+    "entrelinha": 41.6,
+    "runs": [
+     {
+      "txt": "Arte e neurociência para mudar a percepção.",
+      "cor": "rgb(25, 14, 37)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 32,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 1161.5625,
+    "w": 725.3125,
+    "h": 46,
+    "linhas": 1,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 41.8,
+    "runs": [
+     {
+      "txt": "Transformar conhecimento em cultura.",
+      "cor": "rgb(255, 255, 255)",
+      "peso": "700",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 38,
+      "esp": 0
+     }
+    ]
+   },
+   {
+    "x": 96,
+    "y": 1218.359375,
+    "w": 651.46875,
+    "h": 41,
+    "linhas": 1,
+    "larguraBloco": 888,
+    "esquerdaBloco": 96,
+    "alinhamento": "start",
+    "entrelinha": 46.92,
+    "runs": [
+     {
+      "txt": "O dado muda quando a liderança muda.",
+      "cor": "rgb(238, 231, 251)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 34,
+      "esp": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "fundo": "rgb(242, 237, 247)",
+  "formas": [
+   {
+    "x": 96,
+    "y": 531.3125,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(25, 14, 37, 0.14)",
+    "borda": null
+   },
+   {
+    "x": 96,
+    "y": 654.1875,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(25, 14, 37, 0.14)",
+    "borda": null
+   },
+   {
+    "x": 96,
+    "y": 777.0625,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(25, 14, 37, 0.14)",
+    "borda": null
+   },
+   {
+    "x": 96,
+    "y": 899.9375,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(25, 14, 37, 0.14)",
+    "borda": null
+   },
+   {
+    "x": 96,
+    "y": 1022.8125,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(25, 14, 37, 0.14)",
+    "borda": null
+   },
+   {
+    "x": 96,
+    "y": 1145.6875,
+    "w": 888,
+    "h": 1,
+    "raio": 0,
+    "fundo": "rgba(25, 14, 37, 0.14)",
+    "borda": null
+   },
+   {
+    "x": 96,
+    "y": 1268.5625,
     "w": 888,
     "h": 1,
     "raio": 0,
@@ -540,478 +970,6 @@
    {
     "x": 96,
     "y": 150,
-    "w": 178.734375,
-    "h": 29,
-    "linhas": 1,
-    "larguraBloco": 888,
-    "esquerdaBloco": 96,
-    "alinhamento": "start",
-    "entrelinha": 28.799999999999997,
-    "runs": [
-     {
-      "txt": "PROGRAMAS",
-      "cor": "rgb(116, 57, 198)",
-      "peso": "700",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 24,
-      "esp": 2.4
-     }
-    ]
-   },
-   {
-    "x": 96,
-    "y": 196,
-    "w": 668.765625,
-    "h": 185,
-    "linhas": 2,
-    "larguraBloco": 888,
-    "esquerdaBloco": 96,
-    "alinhamento": "start",
-    "entrelinha": 84,
-    "runs": [
-     {
-      "txt": "Quatro formatos. ",
-      "cor": "rgb(25, 14, 37)",
-      "peso": "800",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 84,
-      "esp": -2.52
-     },
-     {
-      "txt": "Um objetivo.",
-      "cor": "rgb(116, 57, 198)",
-      "peso": "800",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 84,
-      "esp": -2.52
-     }
-    ]
-   },
-   {
-    "x": 129,
-    "y": 458,
-    "w": 64.40625,
-    "h": 72,
-    "linhas": 1,
-    "larguraBloco": 366,
-    "esquerdaBloco": 129,
-    "alinhamento": "start",
-    "entrelinha": 60,
-    "runs": [
-     {
-      "txt": "01",
-      "cor": "rgb(116, 57, 198)",
-      "peso": "800",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 60,
-      "esp": -1.8
-     }
-    ]
-   },
-   {
-    "x": 129,
-    "y": 542,
-    "w": 277.875,
-    "h": 26,
-    "linhas": 1,
-    "larguraBloco": 366,
-    "esquerdaBloco": 129,
-    "alinhamento": "start",
-    "entrelinha": 27.5,
-    "runs": [
-     {
-      "txt": "CURSOS E PALESTRAS",
-      "cor": "rgb(25, 14, 37)",
-      "peso": "800",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 22,
-      "esp": 1.76
-     }
-    ]
-   },
-   {
-    "x": 129,
-    "y": 584.5,
-    "w": 291.109375,
-    "h": 163.78125,
-    "linhas": 4,
-    "larguraBloco": 366,
-    "esquerdaBloco": 129,
-    "alinhamento": "start",
-    "entrelinha": 41.6,
-    "runs": [
-     {
-      "txt": "Neurociência, ",
-      "cor": "rgb(25, 14, 37)",
-      "peso": "600",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 32,
-      "esp": 0
-     },
-     {
-      "txt": "bem-estar",
-      "cor": "rgb(25, 14, 37)",
-      "peso": "600",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 32,
-      "esp": 0
-     },
-     {
-      "txt": " e saúde mental, com base científica.",
-      "cor": "rgb(25, 14, 37)",
-      "peso": "600",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 32,
-      "esp": 0
-     }
-    ]
-   },
-   {
-    "x": 585,
-    "y": 458,
-    "w": 76.1875,
-    "h": 72,
-    "linhas": 1,
-    "larguraBloco": 366,
-    "esquerdaBloco": 585,
-    "alinhamento": "start",
-    "entrelinha": 60,
-    "runs": [
-     {
-      "txt": "02",
-      "cor": "rgb(116, 57, 198)",
-      "peso": "800",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 60,
-      "esp": -1.8
-     }
-    ]
-   },
-   {
-    "x": 585,
-    "y": 542,
-    "w": 227.9375,
-    "h": 26,
-    "linhas": 1,
-    "larguraBloco": 366,
-    "esquerdaBloco": 585,
-    "alinhamento": "start",
-    "entrelinha": 27.5,
-    "runs": [
-     {
-      "txt": "WORKSHOPS NR-1",
-      "cor": "rgb(25, 14, 37)",
-      "peso": "800",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 22,
-      "esp": 1.76
-     }
-    ]
-   },
-   {
-    "x": 585,
-    "y": 584.5,
-    "w": 330.171875,
-    "h": 122.1875,
-    "linhas": 3,
-    "larguraBloco": 366,
-    "esquerdaBloco": 585,
-    "alinhamento": "start",
-    "entrelinha": 41.6,
-    "runs": [
-     {
-      "txt": "Riscos psicossociais, com documentação para o PGR.",
-      "cor": "rgb(25, 14, 37)",
-      "peso": "600",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 32,
-      "esp": 0
-     }
-    ]
-   },
-   {
-    "x": 129,
-    "y": 839.875,
-    "w": 77.328125,
-    "h": 72,
-    "linhas": 1,
-    "larguraBloco": 366,
-    "esquerdaBloco": 129,
-    "alinhamento": "start",
-    "entrelinha": 60,
-    "runs": [
-     {
-      "txt": "03",
-      "cor": "rgb(116, 57, 198)",
-      "peso": "800",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 60,
-      "esp": -1.8
-     }
-    ]
-   },
-   {
-    "x": 129,
-    "y": 923.875,
-    "w": 332.625,
-    "h": 26,
-    "linhas": 1,
-    "larguraBloco": 366,
-    "esquerdaBloco": 129,
-    "alinhamento": "start",
-    "entrelinha": 27.5,
-    "runs": [
-     {
-      "txt": "PROGRAMAS INTEGRADOS",
-      "cor": "rgb(25, 14, 37)",
-      "peso": "800",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 22,
-      "esp": 1.76
-     }
-    ]
-   },
-   {
-    "x": 129,
-    "y": 966.375,
-    "w": 338.421875,
-    "h": 80.59375,
-    "linhas": 2,
-    "larguraBloco": 366,
-    "esquerdaBloco": 129,
-    "alinhamento": "start",
-    "entrelinha": 41.6,
-    "runs": [
-     {
-      "txt": "Trilhas com os dados reais da sua empresa.",
-      "cor": "rgb(25, 14, 37)",
-      "peso": "600",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 32,
-      "esp": 0
-     }
-    ]
-   },
-   {
-    "x": 585,
-    "y": 839.875,
-    "w": 79.234375,
-    "h": 72,
-    "linhas": 1,
-    "larguraBloco": 366,
-    "esquerdaBloco": 585,
-    "alinhamento": "start",
-    "entrelinha": 60,
-    "runs": [
-     {
-      "txt": "04",
-      "cor": "rgb(116, 57, 198)",
-      "peso": "800",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 60,
-      "esp": -1.8
-     }
-    ]
-   },
-   {
-    "x": 585,
-    "y": 923.875,
-    "w": 183.78125,
-    "h": 26,
-    "linhas": 1,
-    "larguraBloco": 366,
-    "esquerdaBloco": 585,
-    "alinhamento": "start",
-    "entrelinha": 27.5,
-    "runs": [
-     {
-      "txt": "EXPERIÊNCIAS",
-      "cor": "rgb(25, 14, 37)",
-      "peso": "800",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 22,
-      "esp": 1.76
-     }
-    ]
-   },
-   {
-    "x": 585,
-    "y": 966.375,
-    "w": 302,
-    "h": 122.1875,
-    "linhas": 3,
-    "larguraBloco": 366,
-    "esquerdaBloco": 585,
-    "alinhamento": "start",
-    "entrelinha": 41.6,
-    "runs": [
-     {
-      "txt": "Arte e neurociência para mudar a percepção.",
-      "cor": "rgb(25, 14, 37)",
-      "peso": "600",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 32,
-      "esp": 0
-     }
-    ]
-   },
-   {
-    "x": 96,
-    "y": 1205.15625,
-    "w": 741.625,
-    "h": 67,
-    "linhas": 1,
-    "larguraBloco": 888,
-    "esquerdaBloco": 96,
-    "alinhamento": "start",
-    "entrelinha": 57.2,
-    "runs": [
-     {
-      "txt": "Transformar conhecimento em cultura.",
-      "cor": "rgb(116, 57, 198)",
-      "peso": "400",
-      "italico": true,
-      "fonte": "\"Instrument Serif\", serif",
-      "tam": 52,
-      "esp": 0
-     }
-    ]
-   },
-   {
-    "x": 96,
-    "y": 1281.34375,
-    "w": 651.46875,
-    "h": 41,
-    "linhas": 1,
-    "larguraBloco": 888,
-    "esquerdaBloco": 96,
-    "alinhamento": "start",
-    "entrelinha": 46.92,
-    "runs": [
-     {
-      "txt": "O dado muda quando a liderança muda.",
-      "cor": "rgb(25, 14, 37)",
-      "peso": "600",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 34,
-      "esp": 0
-     }
-    ]
-   }
-  ]
- },
- {
-  "fundo": "rgb(25, 14, 37)",
-  "formas": [
-   {
-    "x": 96,
-    "y": 531.3125,
-    "w": 888,
-    "h": 1,
-    "raio": 0,
-    "fundo": "rgba(247, 243, 252, 0.16)",
-    "borda": null
-   },
-   {
-    "x": 96,
-    "y": 654.1875,
-    "w": 888,
-    "h": 1,
-    "raio": 0,
-    "fundo": "rgba(247, 243, 252, 0.16)",
-    "borda": null
-   },
-   {
-    "x": 96,
-    "y": 777.0625,
-    "w": 888,
-    "h": 1,
-    "raio": 0,
-    "fundo": "rgba(247, 243, 252, 0.16)",
-    "borda": null
-   },
-   {
-    "x": 96,
-    "y": 899.9375,
-    "w": 888,
-    "h": 1,
-    "raio": 0,
-    "fundo": "rgba(247, 243, 252, 0.16)",
-    "borda": null
-   },
-   {
-    "x": 96,
-    "y": 1022.8125,
-    "w": 888,
-    "h": 1,
-    "raio": 0,
-    "fundo": "rgba(247, 243, 252, 0.16)",
-    "borda": null
-   },
-   {
-    "x": 96,
-    "y": 1145.6875,
-    "w": 888,
-    "h": 1,
-    "raio": 0,
-    "fundo": "rgba(247, 243, 252, 0.16)",
-    "borda": null
-   },
-   {
-    "x": 96,
-    "y": 1268.5625,
-    "w": 888,
-    "h": 1,
-    "raio": 0,
-    "fundo": "rgba(247, 243, 252, 0.16)",
-    "borda": null
-   }
-  ],
-  "imagens": [],
-  "textos": [
-   {
-    "x": 96,
-    "y": 52,
-    "w": 124.796875,
-    "h": 26,
-    "linhas": 1,
-    "larguraBloco": 124.796875,
-    "esquerdaBloco": 96,
-    "alinhamento": "start",
-    "entrelinha": 26.4,
-    "runs": [
-     {
-      "txt": "@fairjob.br",
-      "cor": "rgb(195, 181, 214)",
-      "peso": "600",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 22,
-      "esp": 0.44
-     }
-    ]
-   },
-   {
-    "x": 96,
-    "y": 150,
     "w": 304.125,
     "h": 29,
     "linhas": 1,
@@ -1022,7 +980,7 @@
     "runs": [
      {
       "txt": "CURSOS IN COMPANY",
-      "cor": "rgb(182, 147, 242)",
+      "cor": "rgb(116, 57, 198)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1044,7 +1002,7 @@
     "runs": [
      {
       "txt": "Seis programas de ",
-      "cor": "rgb(247, 243, 252)",
+      "cor": "rgb(25, 14, 37)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1052,8 +1010,8 @@
       "esp": -2.52
      },
      {
-      "txt": "40 horas",
-      "cor": "rgb(182, 147, 242)",
+      "txt": "40 horas",
+      "cor": "rgb(116, 57, 198)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1062,7 +1020,7 @@
      },
      {
       "txt": ".",
-      "cor": "rgb(247, 243, 252)",
+      "cor": "rgb(25, 14, 37)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1084,7 +1042,7 @@
     "runs": [
      {
       "txt": "Turmas da sua empresa, com ementa e projeto de conclusão.",
-      "cor": "rgb(195, 181, 214)",
+      "cor": "rgb(101, 82, 122)",
       "peso": "400",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1106,7 +1064,7 @@
     "runs": [
      {
       "txt": "01",
-      "cor": "rgb(182, 147, 242)",
+      "cor": "rgb(116, 57, 198)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1128,7 +1086,7 @@
     "runs": [
      {
       "txt": "Saúde Mental no Trabalho",
-      "cor": "rgb(247, 243, 252)",
+      "cor": "rgb(25, 14, 37)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1150,7 +1108,7 @@
     "runs": [
      {
       "txt": "Saúde mental como ativo estratégico. Turma aberta.",
-      "cor": "rgb(195, 181, 214)",
+      "cor": "rgb(101, 82, 122)",
       "peso": "400",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1172,7 +1130,7 @@
     "runs": [
      {
       "txt": "02",
-      "cor": "rgb(182, 147, 242)",
+      "cor": "rgb(116, 57, 198)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1194,7 +1152,7 @@
     "runs": [
      {
       "txt": "Diplomacia Corporativa",
-      "cor": "rgb(247, 243, 252)",
+      "cor": "rgb(25, 14, 37)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1216,7 +1174,7 @@
     "runs": [
      {
       "txt": "Negociação, reputação e stakeholders.",
-      "cor": "rgb(195, 181, 214)",
+      "cor": "rgb(101, 82, 122)",
       "peso": "400",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1238,7 +1196,7 @@
     "runs": [
      {
       "txt": "03",
-      "cor": "rgb(182, 147, 242)",
+      "cor": "rgb(116, 57, 198)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1260,7 +1218,7 @@
     "runs": [
      {
       "txt": "Liderança Autêntica",
-      "cor": "rgb(247, 243, 252)",
+      "cor": "rgb(25, 14, 37)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1282,7 +1240,7 @@
     "runs": [
      {
       "txt": "Valores, propósito e resultados.",
-      "cor": "rgb(195, 181, 214)",
+      "cor": "rgb(101, 82, 122)",
       "peso": "400",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1304,7 +1262,7 @@
     "runs": [
      {
       "txt": "04",
-      "cor": "rgb(182, 147, 242)",
+      "cor": "rgb(116, 57, 198)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1326,7 +1284,7 @@
     "runs": [
      {
       "txt": "Art Thinking & Bem-Estar",
-      "cor": "rgb(247, 243, 252)",
+      "cor": "rgb(25, 14, 37)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1348,7 +1306,7 @@
     "runs": [
      {
       "txt": "Metodologias criativas para liderança e clima.",
-      "cor": "rgb(195, 181, 214)",
+      "cor": "rgb(101, 82, 122)",
       "peso": "400",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1370,7 +1328,7 @@
     "runs": [
      {
       "txt": "05",
-      "cor": "rgb(182, 147, 242)",
+      "cor": "rgb(116, 57, 198)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1392,7 +1350,7 @@
     "runs": [
      {
       "txt": "Governança Social & FIB",
-      "cor": "rgb(247, 243, 252)",
+      "cor": "rgb(25, 14, 37)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1414,7 +1372,7 @@
     "runs": [
      {
       "txt": "Felicidade Interna Bruta aplicada ao ESG.",
-      "cor": "rgb(195, 181, 214)",
+      "cor": "rgb(101, 82, 122)",
       "peso": "400",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1436,7 +1394,7 @@
     "runs": [
      {
       "txt": "06",
-      "cor": "rgb(182, 147, 242)",
+      "cor": "rgb(116, 57, 198)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1458,7 +1416,7 @@
     "runs": [
      {
       "txt": "NeuroLeadership",
-      "cor": "rgb(247, 243, 252)",
+      "cor": "rgb(25, 14, 37)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1480,7 +1438,7 @@
     "runs": [
      {
       "txt": "Decisão, regulação emocional e confiança.",
-      "cor": "rgb(195, 181, 214)",
+      "cor": "rgb(101, 82, 122)",
       "peso": "400",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1492,7 +1450,7 @@
   ]
  },
  {
-  "fundo": "rgb(250, 248, 252)",
+  "fundo": "rgb(116, 57, 198)",
   "formas": [
    {
     "x": 96,
@@ -1500,7 +1458,7 @@
     "w": 461.625,
     "h": 94,
     "raio": 47,
-    "fundo": "rgb(116, 57, 198)",
+    "fundo": "rgb(25, 14, 37)",
     "borda": null
    },
    {
@@ -1518,7 +1476,7 @@
     "w": 888,
     "h": 1,
     "raio": 0,
-    "fundo": "rgba(25, 14, 37, 0.14)",
+    "fundo": "rgba(255, 255, 255, 0.3)",
     "borda": null
    },
    {
@@ -1527,7 +1485,7 @@
     "w": 888,
     "h": 1,
     "raio": 0,
-    "fundo": "rgba(25, 14, 37, 0.14)",
+    "fundo": "rgba(255, 255, 255, 0.3)",
     "borda": null
    },
    {
@@ -1536,7 +1494,7 @@
     "w": 888,
     "h": 1,
     "raio": 0,
-    "fundo": "rgba(25, 14, 37, 0.14)",
+    "fundo": "rgba(255, 255, 255, 0.3)",
     "borda": null
    }
   ],
@@ -1563,7 +1521,7 @@
     "runs": [
      {
       "txt": "@fairjob.br",
-      "cor": "rgb(101, 82, 122)",
+      "cor": "rgb(233, 223, 252)",
       "peso": "600",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1585,7 +1543,7 @@
     "runs": [
      {
       "txt": "FALE COM A FAIREDU",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(233, 223, 252)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1607,7 +1565,7 @@
     "runs": [
      {
       "txt": "Sua liderança tem intenção. ",
-      "cor": "rgb(25, 14, 37)",
+      "cor": "rgb(255, 255, 255)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1615,8 +1573,8 @@
       "esp": -2.52
      },
      {
-      "txt": "A formação",
-      "cor": "rgb(116, 57, 198)",
+      "txt": "A formação",
+      "cor": "rgb(217, 200, 250)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1625,7 +1583,7 @@
      },
      {
       "txt": " transforma em resultado.",
-      "cor": "rgb(25, 14, 37)",
+      "cor": "rgb(255, 255, 255)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1669,7 +1627,7 @@
     "runs": [
      {
       "txt": "→",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(25, 14, 37)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1691,7 +1649,7 @@
     "runs": [
      {
       "txt": "SITE",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(233, 223, 252)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1713,7 +1671,7 @@
     "runs": [
      {
       "txt": "fairedu.com.br",
-      "cor": "rgb(25, 14, 37)",
+      "cor": "rgb(255, 255, 255)",
       "peso": "600",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1735,7 +1693,7 @@
     "runs": [
      {
       "txt": "E-MAIL",
-      "cor": "rgb(116, 57, 198)",
+      "cor": "rgb(233, 223, 252)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1757,7 +1715,7 @@
     "runs": [
      {
       "txt": "ola@fairjob.com.br",
-      "cor": "rgb(25, 14, 37)",
+      "cor": "rgb(255, 255, 255)",
       "peso": "600",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1779,7 +1737,7 @@
     "runs": [
      {
       "txt": "fairedu · educação executiva",
-      "cor": "rgb(101, 82, 122)",
+      "cor": "rgb(255, 255, 255)",
       "peso": "600",
       "italico": false,
       "fonte": "Inter, sans-serif",

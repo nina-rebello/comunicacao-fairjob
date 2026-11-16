@@ -79,6 +79,7 @@ const { chromium } = require('playwright');
           const cs = getComputedStyle(t.parentElement);
           let txt = t.textContent.replace(/\s+/g, ' ');
           if (cs.textTransform === 'uppercase') txt = txt.toUpperCase();
+          if (cs.whiteSpace === 'nowrap' && t.parentElement.closest('.nb')) txt = txt.replace(/ /g, '\u00A0');
           runs.push({ txt, cor: cs.color, peso: cs.fontWeight, italico: cs.fontStyle === 'italic', fonte: cs.fontFamily,
             tam: px(cs.fontSize), esp: cs.letterSpacing === 'normal' ? 0 : px(cs.letterSpacing) });
         }

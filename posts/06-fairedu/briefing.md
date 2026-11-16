@@ -18,8 +18,11 @@ variáveis `--edu-*` da página da fairedu:
 - escuro: `#190E25`, o roxo quase preto dos títulos do site;
 - destaque: roxo `#7439C6` (no escuro, lilás `#B693F2` para contraste);
   texto secundário `#65527A`.
-- capa sem imagem, com os quatro temas da formação em pílulas na diagonal
-  (como no post 05). Pílulas e cards cheios, sem efeito de vidro.
+- **Versão de 16/11 (pedido da Nina):** a cor principal como fundo, como no
+  post 05 final. Capa, slide 3 e convite em roxo `#7439C6`, com título branco,
+  destaque lilás `#D9C8FA` e cartões/pílulas claros; slides 2 e 4 em lilás
+  claro `#F2EDF7`. Capa sem imagem, com os quatro temas da formação em pílulas
+  em linha abaixo do texto. Sem efeito de vidro.
 
 ## O que entrou em cada slide
 
@@ -63,7 +66,3 @@ variáveis `--edu-*` da página da fairedu:
   (1080x1080), gerados por `canva/extrair.js`, `canva/montar-pptx.py` e
   `canva/quadrado.py`.
 
-## No Canva (16/11)
-
-- Instagram 1080x1350: DAHbFHTrpzI, https://www.canva.com/d/CXe5d00VFMgKDNA
-- LinkedIn 1080x1080: DAHbFLWkck8, https://www.canva.com/d/kj-UbdQ5Z_RvafN
