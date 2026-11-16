@@ -6,12 +6,12 @@
 @page { size: 1080px 1350px; margin: 0; }
 
 :root {
-  --creme: #FAF8FC;    /* fundo claro da página da fairedu (--edu-bg) */
+  --creme: #FAF9FC;    /* fundo claro da página da fairedu (--edu-bg) */
   --tinta: #190E25;    /* roxo quase preto dos títulos do site */
   --cinza: #62389C;    /* roxo da fairedu: fundo do slide de virada */
   --dourado: #62389C;  /* destaque no fundo claro: roxo do logo da fairedu */
-  --amarelo: #B693F2;  /* destaque no fundo escuro: lilás, para contraste */
-  --selo: #F2EDF7;     /* lilás claro das superfícies do site (--edu-surface) */
+  --amarelo: #D0C3E1;  /* destaque no fundo escuro: lilás, para contraste */
+  --selo: #F2EFF7;     /* lilás claro das superfícies do site (--edu-surface) */
 }
 
 * { box-sizing: border-box; }
@@ -25,7 +25,7 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
   break-after: page;
 }
 .creme { background: var(--creme); color: var(--tinta); --dest: var(--dourado); --texto2: #65527A; --linha: rgba(25, 14, 37, .14); }
-.tinta { background: var(--tinta); color: #F7F3FC; --dest: var(--amarelo); --texto2: #C3B5D6; --linha: rgba(247, 243, 252, .16); }
+.tinta { background: var(--tinta); color: #FAF9FC; --dest: var(--amarelo); --texto2: #D0C3E1; --linha: rgba(247, 243, 252, .16); }
 .cinza { background: var(--cinza); color: #FFFFFF; --dest: var(--amarelo); --texto2: #F1EEE8; --linha: rgba(255, 255, 255, .3); }
 
 /* barra fixa no topo: é ela que amarra os layouts como série */
@@ -207,13 +207,13 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 .vidro {
   position: absolute; z-index: 2; display: inline-flex; align-items: center; gap: 18px;
   height: 84px; padding: 0 40px 0 32px; border-radius: 999px;
-  font-size: 34px; font-weight: 700; letter-spacing: -.01em; color: #5A2BA0; white-space: nowrap;
-  background: #F2EDF7; border: 2px solid #D5CAE2;
+  font-size: 34px; font-weight: 700; letter-spacing: -.01em; color: #62389C; white-space: nowrap;
+  background: #F2EFF7; border: 2px solid #D8CDE6;
 }
 .vidro svg { width: 30px; height: 30px; flex: none; fill: #62389C; }
 
 /* cartões brancos com borda menta no fundo claro, como os da apresentação */
-.creme .caixa { background: #FFFFFF; border-color: #D5CAE2; border-radius: 14px; }
+.creme .caixa { background: #FFFFFF; border-color: #D8CDE6; border-radius: 14px; }
 .curto .caixa .n.menor { font-size: 56px; }
 .assinatura .cuidar { color: var(--dest); font-weight: 800; }
 .tinta .contato li { border-color: var(--linha); }
@@ -233,19 +233,19 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 .curto .texto.menor { font-size: 32px; margin-top: 30px; }
 
 /* versão 16/11: a cor principal como fundo (capa, slide 3 e convite), como no post 05 final */
-.cor { background: var(--dourado); color: #FFFFFF; --dest: #D9C8FA; --texto2: #EEE7FB; --linha: rgba(255, 255, 255, .3); }
-.cor .rotulo, .cor .topo { color: #E9DFFC; }
+.cor { background: var(--dourado); color: #FFFFFF; --dest: #D0C3E1; --texto2: #EFEBF5; --linha: rgba(255, 255, 255, .3); }
+.cor .rotulo, .cor .topo { color: #E3DBED; }
 .claro { background: var(--selo); color: var(--tinta); --dest: var(--dourado); --texto2: #65527A; --linha: rgba(25, 14, 37, .14); }
 .claro .destaque .forte { color: var(--tinta); }
 
 /* capa: bloco no meio do slide, com as pílulas em linha abaixo do texto */
 .capa .meio { margin: auto 0; }
 .pilulas { display: flex; flex-wrap: wrap; gap: 18px 18px; margin-top: 46px; max-width: 800px; }
-.pilulas .vidro { position: static; height: 64px; padding: 0 30px 0 24px; gap: 14px; font-size: 25px; font-weight: 700; background: #F7F3FC; border: 0; color: #4A2291; }
+.pilulas .vidro { position: static; height: 64px; padding: 0 30px 0 24px; gap: 14px; font-size: 25px; font-weight: 700; background: #FAF9FC; border: 0; color: #62389C; }
 .pilulas .vidro svg { width: 24px; height: 24px; fill: var(--dourado); }
 
 /* cartões brancos sobre a cor */
-.cor .caixa { background: #FBF9FE; border: 0; border-radius: 16px; color: var(--tinta); }
+.cor .caixa { background: #FAF9FC; border: 0; border-radius: 16px; color: var(--tinta); }
 .cor .caixa .n, .cor .caixa h3 { color: var(--dourado); }
 .cor .conclusao p { color: var(--texto2); }
 .cor .conclusao .pergunta { font-family: "Inter", sans-serif; font-style: normal; font-weight: 700; font-size: 38px; color: #FFFFFF; margin-bottom: 10px; }
@@ -253,5 +253,15 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 /* convite sobre a cor: botão escuro */
 .cor .botao2 { background: var(--tinta); box-shadow: none; }
 .cor .botao2 i { color: var(--tinta); }
-.cor .contato small { color: #E9DFFC; }
+.cor .contato small { color: #E3DBED; }
 .cor .assinatura { color: #FFFFFF; }
+
+/* capa (versão 3): a definição da fairedu como título e o ciclo da FairJob em pílulas,
+   com "Conscientizar" (a etapa da fairedu) em destaque */
+.capa .titulo.definicao { font-size: 64px; line-height: 1.05; }
+.ciclo { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 52px; }
+.ciclo span { display: inline-flex; align-items: center; height: 62px; padding: 0 28px; border-radius: 999px; font-size: 25px; font-weight: 700; white-space: nowrap; background: rgba(255, 255, 255, .16); color: #E3DBED; }
+.ciclo span.on { background: #FAF9FC; color: var(--dourado); }
+.assinatura .passo { color: var(--dest); font-weight: 800; }
+.cor .assinatura { color: #D0C3E1; }
+.cor .assinatura .passo { color: #FFFFFF; }

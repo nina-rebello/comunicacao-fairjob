@@ -4,60 +4,48 @@
   "formas": [
    {
     "x": 96,
-    "y": 878.59375,
-    "w": 202.53125,
-    "h": 64,
-    "raio": 32,
-    "fundo": "rgb(247, 243, 252)",
+    "y": 868.375,
+    "w": 126.90625,
+    "h": 62,
+    "raio": 31,
+    "fundo": "rgba(255, 255, 255, 0.16)",
     "borda": null
    },
    {
-    "x": 316.53125,
-    "y": 878.59375,
-    "w": 311.671875,
-    "h": 64,
-    "raio": 32,
-    "fundo": "rgb(247, 243, 252)",
+    "x": 236.90625,
+    "y": 868.375,
+    "w": 137.296875,
+    "h": 62,
+    "raio": 31,
+    "fundo": "rgba(255, 255, 255, 0.16)",
     "borda": null
    },
    {
-    "x": 96,
-    "y": 960.59375,
-    "w": 307.65625,
-    "h": 64,
-    "raio": 32,
-    "fundo": "rgb(247, 243, 252)",
+    "x": 388.203125,
+    "y": 868.375,
+    "w": 226.28125,
+    "h": 62,
+    "raio": 31,
+    "fundo": "rgb(250, 249, 252)",
+    "borda": null
+   },
+   {
+    "x": 628.484375,
+    "y": 868.375,
+    "w": 192.296875,
+    "h": 62,
+    "raio": 31,
+    "fundo": "rgba(255, 255, 255, 0.16)",
     "borda": null
    }
   ],
   "imagens": [
    {
     "x": 96,
-    "y": 363.421875,
+    "y": 457.625,
     "w": 64,
     "h": 64,
     "src": "../assets/logos/fairedu.png"
-   },
-   {
-    "x": 120,
-    "y": 898.59375,
-    "w": 24,
-    "h": 24,
-    "icone": "0"
-   },
-   {
-    "x": 340.53125,
-    "y": 898.59375,
-    "w": 24,
-    "h": 24,
-    "icone": "1"
-   },
-   {
-    "x": 120,
-    "y": 980.59375,
-    "w": 24,
-    "h": 24,
-    "icone": "2"
    }
   ],
   "textos": [
@@ -74,7 +62,7 @@
     "runs": [
      {
       "txt": "@fairjob.br",
-      "cor": "rgb(233, 223, 252)",
+      "cor": "rgb(227, 219, 237)",
       "peso": "600",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -85,7 +73,7 @@
    },
    {
     "x": 178,
-    "y": 380.921875,
+    "y": 475.125,
     "w": 323.765625,
     "h": 29,
     "linhas": 1,
@@ -96,7 +84,7 @@
     "runs": [
      {
       "txt": "EDUCAÇÃO EXECUTIVA",
-      "cor": "rgb(233, 223, 252)",
+      "cor": "rgb(227, 219, 237)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -107,136 +95,145 @@
    },
    {
     "x": 96,
-    "y": 443.421875,
-    "w": 809.140625,
-    "h": 272.53125,
-    "linhas": 3,
+    "y": 542.625,
+    "w": 859.015625,
+    "h": 278.5625,
+    "linhas": 4,
     "larguraBloco": 888,
     "esquerdaBloco": 96,
     "alinhamento": "start",
-    "entrelinha": 84.28,
+    "entrelinha": 67.2,
     "runs": [
      {
-      "txt": "Formação de líderes",
-      "cor": "rgb(217, 200, 250)",
+      "txt": "Formação para sua liderança",
+      "cor": "rgb(208, 195, 225)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
-      "tam": 86,
-      "esp": -2.58
+      "tam": 64,
+      "esp": -1.92
      },
      {
-      "txt": " em saúde mental ",
+      "txt": " em neurociência, gestão humanizada, ",
       "cor": "rgb(255, 255, 255)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
-      "tam": 86,
-      "esp": -2.58
+      "tam": 64,
+      "esp": -1.92
      },
      {
-      "txt": "e bem-estar.",
+      "txt": "bem-estar",
       "cor": "rgb(255, 255, 255)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
-      "tam": 86,
-      "esp": -2.58
+      "tam": 64,
+      "esp": -1.92
+     },
+     {
+      "txt": " e saúde mental.",
+      "cor": "rgb(255, 255, 255)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 64,
+      "esp": -1.92
      }
     ]
    },
    {
-    "x": 96,
-    "y": 743.21875,
-    "w": 865.859375,
-    "h": 86.1875,
-    "linhas": 2,
-    "larguraBloco": 888,
-    "esquerdaBloco": 96,
+    "x": 124,
+    "y": 884.375,
+    "w": 70.90625,
+    "h": 30,
+    "linhas": 1,
+    "larguraBloco": 70.90625,
+    "esquerdaBloco": 124,
     "alinhamento": "start",
-    "entrelinha": 46.2,
+    "entrelinha": 30,
     "runs": [
      {
-      "txt": "Cursos, workshops NR-1 e programas in company, com base em neurociência.",
-      "cor": "rgb(238, 231, 251)",
-      "peso": "400",
+      "txt": "Medir",
+      "cor": "rgb(227, 219, 237)",
+      "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
-      "tam": 33,
+      "tam": 25,
       "esp": 0
      }
     ]
    },
    {
-    "x": 158,
-    "y": 895.59375,
-    "w": 110.53125,
+    "x": 264.90625,
+    "y": 884.375,
+    "w": 81.296875,
     "h": 30,
     "linhas": 1,
-    "larguraBloco": 110.53125,
-    "esquerdaBloco": 158,
+    "larguraBloco": 81.296875,
+    "esquerdaBloco": 264.90625,
     "alinhamento": "start",
     "entrelinha": 30,
     "runs": [
      {
-      "txt": "RH e T&D",
-      "cor": "rgb(74, 34, 145)",
+      "txt": "Cuidar",
+      "cor": "rgb(227, 219, 237)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
       "tam": 25,
-      "esp": -0.25
+      "esp": 0
      }
     ]
    },
    {
-    "x": 378.53125,
-    "y": 895.59375,
-    "w": 219.671875,
+    "x": 416.203125,
+    "y": 884.375,
+    "w": 170.28125,
     "h": 30,
     "linhas": 1,
-    "larguraBloco": 219.671875,
-    "esquerdaBloco": 378.53125,
+    "larguraBloco": 170.28125,
+    "esquerdaBloco": 416.203125,
     "alinhamento": "start",
     "entrelinha": 30,
     "runs": [
      {
-      "txt": "Líderes e gestores",
-      "cor": "rgb(74, 34, 145)",
+      "txt": "Conscientizar",
+      "cor": "rgb(98, 56, 156)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
       "tam": 25,
-      "esp": -0.25
+      "esp": 0
      }
     ]
    },
    {
-    "x": 158,
-    "y": 977.59375,
-    "w": 215.65625,
+    "x": 656.484375,
+    "y": 884.375,
+    "w": 136.296875,
     "h": 30,
     "linhas": 1,
-    "larguraBloco": 215.65625,
-    "esquerdaBloco": 158,
+    "larguraBloco": 136.296875,
+    "esquerdaBloco": 656.484375,
     "alinhamento": "start",
     "entrelinha": 30,
     "runs": [
      {
-      "txt": "Médicos e SESMT",
-      "cor": "rgb(74, 34, 145)",
+      "txt": "Comprovar",
+      "cor": "rgb(227, 219, 237)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
       "tam": 25,
-      "esp": -0.25
+      "esp": 0
      }
     ]
    }
   ]
  },
  {
-  "fundo": "rgb(242, 237, 247)",
+  "fundo": "rgb(242, 239, 247)",
   "formas": [
    {
     "x": 96,
@@ -420,7 +417,7 @@
     "w": 432,
     "h": 314.28125,
     "raio": 16,
-    "fundo": "rgb(251, 249, 254)",
+    "fundo": "rgb(250, 249, 252)",
     "borda": null
    },
    {
@@ -429,7 +426,7 @@
     "w": 432,
     "h": 314.28125,
     "raio": 16,
-    "fundo": "rgb(251, 249, 254)",
+    "fundo": "rgb(250, 249, 252)",
     "borda": null
    },
    {
@@ -438,7 +435,7 @@
     "w": 432,
     "h": 314.28125,
     "raio": 16,
-    "fundo": "rgb(251, 249, 254)",
+    "fundo": "rgb(250, 249, 252)",
     "borda": null
    },
    {
@@ -447,7 +444,7 @@
     "w": 432,
     "h": 314.28125,
     "raio": 16,
-    "fundo": "rgb(251, 249, 254)",
+    "fundo": "rgb(250, 249, 252)",
     "borda": null
    },
    {
@@ -475,7 +472,7 @@
     "runs": [
      {
       "txt": "@fairjob.br",
-      "cor": "rgb(233, 223, 252)",
+      "cor": "rgb(227, 219, 237)",
       "peso": "600",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -497,7 +494,7 @@
     "runs": [
      {
       "txt": "PROGRAMAS",
-      "cor": "rgb(233, 223, 252)",
+      "cor": "rgb(227, 219, 237)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -528,7 +525,7 @@
      },
      {
       "txt": "Um objetivo.",
-      "cor": "rgb(217, 200, 250)",
+      "cor": "rgb(208, 195, 225)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -836,7 +833,7 @@
     "runs": [
      {
       "txt": "O dado muda quando a liderança muda.",
-      "cor": "rgb(238, 231, 251)",
+      "cor": "rgb(239, 235, 245)",
       "peso": "600",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -848,7 +845,7 @@
   ]
  },
  {
-  "fundo": "rgb(242, 237, 247)",
+  "fundo": "rgb(242, 239, 247)",
   "formas": [
    {
     "x": 96,
@@ -1492,7 +1489,7 @@
     "runs": [
      {
       "txt": "@fairjob.br",
-      "cor": "rgb(233, 223, 252)",
+      "cor": "rgb(227, 219, 237)",
       "peso": "600",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1514,7 +1511,7 @@
     "runs": [
      {
       "txt": "FALE COM A FAIREDU",
-      "cor": "rgb(233, 223, 252)",
+      "cor": "rgb(227, 219, 237)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1545,7 +1542,7 @@
      },
      {
       "txt": "A formação",
-      "cor": "rgb(217, 200, 250)",
+      "cor": "rgb(208, 195, 225)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1620,7 +1617,7 @@
     "runs": [
      {
       "txt": "SITE",
-      "cor": "rgb(233, 223, 252)",
+      "cor": "rgb(227, 219, 237)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1664,7 +1661,7 @@
     "runs": [
      {
       "txt": "E-MAIL",
-      "cor": "rgb(233, 223, 252)",
+      "cor": "rgb(227, 219, 237)",
       "peso": "700",
       "italico": false,
       "fonte": "Inter, sans-serif",
@@ -1698,17 +1695,35 @@
    {
     "x": 206,
     "y": 1178.5,
-    "w": 362.0625,
+    "w": 540.734375,
     "h": 31,
     "linhas": 1,
-    "larguraBloco": 888,
-    "esquerdaBloco": 96,
+    "larguraBloco": 540.734375,
+    "esquerdaBloco": 206,
     "alinhamento": "start",
     "entrelinha": 31.2,
     "runs": [
      {
-      "txt": "fairedu · educação executiva",
+      "txt": "Medir · Cuidar · ",
+      "cor": "rgb(208, 195, 225)",
+      "peso": "600",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 26,
+      "esp": 0
+     },
+     {
+      "txt": "Conscientizar",
       "cor": "rgb(255, 255, 255)",
+      "peso": "800",
+      "italico": false,
+      "fonte": "Inter, sans-serif",
+      "tam": 26,
+      "esp": 0
+     },
+     {
+      "txt": " · Comprovar",
+      "cor": "rgb(208, 195, 225)",
       "peso": "600",
       "italico": false,
       "fonte": "Inter, sans-serif",
