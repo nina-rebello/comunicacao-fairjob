@@ -28,11 +28,14 @@ variáveis `--edu-*` da página da fairedu:
 
 ## O que entrou em cada slide
 
-1. **Capa (versão 3, 16/11, pedido da Nina):** a definição geral da fairedu,
-   como na capa da apresentação comercial: "Formação para sua liderança em
-   neurociência, gestão humanizada, bem-estar e saúde mental." Abaixo, o ciclo
-   da FairJob em pílulas (Medir, Cuidar, Conscientizar, Comprovar), com
-   "Conscientizar" em destaque. O ciclo volta na assinatura do slide 5.
+1. **Capa (isca, 16/11, pedido da Nina):** "Liderança que não entende saúde
+   mental não gere bem-estar. Gera risco." É a frase da fairedu da voice.md
+   (posição 8): a pessoa que lidera se reconhece no primeiro segundo. A marca
+   vem no rótulo ("Fairedu · Educação executiva") e o ciclo da FairJob (Medir,
+   Cuidar, Conscientizar, Comprovar) fica em pílulas, com "Conscientizar" em
+   destaque. A definição do site ("Formação para sua liderança em
+   neurociência, gestão humanizada, bem-estar e saúde mental") saiu da capa e
+   está na legenda e no slide 3.
 2. **O problema:** "A lacuna não está na intenção da empresa. Está na formação
    do gestor." A NR-1 exige capacitação em riscos psicossociais.
 3. **Programas:** os quatro formatos (cursos e palestras, workshops NR-1,

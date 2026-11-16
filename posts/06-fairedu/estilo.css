@@ -258,7 +258,7 @@ body { margin: 0; background: #8a8a8a; -webkit-font-smoothing: antialiased; }
 
 /* capa (versão 3): a definição da fairedu como título e o ciclo da FairJob em pílulas,
    com "Conscientizar" (a etapa da fairedu) em destaque */
-.capa .titulo.definicao { font-size: 64px; line-height: 1.05; }
+.capa .titulo.definicao { font-size: 76px; line-height: 1.02; }
 .ciclo { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 52px; }
 .ciclo span { display: inline-flex; align-items: center; height: 62px; padding: 0 28px; border-radius: 999px; font-size: 25px; font-weight: 700; white-space: nowrap; background: rgba(255, 255, 255, .16); color: #E3DBED; }
 .ciclo span.on { background: #FAF9FC; color: var(--dourado); }

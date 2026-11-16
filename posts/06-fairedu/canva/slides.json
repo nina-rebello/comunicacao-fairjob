@@ -4,7 +4,7 @@
   "formas": [
    {
     "x": 96,
-    "y": 868.375,
+    "y": 889.03125,
     "w": 126.90625,
     "h": 62,
     "raio": 31,
@@ -13,7 +13,7 @@
    },
    {
     "x": 236.90625,
-    "y": 868.375,
+    "y": 889.03125,
     "w": 137.296875,
     "h": 62,
     "raio": 31,
@@ -22,7 +22,7 @@
    },
    {
     "x": 388.203125,
-    "y": 868.375,
+    "y": 889.03125,
     "w": 226.28125,
     "h": 62,
     "raio": 31,
@@ -31,7 +31,7 @@
    },
    {
     "x": 628.484375,
-    "y": 868.375,
+    "y": 889.03125,
     "w": 192.296875,
     "h": 62,
     "raio": 31,
@@ -42,7 +42,7 @@
   "imagens": [
    {
     "x": 96,
-    "y": 457.625,
+    "y": 436.96875,
     "w": 64,
     "h": 64,
     "src": "../assets/logos/fairedu.png"
@@ -73,8 +73,8 @@
    },
    {
     "x": 178,
-    "y": 475.125,
-    "w": 323.765625,
+    "y": 454.46875,
+    "w": 468.953125,
     "h": 29,
     "linhas": 1,
     "larguraBloco": 888,
@@ -83,7 +83,7 @@
     "entrelinha": 28.799999999999997,
     "runs": [
      {
-      "txt": "EDUCAÇÃO EXECUTIVA",
+      "txt": "FAIREDU · EDUCAÇÃO EXECUTIVA",
       "cor": "rgb(227, 219, 237)",
       "peso": "700",
       "italico": false,
@@ -95,56 +95,47 @@
    },
    {
     "x": 96,
-    "y": 542.625,
-    "w": 859.015625,
-    "h": 278.5625,
+    "y": 518.96875,
+    "w": 788.59375,
+    "h": 324.546875,
     "linhas": 4,
     "larguraBloco": 888,
     "esquerdaBloco": 96,
     "alinhamento": "start",
-    "entrelinha": 67.2,
+    "entrelinha": 77.52,
     "runs": [
      {
-      "txt": "Formação para sua liderança",
+      "txt": "Liderança que não entende saúde mental",
       "cor": "rgb(208, 195, 225)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
-      "tam": 64,
-      "esp": -1.92
+      "tam": 76,
+      "esp": -2.28
      },
      {
-      "txt": " em neurociência, gestão humanizada, ",
+      "txt": " não gere bem-estar.",
       "cor": "rgb(255, 255, 255)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
-      "tam": 64,
-      "esp": -1.92
+      "tam": 76,
+      "esp": -2.28
      },
      {
-      "txt": "bem-estar",
+      "txt": "Gera risco.",
       "cor": "rgb(255, 255, 255)",
       "peso": "800",
       "italico": false,
       "fonte": "Inter, sans-serif",
-      "tam": 64,
-      "esp": -1.92
-     },
-     {
-      "txt": " e saúde mental.",
-      "cor": "rgb(255, 255, 255)",
-      "peso": "800",
-      "italico": false,
-      "fonte": "Inter, sans-serif",
-      "tam": 64,
-      "esp": -1.92
+      "tam": 76,
+      "esp": -2.28
      }
     ]
    },
    {
     "x": 124,
-    "y": 884.375,
+    "y": 905.03125,
     "w": 70.90625,
     "h": 30,
     "linhas": 1,
@@ -166,7 +157,7 @@
    },
    {
     "x": 264.90625,
-    "y": 884.375,
+    "y": 905.03125,
     "w": 81.296875,
     "h": 30,
     "linhas": 1,
@@ -188,7 +179,7 @@
    },
    {
     "x": 416.203125,
-    "y": 884.375,
+    "y": 905.03125,
     "w": 170.28125,
     "h": 30,
     "linhas": 1,
@@ -210,7 +201,7 @@
    },
    {
     "x": 656.484375,
-    "y": 884.375,
+    "y": 905.03125,
     "w": 136.296875,
     "h": 30,
     "linhas": 1,
